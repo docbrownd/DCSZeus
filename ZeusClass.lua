@@ -1,4 +1,3 @@
---Need unit with late activation call MOOSERED
 
 local TMP_TEMPLATES = {
     [1] = {
@@ -123,7 +122,7 @@ local TMP_TEMPLATES = {
 ZeusMod = {}
 
 do
-    function ZeusMod:New(fobTemplates)
+    function ZeusMod:New(editorUnit)
         local obj = {}  
         setmetatable(obj,  {__index = self})
 		obj.templates = templates or TMP_TEMPLATES
@@ -142,7 +141,10 @@ do
 		obj.zones = {}
 		obj.defineZone = ""
 		obj.zonesMenu = {}
-		obj.fobTemplates = fobTemplates or {}
+		obj.fobTemplates = FOBTemplates
+		obj.FOBAliveNumber = 0
+		obj.editorUnit = editorUnit
+		obj.backupSpawn = {}
         return obj
     end
 
@@ -292,7 +294,7 @@ do
 
 		local coord = COORDINATE:NewFromVec3(pos)
 		self.groupNbr = self.groupNbr + 1
-		local spawnTmp = SPAWN:NewWithAlias("MOOSERED", groupName .. "_" ..tostring(self.groupNbr)):InitRandomizeTemplate({groupName}):OnSpawnGroup(
+		local spawnTmp = SPAWN:NewWithAlias(self.editorUnit, groupName .. "_" ..tostring(self.groupNbr)):InitRandomizeTemplate({groupName}):OnSpawnGroup(
 			function(mooseGroup)
 				self.groupSpawn[mooseGroup] = mooseGroup
 			end
@@ -318,62 +320,85 @@ do
 		local angleBetween = 0
 		local initCoord = nil
 		local coord = nil
+		local x = 0
+		local y = 0
+		local z = 0
+		local spawnGroupUnit = nil
+		local shapeName = nil
+		local typeName = nil
+		local nameStat = nil
+		local heading = nil 
+		local spawnDtat = nil 
+		self.FOBAliveNumber = self.FOBAliveNumber + 1 
 
 		for index, datas in ipairs(self.fobTemplates[template]["static"]["group"]) do
 
-			local shapeName = datas.units[1].shape_name 
-			local typeName = datas.units[1].type 
-			local nameStat = datas.units[1].name 
-			local heading = datas.units[1].heading or 0
-			local x = datas.units[1].x
-			local z = datas.units[1].y 
-			local y = pos.y 
-			local initialPos = {x = 0, y = 0 , z = 0 }
-			local delta = {x = 0, y = 0 , z = 0 }
+			shapeName = datas.units[1].shape_name 
+			typeName = datas.units[1].type 
+			nameStat = datas.units[1].name 
+			heading = datas.units[1].heading or 0
+			x = datas.units[1].x
+			z = datas.units[1].y 
+			y = pos.y 
 
 
-			local spawnDtat = SPAWNSTATIC:InitType(typeName)
-			spawnDtat = spawnDtat:InitNamePrefix(nameStat)
+			spawnDtat = SPAWNSTATIC:InitType(typeName)
+			spawnDtat = spawnDtat:InitNamePrefix(nameStat .. "_" .. tostring(self.FOBAliveNumber))
 
 			if (shapeName ~= nil ) then 
 				spawnDtat = spawnDtat:InitShape(shapeName)
 			end
-
+			spawnDtat = spawnDtat:InitCountry(country.id.RUSSIA)
 
 			if (index == 1) then 
-				initialPos = {
-					x = x, y = y, z = z
-				}
 
-				initCoord = COORDINATE:New(initialPos.x, pos.y, initialPos.z) 
-				
-				coord = COORDINATE:New(pos.x, pos.y, pos.z)
+				coord = COORDINATE:New(x, y, z) 
+				initCoord = COORDINATE:New(pos.x, pos.y, pos.z)
+				if self.backupSpawn[template] == nil then self.backupSpawn[template]  = {} end
+				self.backupSpawn[template][self.FOBAliveNumber] = initCoord
 				distanceBetween = initCoord:Get2DDistance(coord)
-
-				angleBetween = initCoord:GetAngleDegrees(initCoord:GetDirectionVec3(coord))
-				
+				angleBetween = coord:GetAngleDegrees(coord:GetDirectionVec3(initCoord))
+				coord = initCoord
 			else 
 				coord = COORDINATE:New(x, y,z):Translate(distanceBetween,angleBetween )
 
 			end
-
-			spawnDtat = spawnDtat:InitCountry(country.id.RUSSIA)
+			
 			spawnDtat:SpawnFromCoordinate(coord, math.deg(heading))
 
 		end
 
-		for index, datas in ipairs(self.fobTemplates[template]["vehicle"]["group"]) do
-			local spawnGroupUnit = SPAWN:NewFromTemplate(datas, datas.name)
-			local x = datas.units[1].x
-			local z = datas.units[1].y 
-			local y = pos.y 
+		x = 0
+		y = 0
+		z = 0
 
-			coord = COORDINATE:New(x, y,z):Translate(distanceBetween,angleBetween )
+		if (self.fobTemplates[template]["vehicle"] ~= nil) then 
+			
+			for index, datas in ipairs(self.fobTemplates[template]["vehicle"]["group"]) do
+				x = datas.units[1].x
+				z = datas.units[1].y 
+				y = pos.y 
+				env.info(tostring(x) .. "   " ..tostring(y).. "   ".. tostring(z), false)
 
-			spawnGroupUnit:InitCountry(country.id.RUSSIA):InitCategory(Group.Category.GROUND):SpawnFromCoordinate(coord)
+				spawnGroupUnit = SPAWN:NewFromTemplate(datas, datas.name..tostring(self.FOBAliveNumber), datas.name.."_A_"..template..tostring(self.FOBAliveNumber) )
+				env.info(datas.units[1].name, false)
+				if (self.FOBAliveNumber == 1) then 
+					coord = COORDINATE:New(x, y,z):Translate(distanceBetween,angleBetween)
+					spawnGroupUnit:InitCountry(country.id.RUSSIA):InitCategory(Group.Category.GROUND):SpawnFromCoordinate(coord)
+				else 	
+					local tmp = self.backupSpawn[template][self.FOBAliveNumber - 1 ]
+		
+					coord = COORDINATE:New(x, y, z)
+					distanceBetween = tmp:Get2DDistance(coord)
+					angleBetween = tmp:GetAngleDegrees(tmp:GetDirectionVec3(coord))
 
+					coord = COORDINATE:New(pos.x, pos.y,pos.z):Translate(distanceBetween,angleBetween )
+
+
+					spawnGroupUnit:InitCountry(country.id.RUSSIA):InitCategory(Group.Category.GROUND):SpawnFromCoordinate(coord)
+				end
+			end
 		end
-
 	end
 
 
@@ -704,7 +729,7 @@ do
 		:InitCategory(Group.Category.GROUND)
 		:OnSpawnGroup(
 			function(grp)
-				grp:RouteGroundOnRoad(COORDINATE:NewFromVec3(obj.destination), 45)
+				grp:RouteGroundOnRoad(COORDINATE:NewFromVec3(obj.destination), 100)
 				--grp:RouteToVec3(obj.destination, 12)
 				self.name = grp:GetName()
 			end

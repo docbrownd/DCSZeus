@@ -21690,6 +21690,2712 @@ FOBTemplates = {
                 }, -- end of [14]
             }, -- end of ["group"]
         }, -- end of ["vehicle"]
+    },
+    CAMP1 = {
+        ["static"] = 
+        {
+            ["group"] = 
+            {
+                [1] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56920.408366296,
+                                ["speed"] = 0,
+                                ["x"] = -321631.51842358,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 49,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["type"] = "house2arm",
+                            ["unitId"] = 145,
+                            ["rate"] = 10,
+                            ["y"] = -56920.408366296,
+                            ["x"] = -321631.51842358,
+                            ["name"] = "Static Tour de garde armée-2-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56920.408366296,
+                    ["x"] = -321631.51842358,
+                    ["name"] = "Static Tour de garde armée-2",
+                    ["dead"] = false,
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56367.316840388,
+                                ["speed"] = 0,
+                                ["x"] = -321642.44636085,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 50,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["type"] = "house2arm",
+                            ["unitId"] = 146,
+                            ["rate"] = 10,
+                            ["y"] = -56367.316840388,
+                            ["x"] = -321642.44636085,
+                            ["name"] = "Static Tour de garde armée-3-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56367.316840388,
+                    ["x"] = -321642.44636085,
+                    ["name"] = "Static Tour de garde armée-3",
+                    ["dead"] = false,
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56370.360867684,
+                                ["speed"] = 0,
+                                ["x"] = -322298.43424317,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 51,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["type"] = "house2arm",
+                            ["unitId"] = 147,
+                            ["rate"] = 10,
+                            ["y"] = -56370.360867684,
+                            ["x"] = -322298.43424317,
+                            ["name"] = "Static Tour de garde armée-4-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56370.360867684,
+                    ["x"] = -322298.43424317,
+                    ["name"] = "Static Tour de garde armée-4",
+                    ["dead"] = false,
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56927.417862882,
+                                ["speed"] = 0,
+                                ["x"] = -322309.08833871,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 52,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["type"] = "house2arm",
+                            ["unitId"] = 148,
+                            ["rate"] = 10,
+                            ["y"] = -56927.417862882,
+                            ["x"] = -322309.08833871,
+                            ["name"] = "Static Tour de garde armée-5-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56927.417862882,
+                    ["x"] = -322309.08833871,
+                    ["name"] = "Static Tour de garde armée-5",
+                    ["dead"] = false,
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56418.902867364,
+                                ["speed"] = 0,
+                                ["x"] = -321909.66275685,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 53,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "tele_bash_m",
+                            ["type"] = "Comms tower M",
+                            ["unitId"] = 149,
+                            ["rate"] = 100,
+                            ["y"] = -56418.902867364,
+                            ["x"] = -321909.66275685,
+                            ["name"] = "Static Tour de communications M-2-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56418.902867364,
+                    ["x"] = -321909.66275685,
+                    ["name"] = "Static Tour de communications M-2",
+                    ["dead"] = false,
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56845.392368321,
+                                ["speed"] = 0,
+                                ["x"] = -321915.37219592,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 54,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "ceh_ang_a",
+                            ["type"] = "Tech hangar A",
+                            ["unitId"] = 150,
+                            ["rate"] = 100,
+                            ["y"] = -56845.392368321,
+                            ["x"] = -321915.37219592,
+                            ["name"] = "Static Hangar technique A-3-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56845.392368321,
+                    ["x"] = -321915.37219592,
+                    ["name"] = "Static Hangar technique A-3",
+                    ["dead"] = false,
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56843.625675818,
+                                ["speed"] = 0,
+                                ["x"] = -321986.03989605,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 55,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "ceh_ang_a",
+                            ["type"] = "Tech hangar A",
+                            ["unitId"] = 151,
+                            ["rate"] = 100,
+                            ["y"] = -56843.625675818,
+                            ["x"] = -321986.03989605,
+                            ["name"] = "Static Hangar technique A-4-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56843.625675818,
+                    ["x"] = -321986.03989605,
+                    ["name"] = "Static Hangar technique A-4",
+                    ["dead"] = false,
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56847.159060825,
+                                ["speed"] = 0,
+                                ["x"] = -322056.70759619,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 56,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "ceh_ang_a",
+                            ["type"] = "Tech hangar A",
+                            ["unitId"] = 152,
+                            ["rate"] = 100,
+                            ["y"] = -56847.159060825,
+                            ["x"] = -322056.70759619,
+                            ["name"] = "Static Hangar technique A-5-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56847.159060825,
+                    ["x"] = -322056.70759619,
+                    ["name"] = "Static Hangar technique A-5",
+                    ["dead"] = false,
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56769.22043434,
+                                ["speed"] = 0,
+                                ["x"] = -321714.78716558,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 57,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 153,
+                            ["rate"] = 50,
+                            ["y"] = -56769.22043434,
+                            ["x"] = -321714.78716558,
+                            ["name"] = "Static FARP Tente-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56769.22043434,
+                    ["x"] = -321714.78716558,
+                    ["name"] = "Static FARP Tente-1",
+                    ["dead"] = false,
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56742.514775738,
+                                ["speed"] = 0,
+                                ["x"] = -321714.20207198,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 58,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 154,
+                            ["rate"] = 50,
+                            ["y"] = -56742.514775738,
+                            ["x"] = -321714.20207198,
+                            ["name"] = "Static FARP Tente-2-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56742.514775738,
+                    ["x"] = -321714.20207198,
+                    ["name"] = "Static FARP Tente-2",
+                    ["dead"] = false,
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56713.26925928,
+                                ["speed"] = 0,
+                                ["x"] = -321714.85197235,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 59,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 155,
+                            ["rate"] = 50,
+                            ["y"] = -56713.26925928,
+                            ["x"] = -321714.85197235,
+                            ["name"] = "Static FARP Tente-3-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56713.26925928,
+                    ["x"] = -321714.85197235,
+                    ["name"] = "Static FARP Tente-3",
+                    ["dead"] = false,
+                }, -- end of [11]
+                [12] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56685.323543553,
+                                ["speed"] = 0,
+                                ["x"] = -321714.20207198,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 60,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 156,
+                            ["rate"] = 50,
+                            ["y"] = -56685.323543553,
+                            ["x"] = -321714.20207198,
+                            ["name"] = "Static FARP Tente-4-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56685.323543553,
+                    ["x"] = -321714.20207198,
+                    ["name"] = "Static FARP Tente-4",
+                    ["dead"] = false,
+                }, -- end of [12]
+                [13] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56658.894262013,
+                                ["speed"] = 0,
+                                ["x"] = -321713.76880507,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 61,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 157,
+                            ["rate"] = 50,
+                            ["y"] = -56658.894262013,
+                            ["x"] = -321713.76880507,
+                            ["name"] = "Static FARP Tente-5-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56658.894262013,
+                    ["x"] = -321713.76880507,
+                    ["name"] = "Static FARP Tente-5",
+                    ["dead"] = false,
+                }, -- end of [13]
+                [14] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56634.198048114,
+                                ["speed"] = 0,
+                                ["x"] = -321715.28523926,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 62,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 158,
+                            ["rate"] = 50,
+                            ["y"] = -56634.198048114,
+                            ["x"] = -321715.28523926,
+                            ["name"] = "Static FARP Tente-6-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56634.198048114,
+                    ["x"] = -321715.28523926,
+                    ["name"] = "Static FARP Tente-6",
+                    ["dead"] = false,
+                }, -- end of [14]
+                [15] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56605.169165111,
+                                ["speed"] = 0,
+                                ["x"] = -321716.58503999,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 63,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 159,
+                            ["rate"] = 50,
+                            ["y"] = -56605.169165111,
+                            ["x"] = -321716.58503999,
+                            ["name"] = "Static FARP Tente-7-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56605.169165111,
+                    ["x"] = -321716.58503999,
+                    ["name"] = "Static FARP Tente-7",
+                    ["dead"] = false,
+                }, -- end of [15]
+                [16] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56605.908266919,
+                                ["speed"] = 0,
+                                ["x"] = -321747.74648423,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 64,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 160,
+                            ["rate"] = 50,
+                            ["y"] = -56605.908266919,
+                            ["x"] = -321747.74648423,
+                            ["name"] = "Static FARP Tente-8-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56605.908266919,
+                    ["x"] = -321747.74648423,
+                    ["name"] = "Static FARP Tente-8",
+                    ["dead"] = false,
+                }, -- end of [16]
+                [17] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56635.071357621,
+                                ["speed"] = 0,
+                                ["x"] = -321747.10553718,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 65,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 161,
+                            ["rate"] = 50,
+                            ["y"] = -56635.071357621,
+                            ["x"] = -321747.10553718,
+                            ["name"] = "Static FARP Tente-9-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56635.071357621,
+                    ["x"] = -321747.10553718,
+                    ["name"] = "Static FARP Tente-9",
+                    ["dead"] = false,
+                }, -- end of [17]
+                [18] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56659.747818984,
+                                ["speed"] = 0,
+                                ["x"] = -321746.14411661,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 66,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 162,
+                            ["rate"] = 50,
+                            ["y"] = -56659.747818984,
+                            ["x"] = -321746.14411661,
+                            ["name"] = "Static FARP Tente-10-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56659.747818984,
+                    ["x"] = -321746.14411661,
+                    ["name"] = "Static FARP Tente-10",
+                    ["dead"] = false,
+                }, -- end of [18]
+                [19] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56683.462859774,
+                                ["speed"] = 0,
+                                ["x"] = -321745.82364308,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 67,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 163,
+                            ["rate"] = 50,
+                            ["y"] = -56683.462859774,
+                            ["x"] = -321745.82364308,
+                            ["name"] = "Static FARP Tente-11-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56683.462859774,
+                    ["x"] = -321745.82364308,
+                    ["name"] = "Static FARP Tente-11",
+                    ["dead"] = false,
+                }, -- end of [19]
+                [20] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56713.266897524,
+                                ["speed"] = 0,
+                                ["x"] = -321746.14411661,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 68,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 164,
+                            ["rate"] = 50,
+                            ["y"] = -56713.266897524,
+                            ["x"] = -321746.14411661,
+                            ["name"] = "Static FARP Tente-12-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56713.266897524,
+                    ["x"] = -321746.14411661,
+                    ["name"] = "Static FARP Tente-12",
+                    ["dead"] = false,
+                }, -- end of [20]
+                [21] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56744.032355847,
+                                ["speed"] = 0,
+                                ["x"] = -321746.14411661,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 69,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 165,
+                            ["rate"] = 50,
+                            ["y"] = -56744.032355847,
+                            ["x"] = -321746.14411661,
+                            ["name"] = "Static FARP Tente-13-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56744.032355847,
+                    ["x"] = -321746.14411661,
+                    ["name"] = "Static FARP Tente-13",
+                    ["dead"] = false,
+                }, -- end of [21]
+                [22] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56769.990711306,
+                                ["speed"] = 0,
+                                ["x"] = -321746.14411661,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 70,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 166,
+                            ["rate"] = 50,
+                            ["y"] = -56769.990711306,
+                            ["x"] = -321746.14411661,
+                            ["name"] = "Static FARP Tente-14-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56769.990711306,
+                    ["x"] = -321746.14411661,
+                    ["name"] = "Static FARP Tente-14",
+                    ["dead"] = false,
+                }, -- end of [22]
+                [23] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56442.621316662,
+                                ["speed"] = 0,
+                                ["x"] = -322147.6229701,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 71,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Warehouses",
+                            ["shape_name"] = "SkladC",
+                            ["type"] = ".Ammunition depot",
+                            ["unitId"] = 167,
+                            ["rate"] = 100,
+                            ["y"] = -56442.621316662,
+                            ["x"] = -322147.6229701,
+                            ["name"] = "Static .Dépot de munitions-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56442.621316662,
+                    ["x"] = -322147.6229701,
+                    ["name"] = "Static .Dépot de munitions-1",
+                    ["dead"] = false,
+                }, -- end of [23]
+                [24] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56887.122673736,
+                                ["speed"] = 0,
+                                ["x"] = -322254.02365891,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 73,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Warehouses",
+                            ["shape_name"] = "bak",
+                            ["type"] = "Tank",
+                            ["unitId"] = 169,
+                            ["rate"] = 100,
+                            ["y"] = -56887.122673736,
+                            ["x"] = -322254.02365891,
+                            ["name"] = "Static Tank 1-3",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56887.122673736,
+                    ["x"] = -322254.02365891,
+                    ["name"] = "Static Tank 1-3",
+                    ["dead"] = false,
+                }, -- end of [24]
+                [25] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56809.378819804,
+                                ["speed"] = 0,
+                                ["x"] = -321933.94055664,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 74,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["type"] = "Bunker",
+                            ["unitId"] = 170,
+                            ["rate"] = 5,
+                            ["y"] = -56809.378819804,
+                            ["x"] = -321933.94055664,
+                            ["name"] = "Static Bunker-3-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56809.378819804,
+                    ["x"] = -321933.94055664,
+                    ["name"] = "Static Bunker-3",
+                    ["dead"] = false,
+                }, -- end of [25]
+                [26] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56808.524177399,
+                                ["speed"] = 0,
+                                ["x"] = -321968.98089524,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 75,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["type"] = "Bunker",
+                            ["unitId"] = 171,
+                            ["rate"] = 5,
+                            ["y"] = -56808.524177399,
+                            ["x"] = -321968.98089524,
+                            ["name"] = "Static Bunker-4-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56808.524177399,
+                    ["x"] = -321968.98089524,
+                    ["name"] = "Static Bunker-4",
+                    ["dead"] = false,
+                }, -- end of [26]
+                [27] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56808.029367686,
+                                ["speed"] = 0,
+                                ["x"] = -322007.58232697,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 76,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["type"] = "Bunker",
+                            ["unitId"] = 172,
+                            ["rate"] = 5,
+                            ["y"] = -56808.029367686,
+                            ["x"] = -322007.58232697,
+                            ["name"] = "Static Bunker-5-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56808.029367686,
+                    ["x"] = -322007.58232697,
+                    ["name"] = "Static Bunker-5",
+                    ["dead"] = false,
+                }, -- end of [27]
+                [28] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56807.411501146,
+                                ["speed"] = 0,
+                                ["x"] = -322037.23992089,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 77,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["type"] = "Bunker",
+                            ["unitId"] = 173,
+                            ["rate"] = 5,
+                            ["y"] = -56807.411501146,
+                            ["x"] = -322037.23992089,
+                            ["name"] = "Static Bunker-6-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56807.411501146,
+                    ["x"] = -322037.23992089,
+                    ["name"] = "Static Bunker-6",
+                    ["dead"] = false,
+                }, -- end of [28]
+                [29] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56502.737399927,
+                                ["speed"] = 0,
+                                ["x"] = -322187.71760385,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 78,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "SetkaKP",
+                            ["type"] = "FARP Ammo Dump Coating",
+                            ["unitId"] = 174,
+                            ["rate"] = 50,
+                            ["y"] = -56502.737399927,
+                            ["x"] = -322187.71760385,
+                            ["name"] = "Static FARP Dépot de munitions camouflé-2-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56502.737399927,
+                    ["x"] = -322187.71760385,
+                    ["name"] = "Static FARP Dépot de munitions camouflé-2",
+                    ["dead"] = false,
+                }, -- end of [29]
+                [30] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56502.591728118,
+                                ["speed"] = 0,
+                                ["x"] = -322215.97793489,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 79,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "SetkaKP",
+                            ["type"] = "FARP Ammo Dump Coating",
+                            ["unitId"] = 175,
+                            ["rate"] = 50,
+                            ["y"] = -56502.591728118,
+                            ["x"] = -322215.97793489,
+                            ["name"] = "Static FARP Dépot de munitions camouflé-3-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56502.591728118,
+                    ["x"] = -322215.97793489,
+                    ["name"] = "Static FARP Dépot de munitions camouflé-3",
+                    ["dead"] = false,
+                }, -- end of [30]
+                [31] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56503.028743546,
+                                ["speed"] = 0,
+                                ["x"] = -322132.94500348,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 80,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "SetkaKP",
+                            ["type"] = "FARP Ammo Dump Coating",
+                            ["unitId"] = 176,
+                            ["rate"] = 50,
+                            ["y"] = -56503.028743546,
+                            ["x"] = -322132.94500348,
+                            ["name"] = "Static FARP Dépot de munitions camouflé-4-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56503.028743546,
+                    ["x"] = -322132.94500348,
+                    ["name"] = "Static FARP Dépot de munitions camouflé-4",
+                    ["dead"] = false,
+                }, -- end of [31]
+                [32] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56502.300384499,
+                                ["speed"] = 0,
+                                ["x"] = -322144.89009186,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 81,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "SetkaKP",
+                            ["type"] = "FARP Ammo Dump Coating",
+                            ["unitId"] = 177,
+                            ["rate"] = 50,
+                            ["y"] = -56502.300384499,
+                            ["x"] = -322144.89009186,
+                            ["name"] = "Static FARP Dépot de munitions camouflé-5-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56502.300384499,
+                    ["x"] = -322144.89009186,
+                    ["name"] = "Static FARP Dépot de munitions camouflé-5",
+                    ["dead"] = false,
+                }, -- end of [32]
+                [33] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56858.070729511,
+                                ["speed"] = 0,
+                                ["x"] = -322254.48116985,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 82,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Warehouses",
+                            ["shape_name"] = "bak",
+                            ["type"] = "Tank",
+                            ["unitId"] = 178,
+                            ["rate"] = 100,
+                            ["y"] = -56858.070729511,
+                            ["x"] = -322254.48116985,
+                            ["name"] = "Static Tank 1-4-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56858.070729511,
+                    ["x"] = -322254.48116985,
+                    ["name"] = "Static Tank 1-4",
+                    ["dead"] = false,
+                }, -- end of [33]
+                [34] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56859.328884576,
+                                ["speed"] = 0,
+                                ["x"] = -322217.4227843,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 83,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Warehouses",
+                            ["shape_name"] = "bak",
+                            ["type"] = "Tank",
+                            ["unitId"] = 179,
+                            ["rate"] = 100,
+                            ["y"] = -56859.328884576,
+                            ["x"] = -322217.4227843,
+                            ["name"] = "Static Tank 1-5-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56859.328884576,
+                    ["x"] = -322217.4227843,
+                    ["name"] = "Static Tank 1-5",
+                    ["dead"] = false,
+                }, -- end of [34]
+                [35] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56890.554005732,
+                                ["speed"] = 0,
+                                ["x"] = -322217.0796511,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 84,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Warehouses",
+                            ["shape_name"] = "bak",
+                            ["type"] = "Tank",
+                            ["unitId"] = 180,
+                            ["rate"] = 100,
+                            ["y"] = -56890.554005732,
+                            ["x"] = -322217.0796511,
+                            ["name"] = "Static Tank 1-6-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56890.554005732,
+                    ["x"] = -322217.0796511,
+                    ["name"] = "Static Tank 1-6",
+                    ["dead"] = false,
+                }, -- end of [35]
+                [36] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56825.58745329,
+                                ["speed"] = 0,
+                                ["x"] = -322217.7659175,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 85,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Warehouses",
+                            ["shape_name"] = "bak",
+                            ["type"] = "Tank",
+                            ["unitId"] = 181,
+                            ["rate"] = 100,
+                            ["y"] = -56825.58745329,
+                            ["x"] = -322217.7659175,
+                            ["name"] = "Static Tank 1-7-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56825.58745329,
+                    ["x"] = -322217.7659175,
+                    ["name"] = "Static Tank 1-7",
+                    ["dead"] = false,
+                }, -- end of [36]
+                [37] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56826.044964223,
+                                ["speed"] = 0,
+                                ["x"] = -322254.82430305,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 86,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Warehouses",
+                            ["shape_name"] = "bak",
+                            ["type"] = "Tank",
+                            ["unitId"] = 182,
+                            ["rate"] = 100,
+                            ["y"] = -56826.044964223,
+                            ["x"] = -322254.82430305,
+                            ["name"] = "Static Tank 1-8-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56826.044964223,
+                    ["x"] = -322254.82430305,
+                    ["name"] = "Static Tank 1-8",
+                    ["dead"] = false,
+                }, -- end of [37]
+                [38] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56846.976089393,
+                                ["speed"] = 0,
+                                ["x"] = -322188.37084007,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 87,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "GSM Rus",
+                            ["type"] = "FARP Fuel Depot",
+                            ["unitId"] = 183,
+                            ["rate"] = 20,
+                            ["y"] = -56846.976089393,
+                            ["x"] = -322188.37084007,
+                            ["name"] = "Static FARP Dépot de carburant-2-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56846.976089393,
+                    ["x"] = -322188.37084007,
+                    ["name"] = "Static FARP Dépot de carburant-2",
+                    ["dead"] = false,
+                }, -- end of [38]
+                [39] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56838.975756436,
+                                ["speed"] = 0,
+                                ["x"] = -322188.48265123,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 88,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "GSM Rus",
+                            ["type"] = "FARP Fuel Depot",
+                            ["unitId"] = 184,
+                            ["rate"] = 20,
+                            ["y"] = -56838.975756436,
+                            ["x"] = -322188.48265123,
+                            ["name"] = "Static FARP Dépot de carburant-3-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56838.975756436,
+                    ["x"] = -322188.48265123,
+                    ["name"] = "Static FARP Dépot de carburant-3",
+                    ["dead"] = false,
+                }, -- end of [39]
+                [40] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56443.036947934,
+                                ["speed"] = 0,
+                                ["x"] = -322189.18609729,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 89,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Warehouses",
+                            ["shape_name"] = "SkladC",
+                            ["type"] = ".Ammunition depot",
+                            ["unitId"] = 185,
+                            ["rate"] = 100,
+                            ["y"] = -56443.036947934,
+                            ["x"] = -322189.18609729,
+                            ["name"] = "Static .Dépot de munitions-3-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56443.036947934,
+                    ["x"] = -322189.18609729,
+                    ["name"] = "Static .Dépot de munitions-3",
+                    ["dead"] = false,
+                }, -- end of [40]
+                [41] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56442.621316662,
+                                ["speed"] = 0,
+                                ["x"] = -322230.74922447,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 90,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Warehouses",
+                            ["shape_name"] = "SkladC",
+                            ["type"] = ".Ammunition depot",
+                            ["unitId"] = 186,
+                            ["rate"] = 100,
+                            ["y"] = -56442.621316662,
+                            ["x"] = -322230.74922447,
+                            ["name"] = "Static .Dépot de munitions-4-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56442.621316662,
+                    ["x"] = -322230.74922447,
+                    ["name"] = "Static .Dépot de munitions-4",
+                    ["dead"] = false,
+                }, -- end of [41]
+                [42] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56502.591728118,
+                                ["speed"] = 0,
+                                ["x"] = -322157.8548829,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 91,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["type"] = "Bunker",
+                            ["unitId"] = 187,
+                            ["rate"] = 5,
+                            ["y"] = -56502.591728118,
+                            ["x"] = -322157.8548829,
+                            ["name"] = "Static Bunker-7-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56502.591728118,
+                    ["x"] = -322157.8548829,
+                    ["name"] = "Static Bunker-7",
+                    ["dead"] = false,
+                }, -- end of [42]
+                [43] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56502.737399927,
+                                ["speed"] = 0,
+                                ["x"] = -322198.20597413,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 92,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["type"] = "Bunker",
+                            ["unitId"] = 188,
+                            ["rate"] = 5,
+                            ["y"] = -56502.737399927,
+                            ["x"] = -322198.20597413,
+                            ["name"] = "Static Bunker-8-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56502.737399927,
+                    ["x"] = -322198.20597413,
+                    ["name"] = "Static Bunker-8",
+                    ["dead"] = false,
+                }, -- end of [43]
+                [44] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56862.760216571,
+                                ["speed"] = 0,
+                                ["x"] = -322188.71397327,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 93,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "GSM Rus",
+                            ["type"] = "FARP Fuel Depot",
+                            ["unitId"] = 189,
+                            ["rate"] = 20,
+                            ["y"] = -56862.760216571,
+                            ["x"] = -322188.71397327,
+                            ["name"] = "Static FARP Dépot de carburant-4-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56862.760216571,
+                    ["x"] = -322188.71397327,
+                    ["name"] = "Static FARP Dépot de carburant-4",
+                    ["dead"] = false,
+                }, -- end of [44]
+                [45] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56855.211286182,
+                                ["speed"] = 0,
+                                ["x"] = -322188.25646234,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 94,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "GSM Rus",
+                            ["type"] = "FARP Fuel Depot",
+                            ["unitId"] = 190,
+                            ["rate"] = 20,
+                            ["y"] = -56855.211286182,
+                            ["x"] = -322188.25646234,
+                            ["name"] = "Static FARP Dépot de carburant-5-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56855.211286182,
+                    ["x"] = -322188.25646234,
+                    ["name"] = "Static FARP Dépot de carburant-5",
+                    ["dead"] = false,
+                }, -- end of [45]
+                [46] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56881.02701975,
+                                ["speed"] = 0,
+                                ["x"] = -322188.77555412,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 95,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "GSM Rus",
+                            ["type"] = "FARP Fuel Depot",
+                            ["unitId"] = 191,
+                            ["rate"] = 20,
+                            ["y"] = -56881.02701975,
+                            ["x"] = -322188.77555412,
+                            ["name"] = "Static FARP Dépot de carburant-6-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56881.02701975,
+                    ["x"] = -322188.77555412,
+                    ["name"] = "Static FARP Dépot de carburant-6",
+                    ["dead"] = false,
+                }, -- end of [46]
+                [47] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56870.786343756,
+                                ["speed"] = 0,
+                                ["x"] = -322188.58936001,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 96,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "GSM Rus",
+                            ["type"] = "FARP Fuel Depot",
+                            ["unitId"] = 192,
+                            ["rate"] = 20,
+                            ["y"] = -56870.786343756,
+                            ["x"] = -322188.58936001,
+                            ["name"] = "Static FARP Dépot de carburant-7-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56870.786343756,
+                    ["x"] = -322188.58936001,
+                    ["name"] = "Static FARP Dépot de carburant-7",
+                    ["dead"] = false,
+                }, -- end of [47]
+                [48] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56447.914255535,
+                                ["speed"] = 0,
+                                ["x"] = -321738.9803341,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 97,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "ComCenter",
+                            ["type"] = ".Command Center",
+                            ["unitId"] = 193,
+                            ["rate"] = 100,
+                            ["y"] = -56447.914255535,
+                            ["x"] = -321738.9803341,
+                            ["name"] = "Static .Centre de commandement-2-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56447.914255535,
+                    ["x"] = -321738.9803341,
+                    ["name"] = "Static .Centre de commandement-2",
+                    ["dead"] = false,
+                }, -- end of [48]
+                [49] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56502.446056308,
+                                ["speed"] = 0,
+                                ["x"] = -322175.62684366,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 98,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "SetkaKP",
+                            ["type"] = "FARP Ammo Dump Coating",
+                            ["unitId"] = 194,
+                            ["rate"] = 50,
+                            ["y"] = -56502.446056308,
+                            ["x"] = -322175.62684366,
+                            ["name"] = "Static FARP Dépot de munitions camouflé-6-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56502.446056308,
+                    ["x"] = -322175.62684366,
+                    ["name"] = "Static FARP Dépot de munitions camouflé-6",
+                    ["dead"] = false,
+                }, -- end of [49]
+                [50] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56502.591728118,
+                                ["speed"] = 0,
+                                ["x"] = -322226.32063336,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 99,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "SetkaKP",
+                            ["type"] = "FARP Ammo Dump Coating",
+                            ["unitId"] = 195,
+                            ["rate"] = 50,
+                            ["y"] = -56502.591728118,
+                            ["x"] = -322226.32063336,
+                            ["name"] = "Static FARP Dépot de munitions camouflé-7-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56502.591728118,
+                    ["x"] = -322226.32063336,
+                    ["name"] = "Static FARP Dépot de munitions camouflé-7",
+                    ["dead"] = false,
+                }, -- end of [50]
+                [51] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56502.737399927,
+                                ["speed"] = 0,
+                                ["x"] = -322236.37198822,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 100,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["type"] = "Bunker",
+                            ["unitId"] = 196,
+                            ["rate"] = 5,
+                            ["y"] = -56502.737399927,
+                            ["x"] = -322236.37198822,
+                            ["name"] = "Static Bunker-9-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56502.737399927,
+                    ["x"] = -322236.37198822,
+                    ["name"] = "Static Bunker-9",
+                    ["dead"] = false,
+                }, -- end of [51]
+                [52] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56769.990711306,
+                                ["speed"] = 0,
+                                ["x"] = -321796.77893343,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 105,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 228,
+                            ["rate"] = 50,
+                            ["y"] = -56769.990711306,
+                            ["x"] = -321796.77893343,
+                            ["name"] = "Static FARP Tente-15-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56769.990711306,
+                    ["x"] = -321796.77893343,
+                    ["name"] = "Static FARP Tente-15",
+                    ["dead"] = false,
+                }, -- end of [52]
+                [53] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56743.711882322,
+                                ["speed"] = 0,
+                                ["x"] = -321796.13798638,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 106,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 229,
+                            ["rate"] = 50,
+                            ["y"] = -56743.711882322,
+                            ["x"] = -321796.13798638,
+                            ["name"] = "Static FARP Tente-16-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56743.711882322,
+                    ["x"] = -321796.13798638,
+                    ["name"] = "Static FARP Tente-16",
+                    ["dead"] = false,
+                }, -- end of [53]
+                [54] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56714.228318097,
+                                ["speed"] = 0,
+                                ["x"] = -321796.13798638,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 107,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 230,
+                            ["rate"] = 50,
+                            ["y"] = -56714.228318097,
+                            ["x"] = -321796.13798638,
+                            ["name"] = "Static FARP Tente-17-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56714.228318097,
+                    ["x"] = -321796.13798638,
+                    ["name"] = "Static FARP Tente-17",
+                    ["dead"] = false,
+                }, -- end of [54]
+                [55] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56685.385700919,
+                                ["speed"] = 0,
+                                ["x"] = -321796.77893343,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 108,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 231,
+                            ["rate"] = 50,
+                            ["y"] = -56685.385700919,
+                            ["x"] = -321796.77893343,
+                            ["name"] = "Static FARP Tente-18-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56685.385700919,
+                    ["x"] = -321796.77893343,
+                    ["name"] = "Static FARP Tente-18",
+                    ["dead"] = false,
+                }, -- end of [55]
+                [56] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56658.465924887,
+                                ["speed"] = 0,
+                                ["x"] = -321796.77893343,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 109,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 232,
+                            ["rate"] = 50,
+                            ["y"] = -56658.465924887,
+                            ["x"] = -321796.77893343,
+                            ["name"] = "Static FARP Tente-19-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56658.465924887,
+                    ["x"] = -321796.77893343,
+                    ["name"] = "Static FARP Tente-19",
+                    ["dead"] = false,
+                }, -- end of [56]
+                [57] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56632.507569427,
+                                ["speed"] = 0,
+                                ["x"] = -321796.45845991,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 110,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 233,
+                            ["rate"] = 50,
+                            ["y"] = -56632.507569427,
+                            ["x"] = -321796.45845991,
+                            ["name"] = "Static FARP Tente-20-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56632.507569427,
+                    ["x"] = -321796.45845991,
+                    ["name"] = "Static FARP Tente-20",
+                    ["dead"] = false,
+                }, -- end of [57]
+                [58] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56605.587793395,
+                                ["speed"] = 0,
+                                ["x"] = -321771.78199854,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 111,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 234,
+                            ["rate"] = 50,
+                            ["y"] = -56605.587793395,
+                            ["x"] = -321771.78199854,
+                            ["name"] = "Static FARP Tente-21-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56605.587793395,
+                    ["x"] = -321771.78199854,
+                    ["name"] = "Static FARP Tente-21",
+                    ["dead"] = false,
+                }, -- end of [58]
+                [59] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56605.908266919,
+                                ["speed"] = 0,
+                                ["x"] = -321797.41988048,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 112,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 235,
+                            ["rate"] = 50,
+                            ["y"] = -56605.908266919,
+                            ["x"] = -321797.41988048,
+                            ["name"] = "Static FARP Tente-22-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56605.908266919,
+                    ["x"] = -321797.41988048,
+                    ["name"] = "Static FARP Tente-22",
+                    ["dead"] = false,
+                }, -- end of [59]
+                [60] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56634.109937048,
+                                ["speed"] = 0,
+                                ["x"] = -321771.78199854,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 113,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 236,
+                            ["rate"] = 50,
+                            ["y"] = -56634.109937048,
+                            ["x"] = -321771.78199854,
+                            ["name"] = "Static FARP Tente-23-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56634.109937048,
+                    ["x"] = -321771.78199854,
+                    ["name"] = "Static FARP Tente-23",
+                    ["dead"] = false,
+                }, -- end of [60]
+                [61] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56658.465924887,
+                                ["speed"] = 0,
+                                ["x"] = -321771.78199854,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 114,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 237,
+                            ["rate"] = 50,
+                            ["y"] = -56658.465924887,
+                            ["x"] = -321771.78199854,
+                            ["name"] = "Static FARP Tente-24-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56658.465924887,
+                    ["x"] = -321771.78199854,
+                    ["name"] = "Static FARP Tente-24",
+                    ["dead"] = false,
+                }, -- end of [61]
+                [62] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56684.424280347,
+                                ["speed"] = 0,
+                                ["x"] = -321770.82057797,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 115,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 238,
+                            ["rate"] = 50,
+                            ["y"] = -56684.424280347,
+                            ["x"] = -321770.82057797,
+                            ["name"] = "Static FARP Tente-25-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56684.424280347,
+                    ["x"] = -321770.82057797,
+                    ["name"] = "Static FARP Tente-25",
+                    ["dead"] = false,
+                }, -- end of [62]
+                [63] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56714.228318097,
+                                ["speed"] = 0,
+                                ["x"] = -321770.50010445,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 116,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 239,
+                            ["rate"] = 50,
+                            ["y"] = -56714.228318097,
+                            ["x"] = -321770.50010445,
+                            ["name"] = "Static FARP Tente-26-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56714.228318097,
+                    ["x"] = -321770.50010445,
+                    ["name"] = "Static FARP Tente-26",
+                    ["dead"] = false,
+                }, -- end of [63]
+                [64] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56744.352829371,
+                                ["speed"] = 0,
+                                ["x"] = -321771.46152502,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 117,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 240,
+                            ["rate"] = 50,
+                            ["y"] = -56744.352829371,
+                            ["x"] = -321771.46152502,
+                            ["name"] = "Static FARP Tente-27-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56744.352829371,
+                    ["x"] = -321771.46152502,
+                    ["name"] = "Static FARP Tente-27",
+                    ["dead"] = false,
+                }, -- end of [64]
+                [65] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56769.990711306,
+                                ["speed"] = 0,
+                                ["x"] = -321771.14105149,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 118,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "PalatkaB",
+                            ["type"] = "FARP Tent",
+                            ["unitId"] = 241,
+                            ["rate"] = 50,
+                            ["y"] = -56769.990711306,
+                            ["x"] = -321771.14105149,
+                            ["name"] = "Static FARP Tente-28-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56769.990711306,
+                    ["x"] = -321771.14105149,
+                    ["name"] = "Static FARP Tente-28",
+                    ["dead"] = false,
+                }, -- end of [65]
+                [66] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -56643.443608526,
+                                ["speed"] = 0,
+                                ["x"] = -321987.20781911,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 119,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Heliports",
+                            ["shape_name"] = "invisiblefarp",
+                            ["type"] = "Invisible FARP",
+                            ["unitId"] = 242,
+                            ["heliport_callsign_id"] = 1,
+                            ["heliport_modulation"] = 0,
+                            ["rate"] = 100,
+                            ["y"] = -56643.443608526,
+                            ["x"] = -321987.20781911,
+                            ["name"] = "Static Invisible FARP-1-1",
+                            ["heliport_frequency"] = "127.5",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -56643.443608526,
+                    ["x"] = -321987.20781911,
+                    ["name"] = "Static Invisible FARP-1",
+                    ["dead"] = false,
+                }, -- end of [66]
+            }, -- end of ["group"]
+        }, -- end of ["static"]
     }
 
 }
