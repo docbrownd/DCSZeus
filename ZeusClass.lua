@@ -142,7 +142,6 @@ do
 		obj.defineZone = ""
 		obj.zonesMenu = {}
 		obj.fobTemplates = FOBTemplates
-		obj.FOBAliveNumber = 0
 		obj.editorUnit = editorUnit
 		obj.backupSpawn = {}
         return obj
@@ -329,7 +328,9 @@ do
 		local nameStat = nil
 		local heading = nil 
 		local spawnDtat = nil 
-		self.FOBAliveNumber = self.FOBAliveNumber + 1 
+		if self.backupSpawn[template] == nil then self.backupSpawn[template]  = {} end
+		local number = #self.backupSpawn[template] + 1
+		
 
 		for index, datas in ipairs(self.fobTemplates[template]["static"]["group"]) do
 
@@ -343,7 +344,7 @@ do
 
 
 			spawnDtat = SPAWNSTATIC:InitType(typeName)
-			spawnDtat = spawnDtat:InitNamePrefix(nameStat .. "_" .. tostring(self.FOBAliveNumber))
+			spawnDtat = spawnDtat:InitNamePrefix(nameStat .. "_" .. tostring(number))
 
 			if (shapeName ~= nil ) then 
 				spawnDtat = spawnDtat:InitShape(shapeName)
@@ -354,8 +355,8 @@ do
 
 				coord = COORDINATE:New(x, y, z) 
 				initCoord = COORDINATE:New(pos.x, pos.y, pos.z)
-				if self.backupSpawn[template] == nil then self.backupSpawn[template]  = {} end
-				self.backupSpawn[template][self.FOBAliveNumber] = initCoord
+				
+				self.backupSpawn[template][number] = initCoord
 				distanceBetween = initCoord:Get2DDistance(coord)
 				angleBetween = coord:GetAngleDegrees(coord:GetDirectionVec3(initCoord))
 				coord = initCoord
@@ -380,13 +381,13 @@ do
 				y = pos.y 
 				env.info(tostring(x) .. "   " ..tostring(y).. "   ".. tostring(z), false)
 
-				spawnGroupUnit = SPAWN:NewFromTemplate(datas, datas.name..tostring(self.FOBAliveNumber), datas.name.."_A_"..template..tostring(self.FOBAliveNumber) )
+				spawnGroupUnit = SPAWN:NewFromTemplate(datas, datas.name..tostring(number), datas.name.."_A_"..template..tostring(number) )
 				env.info(datas.units[1].name, false)
-				if (self.FOBAliveNumber == 1) then 
+				if (number == 1) then 
 					coord = COORDINATE:New(x, y,z):Translate(distanceBetween,angleBetween)
 					spawnGroupUnit:InitCountry(country.id.RUSSIA):InitCategory(Group.Category.GROUND):SpawnFromCoordinate(coord)
 				else 	
-					local tmp = self.backupSpawn[template][self.FOBAliveNumber - 1 ]
+					local tmp = self.backupSpawn[template][number - 1 ]
 		
 					coord = COORDINATE:New(x, y, z)
 					distanceBetween = tmp:Get2DDistance(coord)
