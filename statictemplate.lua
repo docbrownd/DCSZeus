@@ -24396,6 +24396,10098 @@ FOBTemplates = {
                 }, -- end of [66]
             }, -- end of ["group"]
         }, -- end of ["static"]
+    },
+    SMALLFOB2 = {
+        ["static"] = 
+        {
+            ["group"] = 
+            {
+                [1] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87255.348154597,
+                                ["speed"] = 0,
+                                ["x"] = -284265.6038,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 1,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Heliports",
+                            ["shape_name"] = "invisiblefarp",
+                            ["type"] = "Invisible FARP",
+                            ["unitId"] = 1,
+                            ["heliport_callsign_id"] = 1,
+                            ["heliport_modulation"] = 0,
+                            ["rate"] = 100,
+                            ["y"] = -87255.348154597,
+                            ["x"] = -284265.6038,
+                            ["name"] = "Static Invisible FARP-1-1",
+                            ["heliport_frequency"] = "127.5",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87255.348154597,
+                    ["x"] = -284265.6038,
+                    ["name"] = "Static Invisible FARP-1",
+                    ["dead"] = false,
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87275.722100371,
+                                ["speed"] = 0,
+                                ["x"] = -284261.35117981,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 2,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "ukrytie_b",
+                            ["type"] = "Shelter B",
+                            ["unitId"] = 2,
+                            ["rate"] = 100,
+                            ["y"] = -87275.722100371,
+                            ["x"] = -284261.35117981,
+                            ["name"] = "Static Abri B-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87275.722100371,
+                    ["x"] = -284261.35117981,
+                    ["name"] = "Static Abri B-1",
+                    ["dead"] = false,
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87275.722100371,
+                                ["speed"] = 0,
+                                ["x"] = -284268.73657017,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 3,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "ukrytie_b",
+                            ["type"] = "Shelter B",
+                            ["unitId"] = 3,
+                            ["rate"] = 100,
+                            ["y"] = -87275.722100371,
+                            ["x"] = -284268.73657017,
+                            ["name"] = "Static Abri B-2-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87275.722100371,
+                    ["x"] = -284268.73657017,
+                    ["name"] = "Static Abri B-2",
+                    ["dead"] = false,
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87275.722100371,
+                                ["speed"] = 0,
+                                ["x"] = -284276.12196053,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 4,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "ukrytie_b",
+                            ["type"] = "Shelter B",
+                            ["unitId"] = 4,
+                            ["rate"] = 100,
+                            ["y"] = -87275.722100371,
+                            ["x"] = -284276.12196053,
+                            ["name"] = "Static Abri B-3-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87275.722100371,
+                    ["x"] = -284276.12196053,
+                    ["name"] = "Static Abri B-3",
+                    ["dead"] = false,
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87261.655105905,
+                                ["speed"] = 0,
+                                ["x"] = -284266.09134695,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 5,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["type"] = "outpost",
+                            ["unitId"] = 5,
+                            ["rate"] = 5,
+                            ["y"] = -87261.655105905,
+                            ["x"] = -284266.09134695,
+                            ["name"] = "Static Barrage-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87261.655105905,
+                    ["x"] = -284266.09134695,
+                    ["name"] = "Static Barrage-1",
+                    ["dead"] = false,
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["heading"] = 3.1415926535898,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87253.899004237,
+                                ["speed"] = 0,
+                                ["x"] = -284286.24933707,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 6,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["type"] = "Bunker",
+                            ["unitId"] = 6,
+                            ["rate"] = 5,
+                            ["y"] = -87253.899004237,
+                            ["x"] = -284286.24933707,
+                            ["name"] = "Static Bunker-1",
+                            ["heading"] = 3.1415926535898,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87253.899004237,
+                    ["x"] = -284286.24933707,
+                    ["name"] = "Static Bunker-1",
+                    ["dead"] = false,
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["heading"] = 3.1415926535898,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87262.088187724,
+                                ["speed"] = 0,
+                                ["x"] = -284286.24933707,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 7,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["type"] = "Bunker",
+                            ["unitId"] = 7,
+                            ["rate"] = 5,
+                            ["y"] = -87262.088187724,
+                            ["x"] = -284286.24933707,
+                            ["name"] = "Static Bunker-2-1",
+                            ["heading"] = 3.1415926535898,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87262.088187724,
+                    ["x"] = -284286.24933707,
+                    ["name"] = "Static Bunker-2",
+                    ["dead"] = false,
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87273.387803498,
+                                ["speed"] = 0,
+                                ["x"] = -284254.11713663,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 8,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "GSM Rus",
+                            ["type"] = "FARP Fuel Depot",
+                            ["unitId"] = 8,
+                            ["rate"] = 20,
+                            ["y"] = -87273.387803498,
+                            ["x"] = -284254.11713663,
+                            ["name"] = "Static FARP Dépot de carburant-1-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87273.387803498,
+                    ["x"] = -284254.11713663,
+                    ["name"] = "Static FARP Dépot de carburant-1",
+                    ["dead"] = false,
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["heading"] = 5.2534410485029,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87257.529863498,
+                                ["speed"] = 0,
+                                ["x"] = -284252.47568806,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 9,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["type"] = "Hercules_Container_Parachute_Static",
+                            ["unitId"] = 9,
+                            ["rate"] = 1,
+                            ["y"] = -87257.529863498,
+                            ["x"] = -284252.47568806,
+                            ["name"] = "Static Hercules container with parachute-1",
+                            ["heading"] = 5.2534410485029,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87257.529863498,
+                    ["x"] = -284252.47568806,
+                    ["name"] = "Static Hercules container with parachute-1",
+                    ["dead"] = false,
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["heading"] = 0.26179938779915,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87236.323606429,
+                                ["speed"] = 0,
+                                ["x"] = -284252.75202073,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 10,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Unarmed",
+                            ["type"] = "Tigr_233036",
+                            ["unitId"] = 10,
+                            ["rate"] = 3,
+                            ["y"] = -87236.323606429,
+                            ["x"] = -284252.75202073,
+                            ["name"] = "Static APC Tigr 233036-1-1",
+                            ["heading"] = 0.26179938779915,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87236.323606429,
+                    ["x"] = -284252.75202073,
+                    ["name"] = "Static APC Tigr 233036-1",
+                    ["dead"] = false,
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["heading"] = 0.26179938779915,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87243.963167302,
+                                ["speed"] = 0,
+                                ["x"] = -284252.54188021,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 11,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Unarmed",
+                            ["type"] = "Tigr_233036",
+                            ["unitId"] = 11,
+                            ["rate"] = 3,
+                            ["y"] = -87243.963167302,
+                            ["x"] = -284252.54188021,
+                            ["name"] = "Static APC Tigr 233036-2-1",
+                            ["heading"] = 0.26179938779915,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87243.963167302,
+                    ["x"] = -284252.54188021,
+                    ["name"] = "Static APC Tigr 233036-2",
+                    ["dead"] = false,
+                }, -- end of [11]
+                [12] = 
+                {
+                    ["heading"] = 0.26179938779915,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87240.163167302,
+                                ["speed"] = 0,
+                                ["x"] = -284252.59902307,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 12,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Unarmed",
+                            ["type"] = "Tigr_233036",
+                            ["unitId"] = 12,
+                            ["rate"] = 3,
+                            ["y"] = -87240.163167302,
+                            ["x"] = -284252.59902307,
+                            ["name"] = "Static APC Tigr 233036-3-1",
+                            ["heading"] = 0.26179938779915,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87240.163167302,
+                    ["x"] = -284252.59902307,
+                    ["name"] = "Static APC Tigr 233036-3",
+                    ["dead"] = false,
+                }, -- end of [12]
+                [13] = 
+                {
+                    ["heading"] = 0.62831853071796,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87274.130616645,
+                                ["speed"] = 0,
+                                ["x"] = -284281.3877935,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 22,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 22,
+                            ["rate"] = 0,
+                            ["y"] = -87274.130616645,
+                            ["x"] = -284281.3877935,
+                            ["name"] = "Static Fil de fer barbelé-1-1",
+                            ["heading"] = 0.62831853071796,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87274.130616645,
+                    ["x"] = -284281.3877935,
+                    ["name"] = "Static Fil de fer barbelé-1",
+                    ["dead"] = false,
+                }, -- end of [13]
+                [14] = 
+                {
+                    ["heading"] = 0.62831853071796,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87272.816330931,
+                                ["speed"] = 0,
+                                ["x"] = -284284.53065065,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 23,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 23,
+                            ["rate"] = 0,
+                            ["y"] = -87272.816330931,
+                            ["x"] = -284284.53065065,
+                            ["name"] = "Static Fil de fer barbelé-2-1",
+                            ["heading"] = 0.62831853071796,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87272.816330931,
+                    ["x"] = -284284.53065065,
+                    ["name"] = "Static Fil de fer barbelé-2",
+                    ["dead"] = false,
+                }, -- end of [14]
+                [15] = 
+                {
+                    ["heading"] = 0.62831853071796,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87269.530616645,
+                                ["speed"] = 0,
+                                ["x"] = -284284.93065065,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 24,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 24,
+                            ["rate"] = 0,
+                            ["y"] = -87269.530616645,
+                            ["x"] = -284284.93065065,
+                            ["name"] = "Static Fil de fer barbelé-3-1",
+                            ["heading"] = 0.62831853071796,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87269.530616645,
+                    ["x"] = -284284.93065065,
+                    ["name"] = "Static Fil de fer barbelé-3",
+                    ["dead"] = false,
+                }, -- end of [15]
+                [16] = 
+                {
+                    ["heading"] = 0.62831853071796,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87268.24490236,
+                                ["speed"] = 0,
+                                ["x"] = -284287.84493636,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 25,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 25,
+                            ["rate"] = 0,
+                            ["y"] = -87268.24490236,
+                            ["x"] = -284287.84493636,
+                            ["name"] = "Static Fil de fer barbelé-4-1",
+                            ["heading"] = 0.62831853071796,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87268.24490236,
+                    ["x"] = -284287.84493636,
+                    ["name"] = "Static Fil de fer barbelé-4",
+                    ["dead"] = false,
+                }, -- end of [16]
+                [17] = 
+                {
+                    ["heading"] = 0.62831853071796,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87277.368527292,
+                                ["speed"] = 0,
+                                ["x"] = -284281.33765487,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 26,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 26,
+                            ["rate"] = 0,
+                            ["y"] = -87277.368527292,
+                            ["x"] = -284281.33765487,
+                            ["name"] = "Static Fil de fer barbelé-5-1",
+                            ["heading"] = 0.62831853071796,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87277.368527292,
+                    ["x"] = -284281.33765487,
+                    ["name"] = "Static Fil de fer barbelé-5",
+                    ["dead"] = false,
+                }, -- end of [17]
+                [18] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87279.999248891,
+                                ["speed"] = 0,
+                                ["x"] = -284255.75479049,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 27,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 27,
+                            ["rate"] = 0,
+                            ["y"] = -87279.999248891,
+                            ["x"] = -284255.75479049,
+                            ["name"] = "Static Fil de fer barbelé-6-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87279.999248891,
+                    ["x"] = -284255.75479049,
+                    ["name"] = "Static Fil de fer barbelé-6",
+                    ["dead"] = false,
+                }, -- end of [18]
+                [19] = 
+                {
+                    ["heading"] = 2.3038346126325,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87278.342106034,
+                                ["speed"] = 0,
+                                ["x"] = -284251.44050477,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 29,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 29,
+                            ["rate"] = 0,
+                            ["y"] = -87278.342106034,
+                            ["x"] = -284251.44050477,
+                            ["name"] = "Static Fil de fer barbelé-7-1",
+                            ["heading"] = 2.3038346126325,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87278.342106034,
+                    ["x"] = -284251.44050477,
+                    ["name"] = "Static Fil de fer barbelé-7",
+                    ["dead"] = false,
+                }, -- end of [19]
+                [20] = 
+                {
+                    ["heading"] = 3.1415926535898,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87274.113534605,
+                                ["speed"] = 0,
+                                ["x"] = -284249.52621906,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 30,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 30,
+                            ["rate"] = 0,
+                            ["y"] = -87274.113534605,
+                            ["x"] = -284249.52621906,
+                            ["name"] = "Static Fil de fer barbelé-8-1",
+                            ["heading"] = 3.1415926535898,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87274.113534605,
+                    ["x"] = -284249.52621906,
+                    ["name"] = "Static Fil de fer barbelé-8",
+                    ["dead"] = false,
+                }, -- end of [20]
+                [21] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87251.011848888,
+                                ["speed"] = 0,
+                                ["x"] = -284256.80898028,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 32,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 32,
+                            ["rate"] = 0,
+                            ["y"] = -87251.011848888,
+                            ["x"] = -284256.80898028,
+                            ["name"] = "Static Fil de fer barbelé-10-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87251.011848888,
+                    ["x"] = -284256.80898028,
+                    ["name"] = "Static Fil de fer barbelé-10",
+                    ["dead"] = false,
+                }, -- end of [21]
+                [22] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87251.040420317,
+                                ["speed"] = 0,
+                                ["x"] = -284261.20898028,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 33,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 33,
+                            ["rate"] = 0,
+                            ["y"] = -87251.040420317,
+                            ["x"] = -284261.20898028,
+                            ["name"] = "Static Fil de fer barbelé-11-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87251.040420317,
+                    ["x"] = -284261.20898028,
+                    ["name"] = "Static Fil de fer barbelé-11",
+                    ["dead"] = false,
+                }, -- end of [22]
+                [23] = 
+                {
+                    ["heading"] = 2.3561944901923,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87247.684472498,
+                                ["speed"] = 0,
+                                ["x"] = -284285.01014915,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 34,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 34,
+                            ["rate"] = 0,
+                            ["y"] = -87247.684472498,
+                            ["x"] = -284285.01014915,
+                            ["name"] = "Static Fil de fer barbelé-12-1",
+                            ["heading"] = 2.3561944901923,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87247.684472498,
+                    ["x"] = -284285.01014915,
+                    ["name"] = "Static Fil de fer barbelé-12",
+                    ["dead"] = false,
+                }, -- end of [23]
+                [24] = 
+                {
+                    ["heading"] = 2.7925268031909,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87243.583384967,
+                                ["speed"] = 0,
+                                ["x"] = -284284.6000404,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 35,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 35,
+                            ["rate"] = 0,
+                            ["y"] = -87243.583384967,
+                            ["x"] = -284284.6000404,
+                            ["name"] = "Static Fil de fer barbelé-13-1",
+                            ["heading"] = 2.7925268031909,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87243.583384967,
+                    ["x"] = -284284.6000404,
+                    ["name"] = "Static Fil de fer barbelé-13",
+                    ["dead"] = false,
+                }, -- end of [24]
+                [25] = 
+                {
+                    ["heading"] = 2.3561944901923,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87247.713765981,
+                                ["speed"] = 0,
+                                ["x"] = -284287.76373649,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 36,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 36,
+                            ["rate"] = 0,
+                            ["y"] = -87247.713765981,
+                            ["x"] = -284287.76373649,
+                            ["name"] = "Static Fil de fer barbelé-14-1",
+                            ["heading"] = 2.3561944901923,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87247.713765981,
+                    ["x"] = -284287.76373649,
+                    ["name"] = "Static Fil de fer barbelé-14",
+                    ["dead"] = false,
+                }, -- end of [25]
+                [26] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87281.578803913,
+                                ["speed"] = 0,
+                                ["x"] = -284272.55468809,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 37,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 37,
+                            ["rate"] = 0,
+                            ["y"] = -87281.578803913,
+                            ["x"] = -284272.55468809,
+                            ["name"] = "Static Fil de fer barbelé-15-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87281.578803913,
+                    ["x"] = -284272.55468809,
+                    ["name"] = "Static Fil de fer barbelé-15",
+                    ["dead"] = false,
+                }, -- end of [26]
+                [27] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87281.578803913,
+                                ["speed"] = 0,
+                                ["x"] = -284276.75468809,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 38,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 38,
+                            ["rate"] = 0,
+                            ["y"] = -87281.578803913,
+                            ["x"] = -284276.75468809,
+                            ["name"] = "Static Fil de fer barbelé-16-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87281.578803913,
+                    ["x"] = -284276.75468809,
+                    ["name"] = "Static Fil de fer barbelé-16",
+                    ["dead"] = false,
+                }, -- end of [27]
+                [28] = 
+                {
+                    ["heading"] = 0.75049157835756,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87280.664518199,
+                                ["speed"] = 0,
+                                ["x"] = -284280.86897381,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 39,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 39,
+                            ["rate"] = 0,
+                            ["y"] = -87280.664518199,
+                            ["x"] = -284280.86897381,
+                            ["name"] = "Static Fil de fer barbelé-17-1",
+                            ["heading"] = 0.75049157835756,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87280.664518199,
+                    ["x"] = -284280.86897381,
+                    ["name"] = "Static Fil de fer barbelé-17",
+                    ["dead"] = false,
+                }, -- end of [28]
+                [29] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87281.578803913,
+                                ["speed"] = 0,
+                                ["x"] = -284268.32611666,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 40,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 40,
+                            ["rate"] = 0,
+                            ["y"] = -87281.578803913,
+                            ["x"] = -284268.32611666,
+                            ["name"] = "Static Fil de fer barbelé-18-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87281.578803913,
+                    ["x"] = -284268.32611666,
+                    ["name"] = "Static Fil de fer barbelé-18",
+                    ["dead"] = false,
+                }, -- end of [29]
+                [30] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87281.578803913,
+                                ["speed"] = 0,
+                                ["x"] = -284264.06897381,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 41,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 41,
+                            ["rate"] = 0,
+                            ["y"] = -87281.578803913,
+                            ["x"] = -284264.06897381,
+                            ["name"] = "Static Fil de fer barbelé-19-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87281.578803913,
+                    ["x"] = -284264.06897381,
+                    ["name"] = "Static Fil de fer barbelé-19",
+                    ["dead"] = false,
+                }, -- end of [30]
+                [31] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87281.550232485,
+                                ["speed"] = 0,
+                                ["x"] = -284259.78325952,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 42,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 42,
+                            ["rate"] = 0,
+                            ["y"] = -87281.550232485,
+                            ["x"] = -284259.78325952,
+                            ["name"] = "Static Fil de fer barbelé-20-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87281.550232485,
+                    ["x"] = -284259.78325952,
+                    ["name"] = "Static Fil de fer barbelé-20",
+                    ["dead"] = false,
+                }, -- end of [31]
+                [32] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87283.150232485,
+                                ["speed"] = 0,
+                                ["x"] = -284261.84040238,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 43,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 43,
+                            ["rate"] = 0,
+                            ["y"] = -87283.150232485,
+                            ["x"] = -284261.84040238,
+                            ["name"] = "Static Fil de fer barbelé-21-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87283.150232485,
+                    ["x"] = -284261.84040238,
+                    ["name"] = "Static Fil de fer barbelé-21",
+                    ["dead"] = false,
+                }, -- end of [32]
+                [34] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87283.121661056,
+                                ["speed"] = 0,
+                                ["x"] = -284270.35468809,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 45,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 45,
+                            ["rate"] = 0,
+                            ["y"] = -87283.121661056,
+                            ["x"] = -284270.35468809,
+                            ["name"] = "Static Fil de fer barbelé-23-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87283.121661056,
+                    ["x"] = -284270.35468809,
+                    ["name"] = "Static Fil de fer barbelé-23",
+                    ["dead"] = false,
+                }, -- end of [34]
+                [33] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87283.121661056,
+                                ["speed"] = 0,
+                                ["x"] = -284266.09754524,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 44,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 44,
+                            ["rate"] = 0,
+                            ["y"] = -87283.121661056,
+                            ["x"] = -284266.09754524,
+                            ["name"] = "Static Fil de fer barbelé-22-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87283.121661056,
+                    ["x"] = -284266.09754524,
+                    ["name"] = "Static Fil de fer barbelé-22",
+                    ["dead"] = false,
+                }, -- end of [33]
+                [35] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87283.121661056,
+                                ["speed"] = 0,
+                                ["x"] = -284274.61183095,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 46,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 46,
+                            ["rate"] = 0,
+                            ["y"] = -87283.121661056,
+                            ["x"] = -284274.61183095,
+                            ["name"] = "Static Fil de fer barbelé-24-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87283.121661056,
+                    ["x"] = -284274.61183095,
+                    ["name"] = "Static Fil de fer barbelé-24",
+                    ["dead"] = false,
+                }, -- end of [35]
+                [36] = 
+                {
+                    ["heading"] = 1.9896753472735,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -87282.918200347,
+                                ["speed"] = 0,
+                                ["x"] = -284256.47775534,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 47,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 47,
+                            ["rate"] = 0,
+                            ["y"] = -87282.918200347,
+                            ["x"] = -284256.47775534,
+                            ["name"] = "Static Fil de fer barbelé-25-1",
+                            ["heading"] = 1.9896753472735,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87282.918200347,
+                    ["x"] = -284256.47775534,
+                    ["name"] = "Static Fil de fer barbelé-25",
+                    ["dead"] = false,
+                }, -- end of [36]
+            }, -- end of ["group"]
+        }, -- end of ["static"]
+        ["vehicle"] = 
+        {
+            ["group"] = 
+            {
+                [1] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -87248.329666067,
+                                ["x"] = -284252.18923668,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 14,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["skill"] = "Average",
+                            ["coldAtStart"] = false,
+                            ["type"] = "ZiL-131 APA-80",
+                            ["unitId"] = 14,
+                            ["y"] = -87248.329666067,
+                            ["x"] = -284252.18923668,
+                            ["name"] = "Ground-1-1",
+                            ["heading"] = 0,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87248.329666067,
+                    ["x"] = -284252.18923668,
+                    ["name"] = "Ground-1",
+                    ["start_time"] = 0,
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -87253.590495267,
+                                ["x"] = -284273.05809499,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 15,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["skill"] = "Average",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Ural-375",
+                            ["unitId"] = 15,
+                            ["y"] = -87253.590495267,
+                            ["x"] = -284273.05809499,
+                            ["name"] = "Ground-2-1",
+                            ["heading"] = 4.7123889803847,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87253.590495267,
+                    ["x"] = -284273.05809499,
+                    ["name"] = "Ground-2",
+                    ["start_time"] = 0,
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -87253.590495267,
+                                ["x"] = -284276.68666642,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 16,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["skill"] = "Average",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Ural-375",
+                            ["unitId"] = 16,
+                            ["y"] = -87253.590495267,
+                            ["x"] = -284276.68666642,
+                            ["name"] = "Ground-3-1",
+                            ["heading"] = 4.7123889803847,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87253.590495267,
+                    ["x"] = -284276.68666642,
+                    ["name"] = "Ground-3",
+                    ["start_time"] = 0,
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -87290.416064281,
+                                ["x"] = -284299.72109819,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 17,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["skill"] = "Average",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Tor 9A331",
+                            ["unitId"] = 17,
+                            ["y"] = -87290.416064281,
+                            ["x"] = -284299.72109819,
+                            ["name"] = "Ground-4-1",
+                            ["heading"] = 3.8746309394274,
+                            ["playerCanDrive"] = true,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87290.416064281,
+                    ["x"] = -284299.72109819,
+                    ["name"] = "Ground-4",
+                    ["start_time"] = 0,
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -87225.735768969,
+                                ["x"] = -284269.96737976,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 18,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["skill"] = "Average",
+                            ["coldAtStart"] = false,
+                            ["type"] = "ZSU-23-4 Shilka",
+                            ["unitId"] = 18,
+                            ["y"] = -87225.735768969,
+                            ["x"] = -284269.96737976,
+                            ["name"] = "Ground-5-1",
+                            ["heading"] = 2.4434609527921,
+                            ["playerCanDrive"] = true,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87225.735768969,
+                    ["x"] = -284269.96737976,
+                    ["name"] = "Ground-5",
+                    ["start_time"] = 0,
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -87262.929483692,
+                                ["x"] = -284264.27839925,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 19,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["skill"] = "Average",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Infantry AK ver2",
+                            ["unitId"] = 19,
+                            ["y"] = -87262.929483692,
+                            ["x"] = -284264.27839925,
+                            ["name"] = "Ground-6-1",
+                            ["heading"] = 2.3561944901923,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87262.929483692,
+                    ["x"] = -284264.27839925,
+                    ["name"] = "Ground-6",
+                    ["start_time"] = 0,
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -87262.786626549,
+                                ["x"] = -284265.90697068,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 20,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["skill"] = "Average",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Infantry AK ver2",
+                            ["unitId"] = 20,
+                            ["y"] = -87262.786626549,
+                            ["x"] = -284265.90697068,
+                            ["name"] = "Ground-7-1",
+                            ["heading"] = 0.24434609527921,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87262.786626549,
+                    ["x"] = -284265.90697068,
+                    ["name"] = "Ground-7",
+                    ["start_time"] = 0,
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -87261.272340835,
+                                ["x"] = -284264.87839925,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 21,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["skill"] = "Average",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Infantry AK ver2",
+                            ["unitId"] = 21,
+                            ["y"] = -87261.272340835,
+                            ["x"] = -284264.87839925,
+                            ["name"] = "Ground-8-1",
+                            ["heading"] = 4.7123889803847,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -87261.272340835,
+                    ["x"] = -284264.87839925,
+                    ["name"] = "Ground-8",
+                    ["start_time"] = 0,
+                }, -- end of [8]
+            }, -- end of ["group"]
+        }, -- end of ["vehicle"]
+    },
+    MEDIUMFOB2 = {
+        ["static"] = 
+        {
+            ["group"] = 
+            {
+                [1] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86801.866082244,
+                                ["speed"] = 0,
+                                ["x"] = -284315.46517705,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 3,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Heliports",
+                            ["shape_name"] = "invisiblefarp",
+                            ["type"] = "Invisible FARP",
+                            ["unitId"] = 3,
+                            ["heliport_callsign_id"] = 1,
+                            ["heliport_modulation"] = 0,
+                            ["rate"] = 100,
+                            ["y"] = -86801.866082244,
+                            ["x"] = -284315.46517705,
+                            ["name"] = "Static Invisible FARP-1-1",
+                            ["heliport_frequency"] = "127.5",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86801.866082244,
+                    ["x"] = -284315.46517705,
+                    ["name"] = "Static Invisible FARP-1",
+                    ["dead"] = false,
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86832.812015739,
+                                ["speed"] = 0,
+                                ["x"] = -284252.89471984,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 5,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "ceh_ang_a",
+                            ["type"] = "Tech hangar A",
+                            ["unitId"] = 5,
+                            ["rate"] = 100,
+                            ["y"] = -86832.812015739,
+                            ["x"] = -284252.89471984,
+                            ["name"] = "Static Hangar technique A-1-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86832.812015739,
+                    ["x"] = -284252.89471984,
+                    ["name"] = "Static Hangar technique A-1",
+                    ["dead"] = false,
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86832.767631691,
+                                ["speed"] = 0,
+                                ["x"] = -284272.46656347,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 6,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "ceh_ang_a",
+                            ["type"] = "Tech hangar A",
+                            ["unitId"] = 6,
+                            ["rate"] = 100,
+                            ["y"] = -86832.767631691,
+                            ["x"] = -284272.46656347,
+                            ["name"] = "Static Hangar technique A-2-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86832.767631691,
+                    ["x"] = -284272.46656347,
+                    ["name"] = "Static Hangar technique A-2",
+                    ["dead"] = false,
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86832.751379236,
+                                ["speed"] = 0,
+                                ["x"] = -284292.06319292,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 7,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "ceh_ang_a",
+                            ["type"] = "Tech hangar A",
+                            ["unitId"] = 7,
+                            ["rate"] = 100,
+                            ["y"] = -86832.751379236,
+                            ["x"] = -284292.06319292,
+                            ["name"] = "Static Hangar technique A-3-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86832.751379236,
+                    ["x"] = -284292.06319292,
+                    ["name"] = "Static Hangar technique A-3",
+                    ["dead"] = false,
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86832.865910806,
+                                ["speed"] = 0,
+                                ["x"] = -284311.76262298,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 8,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "ceh_ang_a",
+                            ["type"] = "Tech hangar A",
+                            ["unitId"] = 8,
+                            ["rate"] = 100,
+                            ["y"] = -86832.865910806,
+                            ["x"] = -284311.76262298,
+                            ["name"] = "Static Hangar technique A-4-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86832.865910806,
+                    ["x"] = -284311.76262298,
+                    ["name"] = "Static Hangar technique A-4",
+                    ["dead"] = false,
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86772.970653373,
+                                ["speed"] = 0,
+                                ["x"] = -284311.87009278,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 9,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "ceh_ang_a",
+                            ["type"] = "Tech hangar A",
+                            ["unitId"] = 9,
+                            ["rate"] = 100,
+                            ["y"] = -86772.970653373,
+                            ["x"] = -284311.87009278,
+                            ["name"] = "Static Hangar technique A-5-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86772.970653373,
+                    ["x"] = -284311.87009278,
+                    ["name"] = "Static Hangar technique A-5",
+                    ["dead"] = false,
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["heading"] = 2.5307274153918,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86809.703180374,
+                                ["speed"] = 0,
+                                ["x"] = -284254.1300044,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 10,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Unarmed",
+                            ["type"] = "KAMAZ Truck",
+                            ["unitId"] = 10,
+                            ["rate"] = 5,
+                            ["y"] = -86809.703180374,
+                            ["x"] = -284254.1300044,
+                            ["name"] = "Static Truck KAMAZ-43101-1",
+                            ["heading"] = 2.5307274153918,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86809.703180374,
+                    ["x"] = -284254.1300044,
+                    ["name"] = "Static Truck KAMAZ-43101-1",
+                    ["dead"] = false,
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86773.030891233,
+                                ["speed"] = 0,
+                                ["x"] = -284292.17231262,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 11,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "ceh_ang_a",
+                            ["type"] = "Tech hangar A",
+                            ["unitId"] = 11,
+                            ["rate"] = 100,
+                            ["y"] = -86773.030891233,
+                            ["x"] = -284292.17231262,
+                            ["name"] = "Static Hangar technique A-6-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86773.030891233,
+                    ["x"] = -284292.17231262,
+                    ["name"] = "Static Hangar technique A-6",
+                    ["dead"] = false,
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86773.030891233,
+                                ["speed"] = 0,
+                                ["x"] = -284272.51831176,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 12,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "ceh_ang_a",
+                            ["type"] = "Tech hangar A",
+                            ["unitId"] = 12,
+                            ["rate"] = 100,
+                            ["y"] = -86773.030891233,
+                            ["x"] = -284272.51831176,
+                            ["name"] = "Static Hangar technique A-7-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86773.030891233,
+                    ["x"] = -284272.51831176,
+                    ["name"] = "Static Hangar technique A-7",
+                    ["dead"] = false,
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86773.091129093,
+                                ["speed"] = 0,
+                                ["x"] = -284252.9574659,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 13,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "ceh_ang_a",
+                            ["type"] = "Tech hangar A",
+                            ["unitId"] = 13,
+                            ["rate"] = 100,
+                            ["y"] = -86773.091129093,
+                            ["x"] = -284252.9574659,
+                            ["name"] = "Static Hangar technique A-8-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86773.091129093,
+                    ["x"] = -284252.9574659,
+                    ["name"] = "Static Hangar technique A-8",
+                    ["dead"] = false,
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86760.237226333,
+                                ["speed"] = 0,
+                                ["x"] = -284323.37293559,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 14,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 14,
+                            ["rate"] = 100,
+                            ["y"] = -86760.237226333,
+                            ["x"] = -284323.37293559,
+                            ["name"] = "Static Container rouge 1-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86760.237226333,
+                    ["x"] = -284323.37293559,
+                    ["name"] = "Static Container rouge 1-1",
+                    ["dead"] = false,
+                }, -- end of [11]
+                [12] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86752.877740546,
+                                ["speed"] = 0,
+                                ["x"] = -284318.48916675,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 15,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 15,
+                            ["rate"] = 100,
+                            ["y"] = -86752.877740546,
+                            ["x"] = -284318.48916675,
+                            ["name"] = "Static Container rouge 1-2-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86752.877740546,
+                    ["x"] = -284318.48916675,
+                    ["name"] = "Static Container rouge 1-2",
+                    ["dead"] = false,
+                }, -- end of [12]
+                [13] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86752.877740546,
+                                ["speed"] = 0,
+                                ["x"] = -284306.28916675,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 16,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 16,
+                            ["rate"] = 100,
+                            ["y"] = -86752.877740546,
+                            ["x"] = -284306.28916675,
+                            ["name"] = "Static Container rouge 1-3-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86752.877740546,
+                    ["x"] = -284306.28916675,
+                    ["name"] = "Static Container rouge 1-3",
+                    ["dead"] = false,
+                }, -- end of [13]
+                [14] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86752.877740546,
+                                ["speed"] = 0,
+                                ["x"] = -284294.06059532,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 17,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 17,
+                            ["rate"] = 100,
+                            ["y"] = -86752.877740546,
+                            ["x"] = -284294.06059532,
+                            ["name"] = "Static Container rouge 1-4-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86752.877740546,
+                    ["x"] = -284294.06059532,
+                    ["name"] = "Static Container rouge 1-4",
+                    ["dead"] = false,
+                }, -- end of [14]
+                [15] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86752.877740546,
+                                ["speed"] = 0,
+                                ["x"] = -284281.8320239,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 18,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red2",
+                            ["type"] = "Container red 2",
+                            ["unitId"] = 18,
+                            ["rate"] = 100,
+                            ["y"] = -86752.877740546,
+                            ["x"] = -284281.8320239,
+                            ["name"] = "Static Container rouge 2-2",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86752.877740546,
+                    ["x"] = -284281.8320239,
+                    ["name"] = "Static Container rouge 2-2",
+                    ["dead"] = false,
+                }, -- end of [15]
+                [16] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86752.877740546,
+                                ["speed"] = 0,
+                                ["x"] = -284269.66059532,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 19,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 19,
+                            ["rate"] = 100,
+                            ["y"] = -86752.877740546,
+                            ["x"] = -284269.66059532,
+                            ["name"] = "Static Container rouge 1-6-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86752.877740546,
+                    ["x"] = -284269.66059532,
+                    ["name"] = "Static Container rouge 1-6",
+                    ["dead"] = false,
+                }, -- end of [16]
+                [17] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86752.877740546,
+                                ["speed"] = 0,
+                                ["x"] = -284257.46059533,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 20,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red3",
+                            ["type"] = "Container red 3",
+                            ["unitId"] = 20,
+                            ["rate"] = 100,
+                            ["y"] = -86752.877740546,
+                            ["x"] = -284257.46059533,
+                            ["name"] = "Static Container rouge 3-3",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86752.877740546,
+                    ["x"] = -284257.46059533,
+                    ["name"] = "Static Container rouge 3-3",
+                    ["dead"] = false,
+                }, -- end of [17]
+                [18] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86752.877740546,
+                                ["speed"] = 0,
+                                ["x"] = -284245.28916675,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 21,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 21,
+                            ["rate"] = 100,
+                            ["y"] = -86752.877740546,
+                            ["x"] = -284245.28916675,
+                            ["name"] = "Static Container rouge 1-8-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86752.877740546,
+                    ["x"] = -284245.28916675,
+                    ["name"] = "Static Container rouge 1-8",
+                    ["dead"] = false,
+                }, -- end of [18]
+                [19] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86760.220597689,
+                                ["speed"] = 0,
+                                ["x"] = -284240.40345247,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 22,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 22,
+                            ["rate"] = 100,
+                            ["y"] = -86760.220597689,
+                            ["x"] = -284240.40345247,
+                            ["name"] = "Static Container rouge 1-9-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86760.220597689,
+                    ["x"] = -284240.40345247,
+                    ["name"] = "Static Container rouge 1-9",
+                    ["dead"] = false,
+                }, -- end of [19]
+                [20] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86772.43175833,
+                                ["speed"] = 0,
+                                ["x"] = -284240.40020046,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 24,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 24,
+                            ["rate"] = 100,
+                            ["y"] = -86772.43175833,
+                            ["x"] = -284240.40020046,
+                            ["name"] = "Static Container rouge 1-10-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86772.43175833,
+                    ["x"] = -284240.40020046,
+                    ["name"] = "Static Container rouge 1-10",
+                    ["dead"] = false,
+                }, -- end of [20]
+                [21] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86784.631758331,
+                                ["speed"] = 0,
+                                ["x"] = -284240.40020046,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 25,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 25,
+                            ["rate"] = 100,
+                            ["y"] = -86784.631758331,
+                            ["x"] = -284240.40020046,
+                            ["name"] = "Static Container rouge 1-11-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86784.631758331,
+                    ["x"] = -284240.40020046,
+                    ["name"] = "Static Container rouge 1-11",
+                    ["dead"] = false,
+                }, -- end of [21]
+                [22] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86796.831758331,
+                                ["speed"] = 0,
+                                ["x"] = -284240.40020046,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 26,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 26,
+                            ["rate"] = 100,
+                            ["y"] = -86796.831758331,
+                            ["x"] = -284240.40020046,
+                            ["name"] = "Static Container rouge 1-12-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86796.831758331,
+                    ["x"] = -284240.40020046,
+                    ["name"] = "Static Container rouge 1-12",
+                    ["dead"] = false,
+                }, -- end of [22]
+                [23] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86809.031758331,
+                                ["speed"] = 0,
+                                ["x"] = -284240.40020046,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 27,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 27,
+                            ["rate"] = 100,
+                            ["y"] = -86809.031758331,
+                            ["x"] = -284240.40020046,
+                            ["name"] = "Static Container rouge 1-13-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86809.031758331,
+                    ["x"] = -284240.40020046,
+                    ["name"] = "Static Container rouge 1-13",
+                    ["dead"] = false,
+                }, -- end of [23]
+                [24] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86821.231758331,
+                                ["speed"] = 0,
+                                ["x"] = -284240.40020046,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 28,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red3",
+                            ["type"] = "Container red 3",
+                            ["unitId"] = 28,
+                            ["rate"] = 100,
+                            ["y"] = -86821.231758331,
+                            ["x"] = -284240.40020046,
+                            ["name"] = "Static Container rouge 3-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86821.231758331,
+                    ["x"] = -284240.40020046,
+                    ["name"] = "Static Container rouge 3-1",
+                    ["dead"] = false,
+                }, -- end of [24]
+                [25] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86833.46032976,
+                                ["speed"] = 0,
+                                ["x"] = -284240.40020046,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 29,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 29,
+                            ["rate"] = 100,
+                            ["y"] = -86833.46032976,
+                            ["x"] = -284240.40020046,
+                            ["name"] = "Static Container rouge 1-15-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86833.46032976,
+                    ["x"] = -284240.40020046,
+                    ["name"] = "Static Container rouge 1-15",
+                    ["dead"] = false,
+                }, -- end of [25]
+                [26] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86845.66032976,
+                                ["speed"] = 0,
+                                ["x"] = -284240.40020046,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 30,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red2",
+                            ["type"] = "Container red 2",
+                            ["unitId"] = 30,
+                            ["rate"] = 100,
+                            ["y"] = -86845.66032976,
+                            ["x"] = -284240.40020046,
+                            ["name"] = "Static Container rouge 2-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86845.66032976,
+                    ["x"] = -284240.40020046,
+                    ["name"] = "Static Container rouge 2-1",
+                    ["dead"] = false,
+                }, -- end of [26]
+                [27] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86853.012847136,
+                                ["speed"] = 0,
+                                ["x"] = -284245.27339972,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 31,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 31,
+                            ["rate"] = 100,
+                            ["y"] = -86853.012847136,
+                            ["x"] = -284245.27339972,
+                            ["name"] = "Static Container rouge 1-17-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86853.012847136,
+                    ["x"] = -284245.27339972,
+                    ["name"] = "Static Container rouge 1-17",
+                    ["dead"] = false,
+                }, -- end of [27]
+                [28] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86853.006558043,
+                                ["speed"] = 0,
+                                ["x"] = -284257.49452903,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 32,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 32,
+                            ["rate"] = 100,
+                            ["y"] = -86853.006558043,
+                            ["x"] = -284257.49452903,
+                            ["name"] = "Static Container rouge 1-18-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86853.006558043,
+                    ["x"] = -284257.49452903,
+                    ["name"] = "Static Container rouge 1-18",
+                    ["dead"] = false,
+                }, -- end of [28]
+                [29] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86853.006558043,
+                                ["speed"] = 0,
+                                ["x"] = -284269.72310046,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 33,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red2",
+                            ["type"] = "Container red 2",
+                            ["unitId"] = 33,
+                            ["rate"] = 100,
+                            ["y"] = -86853.006558043,
+                            ["x"] = -284269.72310046,
+                            ["name"] = "Static Container rouge 2-3",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86853.006558043,
+                    ["x"] = -284269.72310046,
+                    ["name"] = "Static Container rouge 2-3",
+                    ["dead"] = false,
+                }, -- end of [29]
+                [30] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86853.006558043,
+                                ["speed"] = 0,
+                                ["x"] = -284281.95167189,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 34,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 34,
+                            ["rate"] = 100,
+                            ["y"] = -86853.006558043,
+                            ["x"] = -284281.95167189,
+                            ["name"] = "Static Container rouge 1-20-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86853.006558043,
+                    ["x"] = -284281.95167189,
+                    ["name"] = "Static Container rouge 1-20",
+                    ["dead"] = false,
+                }, -- end of [30]
+                [31] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86853.006558043,
+                                ["speed"] = 0,
+                                ["x"] = -284294.15167189,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 35,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 35,
+                            ["rate"] = 100,
+                            ["y"] = -86853.006558043,
+                            ["x"] = -284294.15167189,
+                            ["name"] = "Static Container rouge 1-21-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86853.006558043,
+                    ["x"] = -284294.15167189,
+                    ["name"] = "Static Container rouge 1-21",
+                    ["dead"] = false,
+                }, -- end of [31]
+                [32] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86853.006558043,
+                                ["speed"] = 0,
+                                ["x"] = -284306.38024332,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 36,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 36,
+                            ["rate"] = 100,
+                            ["y"] = -86853.006558043,
+                            ["x"] = -284306.38024332,
+                            ["name"] = "Static Container rouge 1-22-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86853.006558043,
+                    ["x"] = -284306.38024332,
+                    ["name"] = "Static Container rouge 1-22",
+                    ["dead"] = false,
+                }, -- end of [32]
+                [33] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86853.006558043,
+                                ["speed"] = 0,
+                                ["x"] = -284318.60881474,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 37,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 37,
+                            ["rate"] = 100,
+                            ["y"] = -86853.006558043,
+                            ["x"] = -284318.60881474,
+                            ["name"] = "Static Container rouge 1-23-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86853.006558043,
+                    ["x"] = -284318.60881474,
+                    ["name"] = "Static Container rouge 1-23",
+                    ["dead"] = false,
+                }, -- end of [33]
+                [34] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86845.684367065,
+                                ["speed"] = 0,
+                                ["x"] = -284323.46910914,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 38,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red3",
+                            ["type"] = "Container red 3",
+                            ["unitId"] = 38,
+                            ["rate"] = 100,
+                            ["y"] = -86845.684367065,
+                            ["x"] = -284323.46910914,
+                            ["name"] = "Static Container rouge 3-2",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86845.684367065,
+                    ["x"] = -284323.46910914,
+                    ["name"] = "Static Container rouge 3-2",
+                    ["dead"] = false,
+                }, -- end of [34]
+                [35] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86833.463920769,
+                                ["speed"] = 0,
+                                ["x"] = -284323.46910914,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 39,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 39,
+                            ["rate"] = 100,
+                            ["y"] = -86833.463920769,
+                            ["x"] = -284323.46910914,
+                            ["name"] = "Static Container rouge 1-25-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86833.463920769,
+                    ["x"] = -284323.46910914,
+                    ["name"] = "Static Container rouge 1-25",
+                    ["dead"] = false,
+                }, -- end of [35]
+                [36] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86821.243474473,
+                                ["speed"] = 0,
+                                ["x"] = -284323.46910914,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 40,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 40,
+                            ["rate"] = 100,
+                            ["y"] = -86821.243474473,
+                            ["x"] = -284323.46910914,
+                            ["name"] = "Static Container rouge 1-26-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86821.243474473,
+                    ["x"] = -284323.46910914,
+                    ["name"] = "Static Container rouge 1-26",
+                    ["dead"] = false,
+                }, -- end of [36]
+                [37] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86772.438574155,
+                                ["speed"] = 0,
+                                ["x"] = -284323.37704382,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 41,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 41,
+                            ["rate"] = 100,
+                            ["y"] = -86772.438574155,
+                            ["x"] = -284323.37704382,
+                            ["name"] = "Static Container rouge 1-27-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86772.438574155,
+                    ["x"] = -284323.37704382,
+                    ["name"] = "Static Container rouge 1-27",
+                    ["dead"] = false,
+                }, -- end of [37]
+                [38] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86784.667145584,
+                                ["speed"] = 0,
+                                ["x"] = -284323.37704382,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 42,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 42,
+                            ["rate"] = 100,
+                            ["y"] = -86784.667145584,
+                            ["x"] = -284323.37704382,
+                            ["name"] = "Static Container rouge 1-28-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86784.667145584,
+                    ["x"] = -284323.37704382,
+                    ["name"] = "Static Container rouge 1-28",
+                    ["dead"] = false,
+                }, -- end of [38]
+                [39] = 
+                {
+                    ["heading"] = 0.78539816339745,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86809.952859869,
+                                ["speed"] = 0,
+                                ["x"] = -284328.17704382,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 43,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 43,
+                            ["rate"] = 100,
+                            ["y"] = -86809.952859869,
+                            ["x"] = -284328.17704382,
+                            ["name"] = "Static Container rouge 1-29-1",
+                            ["heading"] = 0.78539816339745,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86809.952859869,
+                    ["x"] = -284328.17704382,
+                    ["name"] = "Static Container rouge 1-29",
+                    ["dead"] = false,
+                }, -- end of [39]
+                [40] = 
+                {
+                    ["heading"] = 5.4977871437821,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86789.169631099,
+                                ["speed"] = 0,
+                                ["x"] = -284338.40691617,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 44,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 44,
+                            ["rate"] = 100,
+                            ["y"] = -86789.169631099,
+                            ["x"] = -284338.40691617,
+                            ["name"] = "Static Container rouge 1-30-1",
+                            ["heading"] = 5.4977871437821,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86789.169631099,
+                    ["x"] = -284338.40691617,
+                    ["name"] = "Static Container rouge 1-30",
+                    ["dead"] = false,
+                }, -- end of [40]
+                [41] = 
+                {
+                    ["heading"] = 0.78539816339745,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86787.418091601,
+                                ["speed"] = 0,
+                                ["x"] = -284329.771236,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 45,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 45,
+                            ["rate"] = 100,
+                            ["y"] = -86787.418091601,
+                            ["x"] = -284329.771236,
+                            ["name"] = "Static Container rouge 1-31-1",
+                            ["heading"] = 0.78539816339745,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86787.418091601,
+                    ["x"] = -284329.771236,
+                    ["name"] = "Static Container rouge 1-31",
+                    ["dead"] = false,
+                }, -- end of [41]
+                [42] = 
+                {
+                    ["heading"] = 5.4977871437821,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86797.822521999,
+                                ["speed"] = 0,
+                                ["x"] = -284347.07743296,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 46,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 46,
+                            ["rate"] = 100,
+                            ["y"] = -86797.822521999,
+                            ["x"] = -284347.07743296,
+                            ["name"] = "Static Container rouge 1-32-1",
+                            ["heading"] = 5.4977871437821,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86797.822521999,
+                    ["x"] = -284347.07743296,
+                    ["name"] = "Static Container rouge 1-32",
+                    ["dead"] = false,
+                }, -- end of [42]
+                [43] = 
+                {
+                    ["heading"] = 0.78539816339745,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86806.479067946,
+                                ["speed"] = 0,
+                                ["x"] = -284345.30440547,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 47,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 47,
+                            ["rate"] = 100,
+                            ["y"] = -86806.479067946,
+                            ["x"] = -284345.30440547,
+                            ["name"] = "Static Container rouge 1-33-1",
+                            ["heading"] = 0.78539816339745,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86806.479067946,
+                    ["x"] = -284345.30440547,
+                    ["name"] = "Static Container rouge 1-33",
+                    ["dead"] = false,
+                }, -- end of [43]
+                [44] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86817.795155118,
+                                ["speed"] = 0,
+                                ["x"] = -284340.6632453,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 48,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_red1",
+                            ["type"] = "Container red 1",
+                            ["unitId"] = 48,
+                            ["rate"] = 100,
+                            ["y"] = -86817.795155118,
+                            ["x"] = -284340.6632453,
+                            ["name"] = "Static Container rouge 1-34-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86817.795155118,
+                    ["x"] = -284340.6632453,
+                    ["name"] = "Static Container rouge 1-34",
+                    ["dead"] = false,
+                }, -- end of [44]
+                [45] = 
+                {
+                    ["heading"] = 2.5307274153918,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86810.331751803,
+                                ["speed"] = 0,
+                                ["x"] = -284258.3300044,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 49,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Unarmed",
+                            ["type"] = "KAMAZ Truck",
+                            ["unitId"] = 49,
+                            ["rate"] = 5,
+                            ["y"] = -86810.331751803,
+                            ["x"] = -284258.3300044,
+                            ["name"] = "Static Truck KAMAZ-43101-2-1",
+                            ["heading"] = 2.5307274153918,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86810.331751803,
+                    ["x"] = -284258.3300044,
+                    ["name"] = "Static Truck KAMAZ-43101-2",
+                    ["dead"] = false,
+                }, -- end of [45]
+                [46] = 
+                {
+                    ["heading"] = 2.5307274153918,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86811.065658959,
+                                ["speed"] = 0,
+                                ["x"] = -284262.44304475,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 50,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Unarmed",
+                            ["type"] = "KAMAZ Truck",
+                            ["unitId"] = 50,
+                            ["rate"] = 5,
+                            ["y"] = -86811.065658959,
+                            ["x"] = -284262.44304475,
+                            ["name"] = "Static Truck KAMAZ-43101-3-1",
+                            ["heading"] = 2.5307274153918,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86811.065658959,
+                    ["x"] = -284262.44304475,
+                    ["name"] = "Static Truck KAMAZ-43101-3",
+                    ["dead"] = false,
+                }, -- end of [46]
+                [47] = 
+                {
+                    ["heading"] = 2.5307274153918,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86809.051269075,
+                                ["speed"] = 0,
+                                ["x"] = -284320.8378173,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 51,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Unarmed",
+                            ["type"] = "KAMAZ Truck",
+                            ["unitId"] = 51,
+                            ["rate"] = 5,
+                            ["y"] = -86809.051269075,
+                            ["x"] = -284320.8378173,
+                            ["name"] = "Static Truck KAMAZ-43101-4-1",
+                            ["heading"] = 2.5307274153918,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86809.051269075,
+                    ["x"] = -284320.8378173,
+                    ["name"] = "Static Truck KAMAZ-43101-4",
+                    ["dead"] = false,
+                }, -- end of [47]
+                [48] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86791.916977677,
+                                ["speed"] = 0,
+                                ["x"] = -284284.65040587,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 53,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["mass"] = 840,
+                            ["category"] = "Cargos",
+                            ["canCargo"] = true,
+                            ["shape_name"] = "m117_cargo",
+                            ["type"] = "m117_cargo",
+                            ["unitId"] = 53,
+                            ["rate"] = 100,
+                            ["y"] = -86791.916977677,
+                            ["x"] = -284284.65040587,
+                            ["name"] = "Static charge M117-2-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86791.916977677,
+                    ["x"] = -284284.65040587,
+                    ["name"] = "Static charge M117-2",
+                    ["dead"] = false,
+                }, -- end of [48]
+                [49] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86791.916977677,
+                                ["speed"] = 0,
+                                ["x"] = -284285.67897729,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 54,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["mass"] = 840,
+                            ["category"] = "Cargos",
+                            ["canCargo"] = true,
+                            ["shape_name"] = "m117_cargo",
+                            ["type"] = "m117_cargo",
+                            ["unitId"] = 54,
+                            ["rate"] = 100,
+                            ["y"] = -86791.916977677,
+                            ["x"] = -284285.67897729,
+                            ["name"] = "Static charge M117-1-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86791.916977677,
+                    ["x"] = -284285.67897729,
+                    ["name"] = "Static charge M117-1",
+                    ["dead"] = false,
+                }, -- end of [49]
+                [50] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86791.888406249,
+                                ["speed"] = 0,
+                                ["x"] = -284286.70754872,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 55,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["mass"] = 840,
+                            ["category"] = "Cargos",
+                            ["canCargo"] = true,
+                            ["shape_name"] = "m117_cargo",
+                            ["type"] = "m117_cargo",
+                            ["unitId"] = 55,
+                            ["rate"] = 100,
+                            ["y"] = -86791.888406249,
+                            ["x"] = -284286.70754872,
+                            ["name"] = "Static charge M117-3-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86791.888406249,
+                    ["x"] = -284286.70754872,
+                    ["name"] = "Static charge M117-3",
+                    ["dead"] = false,
+                }, -- end of [50]
+                [51] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86791.888406249,
+                                ["speed"] = 0,
+                                ["x"] = -284287.76469158,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 56,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["mass"] = 840,
+                            ["category"] = "Cargos",
+                            ["canCargo"] = true,
+                            ["shape_name"] = "m117_cargo",
+                            ["type"] = "m117_cargo",
+                            ["unitId"] = 56,
+                            ["rate"] = 100,
+                            ["y"] = -86791.888406249,
+                            ["x"] = -284287.76469158,
+                            ["name"] = "Static charge M117-4-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86791.888406249,
+                    ["x"] = -284287.76469158,
+                    ["name"] = "Static charge M117-4",
+                    ["dead"] = false,
+                }, -- end of [51]
+                [52] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86794.05983482,
+                                ["speed"] = 0,
+                                ["x"] = -284284.65040587,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 57,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["mass"] = 840,
+                            ["category"] = "Cargos",
+                            ["canCargo"] = true,
+                            ["shape_name"] = "m117_cargo",
+                            ["type"] = "m117_cargo",
+                            ["unitId"] = 57,
+                            ["rate"] = 100,
+                            ["y"] = -86794.05983482,
+                            ["x"] = -284284.65040587,
+                            ["name"] = "Static charge M117-5-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86794.05983482,
+                    ["x"] = -284284.65040587,
+                    ["name"] = "Static charge M117-5",
+                    ["dead"] = false,
+                }, -- end of [52]
+                [53] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86794.05983482,
+                                ["speed"] = 0,
+                                ["x"] = -284285.67897729,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 58,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["mass"] = 840,
+                            ["category"] = "Cargos",
+                            ["canCargo"] = true,
+                            ["shape_name"] = "m117_cargo",
+                            ["type"] = "m117_cargo",
+                            ["unitId"] = 58,
+                            ["rate"] = 100,
+                            ["y"] = -86794.05983482,
+                            ["x"] = -284285.67897729,
+                            ["name"] = "Static charge M117-6-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86794.05983482,
+                    ["x"] = -284285.67897729,
+                    ["name"] = "Static charge M117-6",
+                    ["dead"] = false,
+                }, -- end of [53]
+                [54] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86794.05983482,
+                                ["speed"] = 0,
+                                ["x"] = -284286.70754872,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 59,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["mass"] = 840,
+                            ["category"] = "Cargos",
+                            ["canCargo"] = true,
+                            ["shape_name"] = "m117_cargo",
+                            ["type"] = "m117_cargo",
+                            ["unitId"] = 59,
+                            ["rate"] = 100,
+                            ["y"] = -86794.05983482,
+                            ["x"] = -284286.70754872,
+                            ["name"] = "Static charge M117-7-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86794.05983482,
+                    ["x"] = -284286.70754872,
+                    ["name"] = "Static charge M117-7",
+                    ["dead"] = false,
+                }, -- end of [54]
+                [55] = 
+                {
+                    ["heading"] = 1.2042771838761,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86794.374120534,
+                                ["speed"] = 0,
+                                ["x"] = -284288.26754872,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 60,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["mass"] = 840,
+                            ["category"] = "Cargos",
+                            ["canCargo"] = true,
+                            ["shape_name"] = "m117_cargo",
+                            ["type"] = "m117_cargo",
+                            ["unitId"] = 60,
+                            ["rate"] = 100,
+                            ["y"] = -86794.374120534,
+                            ["x"] = -284288.26754872,
+                            ["name"] = "Static charge M117-8-1",
+                            ["heading"] = 1.2042771838761,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86794.374120534,
+                    ["x"] = -284288.26754872,
+                    ["name"] = "Static charge M117-8",
+                    ["dead"] = false,
+                }, -- end of [55]
+                [56] = 
+                {
+                    ["heading"] = 4.310963252426,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86800.591776833,
+                                ["speed"] = 0,
+                                ["x"] = -284290.78439509,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 61,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Unarmed",
+                            ["type"] = "KAMAZ Truck",
+                            ["unitId"] = 61,
+                            ["rate"] = 5,
+                            ["y"] = -86800.591776833,
+                            ["x"] = -284290.78439509,
+                            ["name"] = "Static Truck KAMAZ-43101-5-1",
+                            ["heading"] = 4.310963252426,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86800.591776833,
+                    ["x"] = -284290.78439509,
+                    ["name"] = "Static Truck KAMAZ-43101-5",
+                    ["dead"] = false,
+                }, -- end of [56]
+                [57] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86814.708411932,
+                                ["speed"] = 0,
+                                ["x"] = -284304.12353158,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 62,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["mass"] = 480,
+                            ["category"] = "Cargos",
+                            ["canCargo"] = true,
+                            ["shape_name"] = "barrels_cargo",
+                            ["type"] = "barrels_cargo",
+                            ["unitId"] = 62,
+                            ["rate"] = 100,
+                            ["y"] = -86814.708411932,
+                            ["x"] = -284304.12353158,
+                            ["name"] = "Static barils (charge)-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86814.708411932,
+                    ["x"] = -284304.12353158,
+                    ["name"] = "Static barils (charge)-1",
+                    ["dead"] = false,
+                }, -- end of [57]
+                [58] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86813.451269075,
+                                ["speed"] = 0,
+                                ["x"] = -284304.12353158,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 63,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["mass"] = 480,
+                            ["category"] = "Cargos",
+                            ["canCargo"] = true,
+                            ["shape_name"] = "barrels_cargo",
+                            ["type"] = "barrels_cargo",
+                            ["unitId"] = 63,
+                            ["rate"] = 100,
+                            ["y"] = -86813.451269075,
+                            ["x"] = -284304.12353158,
+                            ["name"] = "Static barils (charge)-2-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86813.451269075,
+                    ["x"] = -284304.12353158,
+                    ["name"] = "Static barils (charge)-2",
+                    ["dead"] = false,
+                }, -- end of [58]
+                [59] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86812.194126218,
+                                ["speed"] = 0,
+                                ["x"] = -284304.12353158,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 64,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["mass"] = 480,
+                            ["category"] = "Cargos",
+                            ["canCargo"] = true,
+                            ["shape_name"] = "barrels_cargo",
+                            ["type"] = "barrels_cargo",
+                            ["unitId"] = 64,
+                            ["rate"] = 100,
+                            ["y"] = -86812.194126218,
+                            ["x"] = -284304.12353158,
+                            ["name"] = "Static barils (charge)-3-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86812.194126218,
+                    ["x"] = -284304.12353158,
+                    ["name"] = "Static barils (charge)-3",
+                    ["dead"] = false,
+                }, -- end of [59]
+                [60] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86814.708411932,
+                                ["speed"] = 0,
+                                ["x"] = -284305.06638872,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 65,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["mass"] = 480,
+                            ["category"] = "Cargos",
+                            ["canCargo"] = true,
+                            ["shape_name"] = "barrels_cargo",
+                            ["type"] = "barrels_cargo",
+                            ["unitId"] = 65,
+                            ["rate"] = 100,
+                            ["y"] = -86814.708411932,
+                            ["x"] = -284305.06638872,
+                            ["name"] = "Static barils (charge)-4-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86814.708411932,
+                    ["x"] = -284305.06638872,
+                    ["name"] = "Static barils (charge)-4",
+                    ["dead"] = false,
+                }, -- end of [60]
+                [61] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86814.708411932,
+                                ["speed"] = 0,
+                                ["x"] = -284306.00924587,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 66,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["mass"] = 480,
+                            ["category"] = "Cargos",
+                            ["canCargo"] = true,
+                            ["shape_name"] = "barrels_cargo",
+                            ["type"] = "barrels_cargo",
+                            ["unitId"] = 66,
+                            ["rate"] = 100,
+                            ["y"] = -86814.708411932,
+                            ["x"] = -284306.00924587,
+                            ["name"] = "Static barils (charge)-5-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86814.708411932,
+                    ["x"] = -284306.00924587,
+                    ["name"] = "Static barils (charge)-5",
+                    ["dead"] = false,
+                }, -- end of [61]
+                [62] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86814.708411932,
+                                ["speed"] = 0,
+                                ["x"] = -284306.95210301,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 67,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["mass"] = 480,
+                            ["category"] = "Cargos",
+                            ["canCargo"] = true,
+                            ["shape_name"] = "barrels_cargo",
+                            ["type"] = "barrels_cargo",
+                            ["unitId"] = 67,
+                            ["rate"] = 100,
+                            ["y"] = -86814.708411932,
+                            ["x"] = -284306.95210301,
+                            ["name"] = "Static barils (charge)-6-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86814.708411932,
+                    ["x"] = -284306.95210301,
+                    ["name"] = "Static barils (charge)-6",
+                    ["dead"] = false,
+                }, -- end of [62]
+                [63] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86813.451269075,
+                                ["speed"] = 0,
+                                ["x"] = -284305.06638872,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 68,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["mass"] = 480,
+                            ["category"] = "Cargos",
+                            ["canCargo"] = true,
+                            ["shape_name"] = "barrels_cargo",
+                            ["type"] = "barrels_cargo",
+                            ["unitId"] = 68,
+                            ["rate"] = 100,
+                            ["y"] = -86813.451269075,
+                            ["x"] = -284305.06638872,
+                            ["name"] = "Static barils (charge)-7-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86813.451269075,
+                    ["x"] = -284305.06638872,
+                    ["name"] = "Static barils (charge)-7",
+                    ["dead"] = false,
+                }, -- end of [63]
+                [64] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86813.451269075,
+                                ["speed"] = 0,
+                                ["x"] = -284306.00924587,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 69,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["mass"] = 480,
+                            ["category"] = "Cargos",
+                            ["canCargo"] = true,
+                            ["shape_name"] = "barrels_cargo",
+                            ["type"] = "barrels_cargo",
+                            ["unitId"] = 69,
+                            ["rate"] = 100,
+                            ["y"] = -86813.451269075,
+                            ["x"] = -284306.00924587,
+                            ["name"] = "Static barils (charge)-8-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86813.451269075,
+                    ["x"] = -284306.00924587,
+                    ["name"] = "Static barils (charge)-8",
+                    ["dead"] = false,
+                }, -- end of [64]
+                [65] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86813.451269075,
+                                ["speed"] = 0,
+                                ["x"] = -284306.92353158,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 70,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["mass"] = 480,
+                            ["category"] = "Cargos",
+                            ["canCargo"] = true,
+                            ["shape_name"] = "barrels_cargo",
+                            ["type"] = "barrels_cargo",
+                            ["unitId"] = 70,
+                            ["rate"] = 100,
+                            ["y"] = -86813.451269075,
+                            ["x"] = -284306.92353158,
+                            ["name"] = "Static barils (charge)-9-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86813.451269075,
+                    ["x"] = -284306.92353158,
+                    ["name"] = "Static barils (charge)-9",
+                    ["dead"] = false,
+                }, -- end of [65]
+                [66] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86812.194126218,
+                                ["speed"] = 0,
+                                ["x"] = -284305.06638872,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 71,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["mass"] = 480,
+                            ["category"] = "Cargos",
+                            ["canCargo"] = true,
+                            ["shape_name"] = "barrels_cargo",
+                            ["type"] = "barrels_cargo",
+                            ["unitId"] = 71,
+                            ["rate"] = 100,
+                            ["y"] = -86812.194126218,
+                            ["x"] = -284305.06638872,
+                            ["name"] = "Static barils (charge)-10-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86812.194126218,
+                    ["x"] = -284305.06638872,
+                    ["name"] = "Static barils (charge)-10",
+                    ["dead"] = false,
+                }, -- end of [66]
+                [67] = 
+                {
+                    ["heading"] = 2.5307274153918,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86812.36555479,
+                                ["speed"] = 0,
+                                ["x"] = -284308.58067444,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 72,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["mass"] = 480,
+                            ["category"] = "Cargos",
+                            ["canCargo"] = true,
+                            ["shape_name"] = "barrels_cargo",
+                            ["type"] = "barrels_cargo",
+                            ["unitId"] = 72,
+                            ["rate"] = 100,
+                            ["y"] = -86812.36555479,
+                            ["x"] = -284308.58067444,
+                            ["name"] = "Static barils (charge)-11-1",
+                            ["heading"] = 2.5307274153918,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86812.36555479,
+                    ["x"] = -284308.58067444,
+                    ["name"] = "Static barils (charge)-11",
+                    ["dead"] = false,
+                }, -- end of [67]
+                [68] = 
+                {
+                    ["heading"] = 0.48869219055841,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86797.915692557,
+                                ["speed"] = 0,
+                                ["x"] = -284262.52415766,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 73,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "cat_345l",
+                            ["type"] = "345 Excavator",
+                            ["unitId"] = 73,
+                            ["rate"] = 3,
+                            ["y"] = -86797.915692557,
+                            ["x"] = -284262.52415766,
+                            ["name"] = "Static Excavator-1",
+                            ["heading"] = 0.48869219055841,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86797.915692557,
+                    ["x"] = -284262.52415766,
+                    ["name"] = "Static Excavator-1",
+                    ["dead"] = false,
+                }, -- end of [68]
+                [69] = 
+                {
+                    ["heading"] = 1.9373154697137,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86802.458705903,
+                                ["speed"] = 0,
+                                ["x"] = -284247.26429232,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 74,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "cat_345l",
+                            ["type"] = "345 Excavator",
+                            ["unitId"] = 74,
+                            ["rate"] = 3,
+                            ["y"] = -86802.458705903,
+                            ["x"] = -284247.26429232,
+                            ["name"] = "Static Excavator-2-1",
+                            ["heading"] = 1.9373154697137,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86802.458705903,
+                    ["x"] = -284247.26429232,
+                    ["name"] = "Static Excavator-2",
+                    ["dead"] = false,
+                }, -- end of [69]
+                [70] = 
+                {
+                    ["heading"] = 0.36651914291881,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86812.499726122,
+                                ["speed"] = 0,
+                                ["x"] = -284344.02995332,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 75,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 75,
+                            ["rate"] = 0,
+                            ["y"] = -86812.499726122,
+                            ["x"] = -284344.02995332,
+                            ["name"] = "Static Fil de fer barbelé-1",
+                            ["heading"] = 0.36651914291881,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86812.499726122,
+                    ["x"] = -284344.02995332,
+                    ["name"] = "Static Fil de fer barbelé-1",
+                    ["dead"] = false,
+                }, -- end of [70]
+                [71] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86816.728297551,
+                                ["speed"] = 0,
+                                ["x"] = -284343.17281046,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 76,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 76,
+                            ["rate"] = 0,
+                            ["y"] = -86816.728297551,
+                            ["x"] = -284343.17281046,
+                            ["name"] = "Static Fil de fer barbelé-2-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86816.728297551,
+                    ["x"] = -284343.17281046,
+                    ["name"] = "Static Fil de fer barbelé-2",
+                    ["dead"] = false,
+                }, -- end of [71]
+                [72] = 
+                {
+                    ["heading"] = 5.4977871437821,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86826.985440408,
+                                ["speed"] = 0,
+                                ["x"] = -284326.71566761,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 77,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 77,
+                            ["rate"] = 0,
+                            ["y"] = -86826.985440408,
+                            ["x"] = -284326.71566761,
+                            ["name"] = "Static Fil de fer barbelé-3-1",
+                            ["heading"] = 5.4977871437821,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86826.985440408,
+                    ["x"] = -284326.71566761,
+                    ["name"] = "Static Fil de fer barbelé-3",
+                    ["dead"] = false,
+                }, -- end of [72]
+                [73] = 
+                {
+                    ["heading"] = 5.4977871437821,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86829.756868979,
+                                ["speed"] = 0,
+                                ["x"] = -284326.85852475,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 78,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 78,
+                            ["rate"] = 0,
+                            ["y"] = -86829.756868979,
+                            ["x"] = -284326.85852475,
+                            ["name"] = "Static Fil de fer barbelé-4-1",
+                            ["heading"] = 5.4977871437821,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86829.756868979,
+                    ["x"] = -284326.85852475,
+                    ["name"] = "Static Fil de fer barbelé-4",
+                    ["dead"] = false,
+                }, -- end of [73]
+                [74] = 
+                {
+                    ["heading"] = 0.78539816339745,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86826.214011837,
+                                ["speed"] = 0,
+                                ["x"] = -284339.45852475,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 79,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 79,
+                            ["rate"] = 0,
+                            ["y"] = -86826.214011837,
+                            ["x"] = -284339.45852475,
+                            ["name"] = "Static Fil de fer barbelé-5-1",
+                            ["heading"] = 0.78539816339745,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86826.214011837,
+                    ["x"] = -284339.45852475,
+                    ["name"] = "Static Fil de fer barbelé-5",
+                    ["dead"] = false,
+                }, -- end of [74]
+                [75] = 
+                {
+                    ["heading"] = 0.78539816339745,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86829.071154694,
+                                ["speed"] = 0,
+                                ["x"] = -284339.60138189,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 80,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 80,
+                            ["rate"] = 0,
+                            ["y"] = -86829.071154694,
+                            ["x"] = -284339.60138189,
+                            ["name"] = "Static Fil de fer barbelé-6-1",
+                            ["heading"] = 0.78539816339745,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86829.071154694,
+                    ["x"] = -284339.60138189,
+                    ["name"] = "Static Fil de fer barbelé-6",
+                    ["dead"] = false,
+                }, -- end of [75]
+                [76] = 
+                {
+                    ["heading"] = 0.31415926535898,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86825.185440408,
+                                ["speed"] = 0,
+                                ["x"] = -284342.51566761,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 81,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 81,
+                            ["rate"] = 0,
+                            ["y"] = -86825.185440408,
+                            ["x"] = -284342.51566761,
+                            ["name"] = "Static Fil de fer barbelé-7-1",
+                            ["heading"] = 0.31415926535898,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86825.185440408,
+                    ["x"] = -284342.51566761,
+                    ["name"] = "Static Fil de fer barbelé-7",
+                    ["dead"] = false,
+                }, -- end of [76]
+                [77] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86820.928297551,
+                                ["speed"] = 0,
+                                ["x"] = -284343.17281046,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 82,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 82,
+                            ["rate"] = 0,
+                            ["y"] = -86820.928297551,
+                            ["x"] = -284343.17281046,
+                            ["name"] = "Static Fil de fer barbelé-8-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86820.928297551,
+                    ["x"] = -284343.17281046,
+                    ["name"] = "Static Fil de fer barbelé-8",
+                    ["dead"] = false,
+                }, -- end of [77]
+                [78] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86819.55516902,
+                                ["speed"] = 0,
+                                ["x"] = -284326.05860716,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 92,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "container_20ft",
+                            ["type"] = "container_20ft",
+                            ["unitId"] = 92,
+                            ["rate"] = 1,
+                            ["y"] = -86819.55516902,
+                            ["x"] = -284326.05860716,
+                            ["name"] = "Static Container 20ft-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86819.55516902,
+                    ["x"] = -284326.05860716,
+                    ["name"] = "Static Container 20ft-1",
+                    ["dead"] = false,
+                }, -- end of [78]
+                [79] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86888.807326089,
+                                ["speed"] = 0,
+                                ["x"] = -284275.86448631,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 95,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_white",
+                            ["type"] = "Container white",
+                            ["unitId"] = 95,
+                            ["rate"] = 100,
+                            ["y"] = -86888.807326089,
+                            ["x"] = -284275.86448631,
+                            ["name"] = "Static Container blanc-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86888.807326089,
+                    ["x"] = -284275.86448631,
+                    ["name"] = "Static Container blanc-1",
+                    ["dead"] = false,
+                }, -- end of [79]
+                [80] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86858.887945325,
+                                ["speed"] = 0,
+                                ["x"] = -284275.8553792,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 97,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 97,
+                            ["rate"] = 100,
+                            ["y"] = -86858.887945325,
+                            ["x"] = -284275.8553792,
+                            ["name"] = "Static Container brun-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86858.887945325,
+                    ["x"] = -284275.8553792,
+                    ["name"] = "Static Container brun-1",
+                    ["dead"] = false,
+                }, -- end of [80]
+                [81] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86867.998445334,
+                                ["speed"] = 0,
+                                ["x"] = -284275.85743607,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 99,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_white",
+                            ["type"] = "Container white",
+                            ["unitId"] = 99,
+                            ["rate"] = 100,
+                            ["y"] = -86867.998445334,
+                            ["x"] = -284275.85743607,
+                            ["name"] = "Static Container blanc-3",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86867.998445334,
+                    ["x"] = -284275.85743607,
+                    ["name"] = "Static Container blanc-3",
+                    ["dead"] = false,
+                }, -- end of [81]
+                [82] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86877.169873905,
+                                ["speed"] = 0,
+                                ["x"] = -284275.82886464,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 100,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 100,
+                            ["rate"] = 100,
+                            ["y"] = -86877.169873905,
+                            ["x"] = -284275.82886464,
+                            ["name"] = "Static Container brun-2",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86877.169873905,
+                    ["x"] = -284275.82886464,
+                    ["name"] = "Static Container brun-2",
+                    ["dead"] = false,
+                }, -- end of [82]
+                [83] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86886.255588191,
+                                ["speed"] = 0,
+                                ["x"] = -284275.85743607,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 101,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 101,
+                            ["rate"] = 100,
+                            ["y"] = -86886.255588191,
+                            ["x"] = -284275.85743607,
+                            ["name"] = "Static Container brun-3",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86886.255588191,
+                    ["x"] = -284275.85743607,
+                    ["name"] = "Static Container brun-3",
+                    ["dead"] = false,
+                }, -- end of [83]
+                [84] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86892.035897518,
+                                ["speed"] = 0,
+                                ["x"] = -284279.20734345,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 102,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 102,
+                            ["rate"] = 100,
+                            ["y"] = -86892.035897518,
+                            ["x"] = -284279.20734345,
+                            ["name"] = "Static Container brun-4",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86892.035897518,
+                    ["x"] = -284279.20734345,
+                    ["name"] = "Static Container brun-4",
+                    ["dead"] = false,
+                }, -- end of [84]
+                [85] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86892.07538819,
+                                ["speed"] = 0,
+                                ["x"] = -284288.46255036,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 104,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 104,
+                            ["rate"] = 100,
+                            ["y"] = -86892.07538819,
+                            ["x"] = -284288.46255036,
+                            ["name"] = "Static Container brun-5",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86892.07538819,
+                    ["x"] = -284288.46255036,
+                    ["name"] = "Static Container brun-5",
+                    ["dead"] = false,
+                }, -- end of [85]
+                [86] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86892.07538819,
+                                ["speed"] = 0,
+                                ["x"] = -284297.6054075,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 105,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 105,
+                            ["rate"] = 100,
+                            ["y"] = -86892.07538819,
+                            ["x"] = -284297.6054075,
+                            ["name"] = "Static Container brun-6",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86892.07538819,
+                    ["x"] = -284297.6054075,
+                    ["name"] = "Static Container brun-6",
+                    ["dead"] = false,
+                }, -- end of [86]
+                [87] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86892.07538819,
+                                ["speed"] = 0,
+                                ["x"] = -284306.74826464,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 106,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_white",
+                            ["type"] = "Container white",
+                            ["unitId"] = 106,
+                            ["rate"] = 100,
+                            ["y"] = -86892.07538819,
+                            ["x"] = -284306.74826464,
+                            ["name"] = "Static Container blanc-9-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86892.07538819,
+                    ["x"] = -284306.74826464,
+                    ["name"] = "Static Container blanc-9",
+                    ["dead"] = false,
+                }, -- end of [87]
+                [88] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86892.07538819,
+                                ["speed"] = 0,
+                                ["x"] = -284315.86255036,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 107,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_white",
+                            ["type"] = "Container white",
+                            ["unitId"] = 107,
+                            ["rate"] = 100,
+                            ["y"] = -86892.07538819,
+                            ["x"] = -284315.86255036,
+                            ["name"] = "Static Container blanc-10-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86892.07538819,
+                    ["x"] = -284315.86255036,
+                    ["name"] = "Static Container blanc-10",
+                    ["dead"] = false,
+                }, -- end of [88]
+                [89] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86892.072273448,
+                                ["speed"] = 0,
+                                ["x"] = -284324.99211675,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 108,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 108,
+                            ["rate"] = 100,
+                            ["y"] = -86892.072273448,
+                            ["x"] = -284324.99211675,
+                            ["name"] = "Static Container brun-7",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86892.072273448,
+                    ["x"] = -284324.99211675,
+                    ["name"] = "Static Container brun-7",
+                    ["dead"] = false,
+                }, -- end of [89]
+                [90] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86892.072273448,
+                                ["speed"] = 0,
+                                ["x"] = -284334.1349739,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 109,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_white",
+                            ["type"] = "Container white",
+                            ["unitId"] = 109,
+                            ["rate"] = 100,
+                            ["y"] = -86892.072273448,
+                            ["x"] = -284334.1349739,
+                            ["name"] = "Static Container blanc-12-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86892.072273448,
+                    ["x"] = -284334.1349739,
+                    ["name"] = "Static Container blanc-12",
+                    ["dead"] = false,
+                }, -- end of [90]
+                [91] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86892.072273448,
+                                ["speed"] = 0,
+                                ["x"] = -284343.27783104,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 110,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_white",
+                            ["type"] = "Container white",
+                            ["unitId"] = 110,
+                            ["rate"] = 100,
+                            ["y"] = -86892.072273448,
+                            ["x"] = -284343.27783104,
+                            ["name"] = "Static Container blanc-13-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86892.072273448,
+                    ["x"] = -284343.27783104,
+                    ["name"] = "Static Container blanc-13",
+                    ["dead"] = false,
+                }, -- end of [91]
+                [92] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86892.080778102,
+                                ["speed"] = 0,
+                                ["x"] = -284352.41909707,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 111,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_white",
+                            ["type"] = "Container white",
+                            ["unitId"] = 111,
+                            ["rate"] = 100,
+                            ["y"] = -86892.080778102,
+                            ["x"] = -284352.41909707,
+                            ["name"] = "Static Container blanc-14-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86892.080778102,
+                    ["x"] = -284352.41909707,
+                    ["name"] = "Static Container blanc-14",
+                    ["dead"] = false,
+                }, -- end of [92]
+                [93] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86892.080778102,
+                                ["speed"] = 0,
+                                ["x"] = -284361.56195422,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 112,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_white",
+                            ["type"] = "Container white",
+                            ["unitId"] = 112,
+                            ["rate"] = 100,
+                            ["y"] = -86892.080778102,
+                            ["x"] = -284361.56195422,
+                            ["name"] = "Static Container blanc-15-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86892.080778102,
+                    ["x"] = -284361.56195422,
+                    ["name"] = "Static Container blanc-15",
+                    ["dead"] = false,
+                }, -- end of [93]
+                [94] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86892.072085439,
+                                ["speed"] = 0,
+                                ["x"] = -284370.67561655,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 113,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 113,
+                            ["rate"] = 100,
+                            ["y"] = -86892.072085439,
+                            ["x"] = -284370.67561655,
+                            ["name"] = "Static Container brun-8",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86892.072085439,
+                    ["x"] = -284370.67561655,
+                    ["name"] = "Static Container brun-8",
+                    ["dead"] = false,
+                }, -- end of [94]
+                [95] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86888.744538235,
+                                ["speed"] = 0,
+                                ["x"] = -284376.47300698,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 114,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 114,
+                            ["rate"] = 100,
+                            ["y"] = -86888.744538235,
+                            ["x"] = -284376.47300698,
+                            ["name"] = "Static Container brun-9",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86888.744538235,
+                    ["x"] = -284376.47300698,
+                    ["name"] = "Static Container brun-9",
+                    ["dead"] = false,
+                }, -- end of [95]
+                [96] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86879.601681092,
+                                ["speed"] = 0,
+                                ["x"] = -284376.47300698,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 115,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 115,
+                            ["rate"] = 100,
+                            ["y"] = -86879.601681092,
+                            ["x"] = -284376.47300698,
+                            ["name"] = "Static Container brun-10",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86879.601681092,
+                    ["x"] = -284376.47300698,
+                    ["name"] = "Static Container brun-10",
+                    ["dead"] = false,
+                }, -- end of [96]
+                [97] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86870.443652595,
+                                ["speed"] = 0,
+                                ["x"] = -284376.45421014,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 116,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 116,
+                            ["rate"] = 100,
+                            ["y"] = -86870.443652595,
+                            ["x"] = -284376.45421014,
+                            ["name"] = "Static Container brun-11",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86870.443652595,
+                    ["x"] = -284376.45421014,
+                    ["name"] = "Static Container brun-11",
+                    ["dead"] = false,
+                }, -- end of [97]
+                [98] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86861.27778672,
+                                ["speed"] = 0,
+                                ["x"] = -284376.45421014,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 117,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 117,
+                            ["rate"] = 100,
+                            ["y"] = -86861.27778672,
+                            ["x"] = -284376.45421014,
+                            ["name"] = "Static Container brun-12",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86861.27778672,
+                    ["x"] = -284376.45421014,
+                    ["name"] = "Static Container brun-12",
+                    ["dead"] = false,
+                }, -- end of [98]
+                [99] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86852.141583842,
+                                ["speed"] = 0,
+                                ["x"] = -284376.48387313,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 118,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 118,
+                            ["rate"] = 100,
+                            ["y"] = -86852.141583842,
+                            ["x"] = -284376.48387313,
+                            ["name"] = "Static Container brun-13",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86852.141583842,
+                    ["x"] = -284376.48387313,
+                    ["name"] = "Static Container brun-13",
+                    ["dead"] = false,
+                }, -- end of [99]
+                [100] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86843.005380963,
+                                ["speed"] = 0,
+                                ["x"] = -284376.45421014,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 119,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_white",
+                            ["type"] = "Container white",
+                            ["unitId"] = 119,
+                            ["rate"] = 100,
+                            ["y"] = -86843.005380963,
+                            ["x"] = -284376.45421014,
+                            ["name"] = "Static Container blanc-22-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86843.005380963,
+                    ["x"] = -284376.45421014,
+                    ["name"] = "Static Container blanc-22",
+                    ["dead"] = false,
+                }, -- end of [100]
+                [101] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86833.869178085,
+                                ["speed"] = 0,
+                                ["x"] = -284376.45421014,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 120,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_white",
+                            ["type"] = "Container white",
+                            ["unitId"] = 120,
+                            ["rate"] = 100,
+                            ["y"] = -86833.869178085,
+                            ["x"] = -284376.45421014,
+                            ["name"] = "Static Container blanc-23-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86833.869178085,
+                    ["x"] = -284376.45421014,
+                    ["name"] = "Static Container blanc-23",
+                    ["dead"] = false,
+                }, -- end of [101]
+                [102] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86824.719897686,
+                                ["speed"] = 0,
+                                ["x"] = -284376.46942146,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 121,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 121,
+                            ["rate"] = 100,
+                            ["y"] = -86824.719897686,
+                            ["x"] = -284376.46942146,
+                            ["name"] = "Static Container brun-14",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86824.719897686,
+                    ["x"] = -284376.46942146,
+                    ["name"] = "Static Container brun-14",
+                    ["dead"] = false,
+                }, -- end of [102]
+                [103] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86815.577040543,
+                                ["speed"] = 0,
+                                ["x"] = -284376.46942146,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 122,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 122,
+                            ["rate"] = 100,
+                            ["y"] = -86815.577040543,
+                            ["x"] = -284376.46942146,
+                            ["name"] = "Static Container brun-15",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86815.577040543,
+                    ["x"] = -284376.46942146,
+                    ["name"] = "Static Container brun-15",
+                    ["dead"] = false,
+                }, -- end of [103]
+                [104] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86806.4341834,
+                                ["speed"] = 0,
+                                ["x"] = -284376.46942146,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 123,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_white",
+                            ["type"] = "Container white",
+                            ["unitId"] = 123,
+                            ["rate"] = 100,
+                            ["y"] = -86806.4341834,
+                            ["x"] = -284376.46942146,
+                            ["name"] = "Static Container blanc-26-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86806.4341834,
+                    ["x"] = -284376.46942146,
+                    ["name"] = "Static Container blanc-26",
+                    ["dead"] = false,
+                }, -- end of [104]
+                [105] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86872.169873905,
+                                ["speed"] = 0,
+                                ["x"] = -284275.82886465,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 124,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "container_20ft",
+                            ["type"] = "container_20ft",
+                            ["unitId"] = 124,
+                            ["rate"] = 1,
+                            ["y"] = -86872.169873905,
+                            ["x"] = -284275.82886465,
+                            ["name"] = "Static Container 20ft-2",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86872.169873905,
+                    ["x"] = -284275.82886465,
+                    ["name"] = "Static Container 20ft-2",
+                    ["dead"] = false,
+                }, -- end of [105]
+                [106] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86879.569873905,
+                                ["speed"] = 0,
+                                ["x"] = -284275.85743607,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 125,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 125,
+                            ["rate"] = 100,
+                            ["y"] = -86879.569873905,
+                            ["x"] = -284275.85743607,
+                            ["name"] = "Static Container brun-16-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86879.569873905,
+                    ["x"] = -284275.85743607,
+                    ["name"] = "Static Container brun-16",
+                    ["dead"] = false,
+                }, -- end of [106]
+                [107] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86864.855588191,
+                                ["speed"] = 0,
+                                ["x"] = -284275.82886465,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 126,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 126,
+                            ["rate"] = 100,
+                            ["y"] = -86864.855588191,
+                            ["x"] = -284275.82886465,
+                            ["name"] = "Static Container brun-17-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86864.855588191,
+                    ["x"] = -284275.82886465,
+                    ["name"] = "Static Container brun-17",
+                    ["dead"] = false,
+                }, -- end of [107]
+                [108] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86857.369873905,
+                                ["speed"] = 0,
+                                ["x"] = -284275.82886465,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 127,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "container_20ft",
+                            ["type"] = "container_20ft",
+                            ["unitId"] = 127,
+                            ["rate"] = 1,
+                            ["y"] = -86857.369873905,
+                            ["x"] = -284275.82886465,
+                            ["name"] = "Static Container 20ft-3-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86857.369873905,
+                    ["x"] = -284275.82886465,
+                    ["name"] = "Static Container 20ft-3",
+                    ["dead"] = false,
+                }, -- end of [108]
+                [109] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86892.07538819,
+                                ["speed"] = 0,
+                                ["x"] = -284280.11969322,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 128,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "container_20ft",
+                            ["type"] = "container_20ft",
+                            ["unitId"] = 128,
+                            ["rate"] = 1,
+                            ["y"] = -86892.07538819,
+                            ["x"] = -284280.11969322,
+                            ["name"] = "Static Container 20ft-4-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86892.07538819,
+                    ["x"] = -284280.11969322,
+                    ["name"] = "Static Container 20ft-4",
+                    ["dead"] = false,
+                }, -- end of [109]
+                [110] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86892.07538819,
+                                ["speed"] = 0,
+                                ["x"] = -284287.77683608,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 129,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_white",
+                            ["type"] = "Container white",
+                            ["unitId"] = 129,
+                            ["rate"] = 100,
+                            ["y"] = -86892.07538819,
+                            ["x"] = -284287.77683608,
+                            ["name"] = "Static Container blanc-2-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86892.07538819,
+                    ["x"] = -284287.77683608,
+                    ["name"] = "Static Container blanc-2",
+                    ["dead"] = false,
+                }, -- end of [110]
+                [111] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86892.103959618,
+                                ["speed"] = 0,
+                                ["x"] = -284296.97683608,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 130,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_white",
+                            ["type"] = "Container white",
+                            ["unitId"] = 130,
+                            ["rate"] = 100,
+                            ["y"] = -86892.103959618,
+                            ["x"] = -284296.97683608,
+                            ["name"] = "Static Container blanc-4-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86892.103959618,
+                    ["x"] = -284296.97683608,
+                    ["name"] = "Static Container blanc-4",
+                    ["dead"] = false,
+                }, -- end of [111]
+                [112] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86884.048648112,
+                                ["speed"] = 0,
+                                ["x"] = -284295.45845803,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 131,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "kazarma2",
+                            ["type"] = "Barracks 2",
+                            ["unitId"] = 131,
+                            ["rate"] = 100,
+                            ["y"] = -86884.048648112,
+                            ["x"] = -284295.45845803,
+                            ["name"] = "Static Baraquements 2-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86884.048648112,
+                    ["x"] = -284295.45845803,
+                    ["name"] = "Static Baraquements 2-1",
+                    ["dead"] = false,
+                }, -- end of [112]
+                [113] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86872.294016683,
+                                ["speed"] = 0,
+                                ["x"] = -284295.45845803,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 132,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "kazarma2",
+                            ["type"] = "Barracks 2",
+                            ["unitId"] = 132,
+                            ["rate"] = 100,
+                            ["y"] = -86872.294016683,
+                            ["x"] = -284295.45845803,
+                            ["name"] = "Static Baraquements 2-2-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86872.294016683,
+                    ["x"] = -284295.45845803,
+                    ["name"] = "Static Baraquements 2-2",
+                    ["dead"] = false,
+                }, -- end of [113]
+                [114] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86859.870082397,
+                                ["speed"] = 0,
+                                ["x"] = -284295.54212089,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 133,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "kazarma2",
+                            ["type"] = "Barracks 2",
+                            ["unitId"] = 133,
+                            ["rate"] = 100,
+                            ["y"] = -86859.870082397,
+                            ["x"] = -284295.54212089,
+                            ["name"] = "Static Baraquements 2-3-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86859.870082397,
+                    ["x"] = -284295.54212089,
+                    ["name"] = "Static Baraquements 2-3",
+                    ["dead"] = false,
+                }, -- end of [114]
+                [115] = 
+                {
+                    ["heading"] = 0.78539816339745,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86889.11892173,
+                                ["speed"] = 0,
+                                ["x"] = -284325.09669767,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 134,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "H-tyre_B_RF",
+                            ["type"] = "Black_Tyre_RF",
+                            ["unitId"] = 134,
+                            ["rate"] = 3,
+                            ["y"] = -86889.11892173,
+                            ["x"] = -284325.09669767,
+                            ["name"] = "Static Repère : Pneu & drapeau rouge-1",
+                            ["heading"] = 0.78539816339745,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86889.11892173,
+                    ["x"] = -284325.09669767,
+                    ["name"] = "Static Repère : Pneu & drapeau rouge-1",
+                    ["dead"] = false,
+                }, -- end of [115]
+                [116] = 
+                {
+                    ["heading"] = 0.78539816339745,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86889.181778873,
+                                ["speed"] = 0,
+                                ["x"] = -284329.59098339,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 135,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "H-tyre_B_RF",
+                            ["type"] = "Black_Tyre_RF",
+                            ["unitId"] = 135,
+                            ["rate"] = 3,
+                            ["y"] = -86889.181778873,
+                            ["x"] = -284329.59098339,
+                            ["name"] = "Static Repère : Pneu & drapeau rouge-2-1",
+                            ["heading"] = 0.78539816339745,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86889.181778873,
+                    ["x"] = -284329.59098339,
+                    ["name"] = "Static Repère : Pneu & drapeau rouge-2",
+                    ["dead"] = false,
+                }, -- end of [116]
+                [117] = 
+                {
+                    ["heading"] = 0.78539816339745,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86889.33892173,
+                                ["speed"] = 0,
+                                ["x"] = -284334.3052691,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 136,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "H-tyre_B_RF",
+                            ["type"] = "Black_Tyre_RF",
+                            ["unitId"] = 136,
+                            ["rate"] = 3,
+                            ["y"] = -86889.33892173,
+                            ["x"] = -284334.3052691,
+                            ["name"] = "Static Repère : Pneu & drapeau rouge-3-1",
+                            ["heading"] = 0.78539816339745,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86889.33892173,
+                    ["x"] = -284334.3052691,
+                    ["name"] = "Static Repère : Pneu & drapeau rouge-3",
+                    ["dead"] = false,
+                }, -- end of [117]
+                [118] = 
+                {
+                    ["heading"] = 0.78539816339745,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86889.33892173,
+                                ["speed"] = 0,
+                                ["x"] = -284338.73669768,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 137,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "H-tyre_B_RF",
+                            ["type"] = "Black_Tyre_RF",
+                            ["unitId"] = 137,
+                            ["rate"] = 3,
+                            ["y"] = -86889.33892173,
+                            ["x"] = -284338.73669768,
+                            ["name"] = "Static Repère : Pneu & drapeau rouge-4-1",
+                            ["heading"] = 0.78539816339745,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86889.33892173,
+                    ["x"] = -284338.73669768,
+                    ["name"] = "Static Repère : Pneu & drapeau rouge-4",
+                    ["dead"] = false,
+                }, -- end of [118]
+                [119] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86883.17892173,
+                                ["speed"] = 0,
+                                ["x"] = -284324.81384053,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 139,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Unarmed",
+                            ["type"] = "KAMAZ Truck",
+                            ["unitId"] = 139,
+                            ["rate"] = 5,
+                            ["y"] = -86883.17892173,
+                            ["x"] = -284324.81384053,
+                            ["name"] = "Static Truck KAMAZ-43101-6-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86883.17892173,
+                    ["x"] = -284324.81384053,
+                    ["name"] = "Static Truck KAMAZ-43101-6",
+                    ["dead"] = false,
+                }, -- end of [119]
+                [120] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86883.17892173,
+                                ["speed"] = 0,
+                                ["x"] = -284329.40241196,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 140,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Unarmed",
+                            ["type"] = "KAMAZ Truck",
+                            ["unitId"] = 140,
+                            ["rate"] = 5,
+                            ["y"] = -86883.17892173,
+                            ["x"] = -284329.40241196,
+                            ["name"] = "Static Truck KAMAZ-43101-7-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86883.17892173,
+                    ["x"] = -284329.40241196,
+                    ["name"] = "Static Truck KAMAZ-43101-7",
+                    ["dead"] = false,
+                }, -- end of [120]
+                [121] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86883.336064587,
+                                ["speed"] = 0,
+                                ["x"] = -284338.4852691,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 141,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Unarmed",
+                            ["type"] = "KAMAZ Truck",
+                            ["unitId"] = 141,
+                            ["rate"] = 5,
+                            ["y"] = -86883.336064587,
+                            ["x"] = -284338.4852691,
+                            ["name"] = "Static Truck KAMAZ-43101-8-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86883.336064587,
+                    ["x"] = -284338.4852691,
+                    ["name"] = "Static Truck KAMAZ-43101-8",
+                    ["dead"] = false,
+                }, -- end of [121]
+                [122] = 
+                {
+                    ["heading"] = 0.78539816339745,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86889.33892173,
+                                ["speed"] = 0,
+                                ["x"] = -284343.45098339,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 142,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "H-tyre_B_RF",
+                            ["type"] = "Black_Tyre_RF",
+                            ["unitId"] = 142,
+                            ["rate"] = 3,
+                            ["y"] = -86889.33892173,
+                            ["x"] = -284343.45098339,
+                            ["name"] = "Static Repère : Pneu & drapeau rouge-5-1",
+                            ["heading"] = 0.78539816339745,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86889.33892173,
+                    ["x"] = -284343.45098339,
+                    ["name"] = "Static Repère : Pneu & drapeau rouge-5",
+                    ["dead"] = false,
+                }, -- end of [122]
+                [123] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86892.103959618,
+                                ["speed"] = 0,
+                                ["x"] = -284306.14826465,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 143,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_white",
+                            ["type"] = "Container white",
+                            ["unitId"] = 143,
+                            ["rate"] = 100,
+                            ["y"] = -86892.103959618,
+                            ["x"] = -284306.14826465,
+                            ["name"] = "Static Container blanc-5-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86892.103959618,
+                    ["x"] = -284306.14826465,
+                    ["name"] = "Static Container blanc-5",
+                    ["dead"] = false,
+                }, -- end of [123]
+                [124] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86751.151836972,
+                                ["speed"] = 0,
+                                ["x"] = -284366.99380343,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 144,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["type"] = "outpost_road",
+                            ["unitId"] = 144,
+                            ["rate"] = 5,
+                            ["y"] = -86751.151836972,
+                            ["x"] = -284366.99380343,
+                            ["name"] = "Static Barrage routier-1-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86751.151836972,
+                    ["x"] = -284366.99380343,
+                    ["name"] = "Static Barrage routier-1",
+                    ["dead"] = false,
+                }, -- end of [124]
+                [125] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86797.274775162,
+                                ["speed"] = 0,
+                                ["x"] = -284376.45491993,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 145,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_white",
+                            ["type"] = "Container white",
+                            ["unitId"] = 145,
+                            ["rate"] = 100,
+                            ["y"] = -86797.274775162,
+                            ["x"] = -284376.45491993,
+                            ["name"] = "Static Container blanc-6-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86797.274775162,
+                    ["x"] = -284376.45491993,
+                    ["name"] = "Static Container blanc-6",
+                    ["dead"] = false,
+                }, -- end of [125]
+                [126] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86788.129315322,
+                                ["speed"] = 0,
+                                ["x"] = -284376.45491993,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 146,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_white",
+                            ["type"] = "Container white",
+                            ["unitId"] = 146,
+                            ["rate"] = 100,
+                            ["y"] = -86788.129315322,
+                            ["x"] = -284376.45491993,
+                            ["name"] = "Static Container blanc-7-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86788.129315322,
+                    ["x"] = -284376.45491993,
+                    ["name"] = "Static Container blanc-7",
+                    ["dead"] = false,
+                }, -- end of [126]
+                [127] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86782.30610351,
+                                ["speed"] = 0,
+                                ["x"] = -284379.79835341,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 147,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 147,
+                            ["rate"] = 100,
+                            ["y"] = -86782.30610351,
+                            ["x"] = -284379.79835341,
+                            ["name"] = "Static Container brun-18-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86782.30610351,
+                    ["x"] = -284379.79835341,
+                    ["name"] = "Static Container brun-18",
+                    ["dead"] = false,
+                }, -- end of [127]
+                [128] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86782.30610351,
+                                ["speed"] = 0,
+                                ["x"] = -284388.9793394,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 148,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 148,
+                            ["rate"] = 100,
+                            ["y"] = -86782.30610351,
+                            ["x"] = -284388.9793394,
+                            ["name"] = "Static Container brun-19-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86782.30610351,
+                    ["x"] = -284388.9793394,
+                    ["name"] = "Static Container brun-19",
+                    ["dead"] = false,
+                }, -- end of [128]
+                [129] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86782.30610351,
+                                ["speed"] = 0,
+                                ["x"] = -284398.11122921,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 149,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 149,
+                            ["rate"] = 100,
+                            ["y"] = -86782.30610351,
+                            ["x"] = -284398.11122921,
+                            ["name"] = "Static Container brun-20-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86782.30610351,
+                    ["x"] = -284398.11122921,
+                    ["name"] = "Static Container brun-20",
+                    ["dead"] = false,
+                }, -- end of [129]
+                [130] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86776.518708018,
+                                ["speed"] = 0,
+                                ["x"] = -284401.46935725,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 150,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 150,
+                            ["rate"] = 100,
+                            ["y"] = -86776.518708018,
+                            ["x"] = -284401.46935725,
+                            ["name"] = "Static Container brun-21-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86776.518708018,
+                    ["x"] = -284401.46935725,
+                    ["name"] = "Static Container brun-21",
+                    ["dead"] = false,
+                }, -- end of [130]
+                [131] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86767.375850875,
+                                ["speed"] = 0,
+                                ["x"] = -284401.46935725,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 152,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 152,
+                            ["rate"] = 100,
+                            ["y"] = -86767.375850875,
+                            ["x"] = -284401.46935725,
+                            ["name"] = "Static Container brun-22-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86767.375850875,
+                    ["x"] = -284401.46935725,
+                    ["name"] = "Static Container brun-22",
+                    ["dead"] = false,
+                }, -- end of [131]
+                [132] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86758.232993732,
+                                ["speed"] = 0,
+                                ["x"] = -284401.46935725,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 153,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 153,
+                            ["rate"] = 100,
+                            ["y"] = -86758.232993732,
+                            ["x"] = -284401.46935725,
+                            ["name"] = "Static Container brun-23-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86758.232993732,
+                    ["x"] = -284401.46935725,
+                    ["name"] = "Static Container brun-23",
+                    ["dead"] = false,
+                }, -- end of [132]
+                [133] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86749.090136589,
+                                ["speed"] = 0,
+                                ["x"] = -284401.46935725,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 154,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 154,
+                            ["rate"] = 100,
+                            ["y"] = -86749.090136589,
+                            ["x"] = -284401.46935725,
+                            ["name"] = "Static Container brun-24-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86749.090136589,
+                    ["x"] = -284401.46935725,
+                    ["name"] = "Static Container brun-24",
+                    ["dead"] = false,
+                }, -- end of [133]
+                [134] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86741.495636972,
+                                ["speed"] = 0,
+                                ["x"] = -284401.46714629,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 155,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "container_20ft",
+                            ["type"] = "container_20ft",
+                            ["unitId"] = 155,
+                            ["rate"] = 1,
+                            ["y"] = -86741.495636972,
+                            ["x"] = -284401.46714629,
+                            ["name"] = "Static Container 20ft-5",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86741.495636972,
+                    ["x"] = -284401.46714629,
+                    ["name"] = "Static Container 20ft-5",
+                    ["dead"] = false,
+                }, -- end of [134]
+                [135] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86737.238494115,
+                                ["speed"] = 0,
+                                ["x"] = -284396.58143201,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 156,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "container_40ft",
+                            ["type"] = "container_40ft",
+                            ["unitId"] = 156,
+                            ["rate"] = 1,
+                            ["y"] = -86737.238494115,
+                            ["x"] = -284396.58143201,
+                            ["name"] = "Static Container 40ft-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86737.238494115,
+                    ["x"] = -284396.58143201,
+                    ["name"] = "Static Container 40ft-1",
+                    ["dead"] = false,
+                }, -- end of [135]
+                [136] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86737.238494115,
+                                ["speed"] = 0,
+                                ["x"] = -284384.38143201,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 157,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "container_40ft",
+                            ["type"] = "container_40ft",
+                            ["unitId"] = 157,
+                            ["rate"] = 1,
+                            ["y"] = -86737.238494115,
+                            ["x"] = -284384.38143201,
+                            ["name"] = "Static Container 40ft-2-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86737.238494115,
+                    ["x"] = -284384.38143201,
+                    ["name"] = "Static Container 40ft-2",
+                    ["dead"] = false,
+                }, -- end of [136]
+                [137] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86737.20256263,
+                                ["speed"] = 0,
+                                ["x"] = -284352.3799603,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 158,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 158,
+                            ["rate"] = 100,
+                            ["y"] = -86737.20256263,
+                            ["x"] = -284352.3799603,
+                            ["name"] = "Static Container brun-25",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86737.20256263,
+                    ["x"] = -284352.3799603,
+                    ["name"] = "Static Container brun-25",
+                    ["dead"] = false,
+                }, -- end of [137]
+                [138] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86737.20256263,
+                                ["speed"] = 0,
+                                ["x"] = -284343.23710316,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 159,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_white",
+                            ["type"] = "Container white",
+                            ["unitId"] = 159,
+                            ["rate"] = 100,
+                            ["y"] = -86737.20256263,
+                            ["x"] = -284343.23710316,
+                            ["name"] = "Static Container blanc-8",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86737.20256263,
+                    ["x"] = -284343.23710316,
+                    ["name"] = "Static Container blanc-8",
+                    ["dead"] = false,
+                }, -- end of [138]
+                [139] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86737.20256263,
+                                ["speed"] = 0,
+                                ["x"] = -284334.12281744,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 160,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_white",
+                            ["type"] = "Container white",
+                            ["unitId"] = 160,
+                            ["rate"] = 100,
+                            ["y"] = -86737.20256263,
+                            ["x"] = -284334.12281744,
+                            ["name"] = "Static Container blanc-11-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86737.20256263,
+                    ["x"] = -284334.12281744,
+                    ["name"] = "Static Container blanc-11",
+                    ["dead"] = false,
+                }, -- end of [139]
+                [140] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86741.00256263,
+                                ["speed"] = 0,
+                                ["x"] = -284322.20853173,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 161,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_white",
+                            ["type"] = "Container white",
+                            ["unitId"] = 161,
+                            ["rate"] = 100,
+                            ["y"] = -86741.00256263,
+                            ["x"] = -284322.20853173,
+                            ["name"] = "Static Container blanc-16-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86741.00256263,
+                    ["x"] = -284322.20853173,
+                    ["name"] = "Static Container blanc-16",
+                    ["dead"] = false,
+                }, -- end of [140]
+                [141] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86748.60256263,
+                                ["speed"] = 0,
+                                ["x"] = -284322.20853173,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 162,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "container_20ft",
+                            ["type"] = "container_20ft",
+                            ["unitId"] = 162,
+                            ["rate"] = 1,
+                            ["y"] = -86748.60256263,
+                            ["x"] = -284322.20853173,
+                            ["name"] = "Static Container 20ft-6",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86748.60256263,
+                    ["x"] = -284322.20853173,
+                    ["name"] = "Static Container 20ft-6",
+                    ["dead"] = false,
+                }, -- end of [141]
+                [142] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86737.20256263,
+                                ["speed"] = 0,
+                                ["x"] = -284326.52281744,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 163,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "container_20ft",
+                            ["type"] = "container_20ft",
+                            ["unitId"] = 163,
+                            ["rate"] = 1,
+                            ["y"] = -86737.20256263,
+                            ["x"] = -284326.52281744,
+                            ["name"] = "Static Container 20ft-7-1",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86737.20256263,
+                    ["x"] = -284326.52281744,
+                    ["name"] = "Static Container 20ft-7",
+                    ["dead"] = false,
+                }, -- end of [142]
+                [143] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86747.088276916,
+                                ["speed"] = 0,
+                                ["x"] = -284322.20853173,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 164,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 164,
+                            ["rate"] = 100,
+                            ["y"] = -86747.088276916,
+                            ["x"] = -284322.20853173,
+                            ["name"] = "Static Container brun-26",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86747.088276916,
+                    ["x"] = -284322.20853173,
+                    ["name"] = "Static Container brun-26",
+                    ["dead"] = false,
+                }, -- end of [143]
+                [144] = 
+                {
+                    ["heading"] = 0,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86739.488276916,
+                                ["speed"] = 0,
+                                ["x"] = -284322.20853173,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 165,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "container_20ft",
+                            ["type"] = "container_20ft",
+                            ["unitId"] = 165,
+                            ["rate"] = 1,
+                            ["y"] = -86739.488276916,
+                            ["x"] = -284322.20853173,
+                            ["name"] = "Static Container 20ft-8-1",
+                            ["heading"] = 0,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86739.488276916,
+                    ["x"] = -284322.20853173,
+                    ["name"] = "Static Container 20ft-8",
+                    ["dead"] = false,
+                }, -- end of [144]
+                [145] = 
+                {
+                    ["heading"] = 1.5707963267949,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86737.20256263,
+                                ["speed"] = 0,
+                                ["x"] = -284328.06567459,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 166,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "konteiner_brown",
+                            ["type"] = "Container brown",
+                            ["unitId"] = 166,
+                            ["rate"] = 100,
+                            ["y"] = -86737.20256263,
+                            ["x"] = -284328.06567459,
+                            ["name"] = "Static Container brun-27",
+                            ["heading"] = 1.5707963267949,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86737.20256263,
+                    ["x"] = -284328.06567459,
+                    ["name"] = "Static Container brun-27",
+                    ["dead"] = false,
+                }, -- end of [145]
+                [146] = 
+                {
+                    ["heading"] = 0.90757121103705,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86733.22563681,
+                                ["speed"] = 0,
+                                ["x"] = -284358.56613761,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 178,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 188,
+                            ["rate"] = 0,
+                            ["y"] = -86733.22563681,
+                            ["x"] = -284358.56613761,
+                            ["name"] = "Static Fil de fer barbelé-9-1",
+                            ["heading"] = 0.90757121103705,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86733.22563681,
+                    ["x"] = -284358.56613761,
+                    ["name"] = "Static Fil de fer barbelé-9",
+                    ["dead"] = false,
+                }, -- end of [146]
+                [147] = 
+                {
+                    ["heading"] = 0.90757121103705,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86729.911351096,
+                                ["speed"] = 0,
+                                ["x"] = -284359.70899475,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 179,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 189,
+                            ["rate"] = 0,
+                            ["y"] = -86729.911351096,
+                            ["x"] = -284359.70899475,
+                            ["name"] = "Static Fil de fer barbelé-10-1",
+                            ["heading"] = 0.90757121103705,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86729.911351096,
+                    ["x"] = -284359.70899475,
+                    ["name"] = "Static Fil de fer barbelé-10",
+                    ["dead"] = false,
+                }, -- end of [147]
+                [148] = 
+                {
+                    ["heading"] = 5.7246799465414,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86732.968493953,
+                                ["speed"] = 0,
+                                ["x"] = -284375.10899475,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 180,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 190,
+                            ["rate"] = 0,
+                            ["y"] = -86732.968493953,
+                            ["x"] = -284375.10899475,
+                            ["name"] = "Static Fil de fer barbelé-11-1",
+                            ["heading"] = 5.7246799465414,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86732.968493953,
+                    ["x"] = -284375.10899475,
+                    ["name"] = "Static Fil de fer barbelé-11",
+                    ["dead"] = false,
+                }, -- end of [148]
+                [149] = 
+                {
+                    ["heading"] = 5.7246799465414,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86729.111351096,
+                                ["speed"] = 0,
+                                ["x"] = -284375.25185189,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 181,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 191,
+                            ["rate"] = 0,
+                            ["y"] = -86729.111351096,
+                            ["x"] = -284375.25185189,
+                            ["name"] = "Static Fil de fer barbelé-12-1",
+                            ["heading"] = 5.7246799465414,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86729.111351096,
+                    ["x"] = -284375.25185189,
+                    ["name"] = "Static Fil de fer barbelé-12",
+                    ["dead"] = false,
+                }, -- end of [149]
+                [150] = 
+                {
+                    ["heading"] = 6.2133721370998,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86733.301493953,
+                                ["speed"] = 0,
+                                ["x"] = -284378.05679475,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 182,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 192,
+                            ["rate"] = 0,
+                            ["y"] = -86733.301493953,
+                            ["x"] = -284378.05679475,
+                            ["name"] = "Static Fil de fer barbelé-13-1",
+                            ["heading"] = 6.2133721370998,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86733.301493953,
+                    ["x"] = -284378.05679475,
+                    ["name"] = "Static Fil de fer barbelé-13",
+                    ["dead"] = false,
+                }, -- end of [150]
+                [151] = 
+                {
+                    ["heading"] = 0.33161255787892,
+                    ["route"] = 
+                    {
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 0,
+                                ["type"] = "",
+                                ["name"] = "",
+                                ["y"] = -86733.073322525,
+                                ["speed"] = 0,
+                                ["x"] = -284355.84810903,
+                                ["formation_template"] = "",
+                                ["action"] = "",
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 183,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["category"] = "Fortifications",
+                            ["shape_name"] = "Concertina_wire",
+                            ["type"] = "Concertina wire",
+                            ["unitId"] = 193,
+                            ["rate"] = 0,
+                            ["y"] = -86733.073322525,
+                            ["x"] = -284355.84810903,
+                            ["name"] = "Static Fil de fer barbelé-14-1",
+                            ["heading"] = 0.33161255787892,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86733.073322525,
+                    ["x"] = -284355.84810903,
+                    ["name"] = "Static Fil de fer barbelé-14",
+                    ["dead"] = false,
+                }, -- end of [151]
+            }, -- end of ["group"]
+        }, -- end of ["static"]
+        ["vehicle"] = 
+        {
+            ["group"] = 
+            {
+                [1] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86820.812311878,
+                                ["x"] = -284326.25860716,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 83,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["skill"] = "Average",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Paratrooper RPG-16",
+                            ["unitId"] = 83,
+                            ["y"] = -86820.812311878,
+                            ["x"] = -284326.25860716,
+                            ["name"] = "Ground-1-1",
+                            ["heading"] = 4.2062434973063,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86820.812311878,
+                    ["x"] = -284326.25860716,
+                    ["name"] = "Ground-1",
+                    ["start_time"] = 0,
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86824.56063355,
+                                ["x"] = -284338.1875289,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 84,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["skill"] = "Average",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Paratrooper RPG-16",
+                            ["unitId"] = 84,
+                            ["y"] = -86824.56063355,
+                            ["x"] = -284338.1875289,
+                            ["name"] = "Ground-2-1",
+                            ["heading"] = 4.5029494701454,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86824.56063355,
+                    ["x"] = -284338.1875289,
+                    ["name"] = "Ground-2",
+                    ["start_time"] = 0,
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86829.303490693,
+                                ["x"] = -284328.93038604,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 85,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["skill"] = "Average",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Infantry AK ver3",
+                            ["unitId"] = 85,
+                            ["y"] = -86829.303490693,
+                            ["x"] = -284328.93038604,
+                            ["name"] = "Ground-3-1",
+                            ["heading"] = 4.014257279587,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86829.303490693,
+                    ["x"] = -284328.93038604,
+                    ["name"] = "Ground-3",
+                    ["start_time"] = 0,
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86829.909209484,
+                                ["x"] = -284340.75471937,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 86,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["skill"] = "Average",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Infantry AK ver3",
+                            ["unitId"] = 86,
+                            ["y"] = -86829.909209484,
+                            ["x"] = -284340.75471937,
+                            ["name"] = "Ground-4-1",
+                            ["heading"] = 3.4033920413889,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86829.909209484,
+                    ["x"] = -284340.75471937,
+                    ["name"] = "Ground-4",
+                    ["start_time"] = 0,
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1377.8319142368,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86831.503490693,
+                                ["x"] = -284326.04467176,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 87,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["skill"] = "Average",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Infantry AK ver3",
+                            ["unitId"] = 87,
+                            ["y"] = -86831.503490693,
+                            ["x"] = -284326.04467176,
+                            ["name"] = "Ground-5-1",
+                            ["heading"] = 4.014257279587,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86831.503490693,
+                    ["x"] = -284326.04467176,
+                    ["name"] = "Ground-5",
+                    ["start_time"] = 0,
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1377.8319142368,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86828.76063355,
+                                ["x"] = -284337.67324318,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 88,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["skill"] = "Average",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Infantry AK ver3",
+                            ["unitId"] = 88,
+                            ["y"] = -86828.76063355,
+                            ["x"] = -284337.67324318,
+                            ["name"] = "Ground-6-1",
+                            ["heading"] = 5.2708943410229,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86828.76063355,
+                    ["x"] = -284337.67324318,
+                    ["name"] = "Ground-6",
+                    ["start_time"] = 0,
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1377.833379082,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86810.350092087,
+                                ["x"] = -284306.53747709,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 89,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["skill"] = "Average",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Infantry AK ver3",
+                            ["unitId"] = 89,
+                            ["y"] = -86810.350092087,
+                            ["x"] = -284306.53747709,
+                            ["name"] = "Ground-7-1",
+                            ["heading"] = 4.014257279587,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86810.350092087,
+                    ["x"] = -284306.53747709,
+                    ["name"] = "Ground-7",
+                    ["start_time"] = 0,
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1377.8327687299,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86806.521520658,
+                                ["x"] = -284320.85176281,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 90,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["skill"] = "Average",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Infantry AK ver3",
+                            ["unitId"] = 90,
+                            ["y"] = -86806.521520658,
+                            ["x"] = -284320.85176281,
+                            ["name"] = "Ground-8-1",
+                            ["heading"] = 6.2133721370998,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86806.521520658,
+                    ["x"] = -284320.85176281,
+                    ["name"] = "Ground-8",
+                    ["start_time"] = 0,
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1377.8356984203,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86793.73754923,
+                                ["x"] = -284290.21150566,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 91,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["skill"] = "Average",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Infantry AK ver3",
+                            ["unitId"] = 91,
+                            ["y"] = -86793.73754923,
+                            ["x"] = -284290.21150566,
+                            ["name"] = "Ground-9-1",
+                            ["heading"] = 3.1939525311496,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86793.73754923,
+                    ["x"] = -284290.21150566,
+                    ["name"] = "Ground-9",
+                    ["start_time"] = 0,
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86774.938433608,
+                                ["x"] = -284387.31200207,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 168,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["livery_id"] = "desert",
+                            ["skill"] = "Average",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Ural-375 ZU-23",
+                            ["unitId"] = 168,
+                            ["y"] = -86774.938433608,
+                            ["x"] = -284387.31200207,
+                            ["name"] = "Ground-10-1",
+                            ["heading"] = 3.4033920413889,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86774.938433608,
+                    ["x"] = -284387.31200207,
+                    ["name"] = "Ground-10",
+                    ["start_time"] = 0,
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86779.690823196,
+                                ["x"] = -284327.33458928,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 169,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["skill"] = "Average",
+                            ["coldAtStart"] = false,
+                            ["type"] = "generator_5i57",
+                            ["unitId"] = 169,
+                            ["y"] = -86779.690823196,
+                            ["x"] = -284327.33458928,
+                            ["name"] = "Ground-11-1",
+                            ["heading"] = 4.7123889803847,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86779.690823196,
+                    ["x"] = -284327.33458928,
+                    ["name"] = "Ground-11",
+                    ["start_time"] = 0,
+                }, -- end of [11]
+                [12] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86740.577230174,
+                                ["x"] = -284325.58870551,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 170,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["skill"] = "Average",
+                            ["coldAtStart"] = false,
+                            ["type"] = "house2arm",
+                            ["unitId"] = 170,
+                            ["y"] = -86740.577230174,
+                            ["x"] = -284325.58870551,
+                            ["name"] = "Ground-12-1",
+                            ["heading"] = 0.78539816339745,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86740.577230174,
+                    ["x"] = -284325.58870551,
+                    ["name"] = "Ground-12",
+                    ["start_time"] = 0,
+                }, -- end of [12]
+                [13] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86778.815852981,
+                                ["x"] = -284397.99827606,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 171,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["skill"] = "Average",
+                            ["coldAtStart"] = false,
+                            ["type"] = "house2arm",
+                            ["unitId"] = 171,
+                            ["y"] = -86778.815852981,
+                            ["x"] = -284397.99827606,
+                            ["name"] = "Ground-13-1",
+                            ["heading"] = 3.9269908169872,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86778.815852981,
+                    ["x"] = -284397.99827606,
+                    ["name"] = "Ground-13",
+                    ["start_time"] = 0,
+                }, -- end of [13]
+                [14] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86888.587946218,
+                                ["x"] = -284373.05766142,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 172,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["skill"] = "Average",
+                            ["coldAtStart"] = false,
+                            ["type"] = "house2arm",
+                            ["unitId"] = 172,
+                            ["y"] = -86888.587946218,
+                            ["x"] = -284373.05766142,
+                            ["name"] = "Ground-14-1",
+                            ["heading"] = 3.9269908169872,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86888.587946218,
+                    ["x"] = -284373.05766142,
+                    ["name"] = "Ground-14",
+                    ["start_time"] = 0,
+                }, -- end of [14]
+                [15] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86975.964204463,
+                                ["x"] = -284130.50070067,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 173,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["skill"] = "Average",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Osa 9A33 ln",
+                            ["unitId"] = 173,
+                            ["y"] = -86975.964204463,
+                            ["x"] = -284130.50070067,
+                            ["name"] = "Ground-15-1",
+                            ["heading"] = 3.9269908169872,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86975.964204463,
+                    ["x"] = -284130.50070067,
+                    ["name"] = "Ground-15",
+                    ["start_time"] = 0,
+                }, -- end of [15]
+                [16] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86964.325583311,
+                                ["x"] = -284149.76753606,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 174,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["livery_id"] = "desert",
+                            ["skill"] = "Average",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Ural-375 ZU-23",
+                            ["unitId"] = 174,
+                            ["y"] = -86964.325583311,
+                            ["x"] = -284149.76753606,
+                            ["name"] = "Ground-16-1",
+                            ["heading"] = 3.4033920413889,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86964.325583311,
+                    ["x"] = -284149.76753606,
+                    ["name"] = "Ground-16",
+                    ["start_time"] = 0,
+                }, -- end of [16]
+                [18] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                            [1] = 
+                            {
+                                [1] = 
+                                {
+                                    ["y"] = -86727.159722799,
+                                    ["x"] = -284420.12887999,
+                                }, -- end of [1]
+                                [2] = 
+                                {
+                                    ["y"] = -86727.159722799,
+                                    ["x"] = -284420.12887999,
+                                }, -- end of [2]
+                            }, -- end of [1]
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86757.100547153,
+                                ["x"] = -284386.6516904,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 184,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["skill"] = "High",
+                            ["coldAtStart"] = false,
+                            ["type"] = "SA-18 Igla-S comm",
+                            ["unitId"] = 198,
+                            ["y"] = -86757.100547153,
+                            ["x"] = -284386.6516904,
+                            ["name"] = "Ground-18-5",
+                            ["heading"] = 5.5962870909952,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [1]
+                        [2] = 
+                        {
+                            ["skill"] = "High",
+                            ["coldAtStart"] = false,
+                            ["type"] = "SA-18 Igla-S manpad",
+                            ["unitId"] = 197,
+                            ["y"] = -86892.064026083,
+                            ["x"] = -284314.18823099,
+                            ["name"] = "Ground-18-4",
+                            ["heading"] = 5.5962870909952,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [2]
+                        [3] = 
+                        {
+                            ["skill"] = "High",
+                            ["coldAtStart"] = false,
+                            ["type"] = "SA-18 Igla-S manpad",
+                            ["unitId"] = 196,
+                            ["y"] = -86880.201074324,
+                            ["x"] = -284368.88497315,
+                            ["name"] = "Ground-18-3",
+                            ["heading"] = 5.5962870909952,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [3]
+                        [4] = 
+                        {
+                            ["skill"] = "High",
+                            ["coldAtStart"] = false,
+                            ["type"] = "SA-18 Igla-S manpad",
+                            ["unitId"] = 195,
+                            ["y"] = -86821.89823035,
+                            ["x"] = -284340.80495629,
+                            ["name"] = "Ground-18-2",
+                            ["heading"] = 5.5962870909952,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [4]
+                        [5] = 
+                        {
+                            ["skill"] = "High",
+                            ["coldAtStart"] = false,
+                            ["type"] = "SA-18 Igla-S manpad",
+                            ["unitId"] = 194,
+                            ["y"] = -86753.221162946,
+                            ["x"] = -284240.50310953,
+                            ["name"] = "Ground-18-1",
+                            ["heading"] = 5.5962870909952,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [5]
+                    }, -- end of ["units"]
+                    ["y"] = -86757.100547153,
+                    ["x"] = -284386.6516904,
+                    ["name"] = "Ground-18",
+                    ["start_time"] = 0,
+                }, -- end of [18]
+                [19] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                            [7] = 
+                            {
+                                [1] = 
+                                {
+                                    ["y"] = -86930.806046276,
+                                    ["x"] = -284376.48056085,
+                                }, -- end of [1]
+                                [2] = 
+                                {
+                                    ["y"] = -86897.045948282,
+                                    ["x"] = -284415.53278231,
+                                }, -- end of [2]
+                            }, -- end of [7]
+                            [1] = 
+                            {
+                                [1] = 
+                                {
+                                    ["y"] = -86805.984927208,
+                                    ["x"] = -284361.88159956,
+                                }, -- end of [1]
+                                [2] = 
+                                {
+                                    ["y"] = -86722.953334847,
+                                    ["x"] = -284368.63361916,
+                                }, -- end of [2]
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                [1] = 
+                                {
+                                    ["y"] = -86722.953334847,
+                                    ["x"] = -284368.63361916,
+                                }, -- end of [1]
+                                [2] = 
+                                {
+                                    ["y"] = -86723.865769927,
+                                    ["x"] = -284237.06048049,
+                                }, -- end of [2]
+                            }, -- end of [2]
+                            [4] = 
+                            {
+                                [1] = 
+                                {
+                                    ["y"] = -86763.100478406,
+                                    ["x"] = -284217.16939573,
+                                }, -- end of [1]
+                                [2] = 
+                                {
+                                    ["y"] = -86871.680253033,
+                                    ["x"] = -284222.82649323,
+                                }, -- end of [2]
+                            }, -- end of [4]
+                            [8] = 
+                            {
+                                [1] = 
+                                {
+                                    ["y"] = -86897.045948282,
+                                    ["x"] = -284415.53278231,
+                                }, -- end of [1]
+                                [2] = 
+                                {
+                                    ["y"] = -86756.165971791,
+                                    ["x"] = -284433.4165099,
+                                }, -- end of [2]
+                            }, -- end of [8]
+                            [9] = 
+                            {
+                                [1] = 
+                                {
+                                    ["y"] = -86756.165971791,
+                                    ["x"] = -284433.4165099,
+                                }, -- end of [1]
+                                [2] = 
+                                {
+                                    ["y"] = -86699.959970808,
+                                    ["x"] = -284402.9411782,
+                                }, -- end of [2]
+                            }, -- end of [9]
+                            [5] = 
+                            {
+                                [1] = 
+                                {
+                                    ["y"] = -86871.680253033,
+                                    ["x"] = -284222.82649323,
+                                }, -- end of [1]
+                                [2] = 
+                                {
+                                    ["y"] = -86915.842110949,
+                                    ["x"] = -284263.70358485,
+                                }, -- end of [2]
+                            }, -- end of [5]
+                            [10] = 
+                            {
+                                [1] = 
+                                {
+                                    ["y"] = -86699.959970808,
+                                    ["x"] = -284402.9411782,
+                                }, -- end of [1]
+                                [2] = 
+                                {
+                                    ["y"] = -86696.310230484,
+                                    ["x"] = -284275.38275389,
+                                }, -- end of [2]
+                            }, -- end of [10]
+                            [3] = 
+                            {
+                                [1] = 
+                                {
+                                    ["y"] = -86723.865769927,
+                                    ["x"] = -284237.06048049,
+                                }, -- end of [1]
+                                [2] = 
+                                {
+                                    ["y"] = -86763.100478406,
+                                    ["x"] = -284217.16939573,
+                                }, -- end of [2]
+                            }, -- end of [3]
+                            [6] = 
+                            {
+                                [1] = 
+                                {
+                                    ["y"] = -86915.842110949,
+                                    ["x"] = -284263.70358485,
+                                }, -- end of [1]
+                                [2] = 
+                                {
+                                    ["y"] = -86930.806046276,
+                                    ["x"] = -284376.48056085,
+                                }, -- end of [2]
+                            }, -- end of [6]
+                            [11] = 
+                            {
+                                [1] = 
+                                {
+                                    ["y"] = -86696.310230484,
+                                    ["x"] = -284275.38275389,
+                                }, -- end of [1]
+                                [2] = 
+                                {
+                                    ["y"] = -86696.310230484,
+                                    ["x"] = -284275.38275389,
+                                }, -- end of [2]
+                            }, -- end of [11]
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86805.984927208,
+                                ["x"] = -284361.88159956,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 14.995021080393,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86722.953334847,
+                                ["x"] = -284368.63361916,
+                                ["ETA_locked"] = false,
+                                ["speed"] = 5.5555555555556,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 38.678755514415,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86723.865769927,
+                                ["x"] = -284237.06048049,
+                                ["ETA_locked"] = false,
+                                ["speed"] = 5.5555555555556,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 46.596745809964,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86763.100478406,
+                                ["x"] = -284217.16939573,
+                                ["ETA_locked"] = false,
+                                ["speed"] = 5.5555555555556,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 66.167613823693,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86871.680253033,
+                                ["x"] = -284222.82649323,
+                                ["ETA_locked"] = false,
+                                ["speed"] = 5.5555555555556,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [5]
+                            [6] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 76.999376587898,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86915.842110949,
+                                ["x"] = -284263.70358485,
+                                ["ETA_locked"] = false,
+                                ["speed"] = 5.5555555555556,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [6]
+                            [7] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 97.477148143908,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86930.806046276,
+                                ["x"] = -284376.48056085,
+                                ["ETA_locked"] = false,
+                                ["speed"] = 5.5555555555556,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [7]
+                            [8] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 106.76908954777,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86897.045948282,
+                                ["x"] = -284415.53278231,
+                                ["ETA_locked"] = false,
+                                ["speed"] = 5.5555555555556,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [8]
+                            [9] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 132.33098802627,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86756.165971791,
+                                ["x"] = -284433.4165099,
+                                ["ETA_locked"] = false,
+                                ["speed"] = 5.5555555555556,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [9]
+                            [10] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 143.83953600594,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86699.959970808,
+                                ["x"] = -284402.9411782,
+                                ["ETA_locked"] = false,
+                                ["speed"] = 5.5555555555556,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [10]
+                            [11] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 166.80944893157,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86696.310230484,
+                                ["x"] = -284275.38275389,
+                                ["ETA_locked"] = false,
+                                ["speed"] = 5.5555555555556,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                            [1] = 
+                                            {
+                                                ["enabled"] = true,
+                                                ["auto"] = false,
+                                                ["id"] = "GoToWaypoint",
+                                                ["number"] = 1,
+                                                ["params"] = 
+                                                {
+                                                    ["fromWaypointIndex"] = 11,
+                                                    ["nWaypointIndx"] = 3,
+                                                }, -- end of ["params"]
+                                            }, -- end of [1]
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [11]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 185,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["livery_id"] = "summer",
+                            ["skill"] = "High",
+                            ["coldAtStart"] = false,
+                            ["type"] = "HL_ZU-23",
+                            ["unitId"] = 199,
+                            ["y"] = -86805.984927208,
+                            ["x"] = -284361.88159956,
+                            ["name"] = "Ground-19-1",
+                            ["heading"] = 1.651936469867,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86805.984927208,
+                    ["x"] = -284361.88159956,
+                    ["name"] = "Ground-19",
+                    ["start_time"] = 0,
+                }, -- end of [19]
+                [17] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["task"] = "Pas de sol",
+                    ["taskSelected"] = true,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -86749.234542068,
+                                ["x"] = -284351.68779414,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 0,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 175,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["skill"] = "Average",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Osa 9A33 ln",
+                            ["unitId"] = 175,
+                            ["y"] = -86749.234542068,
+                            ["x"] = -284351.68779414,
+                            ["name"] = "Ground-17-1",
+                            ["heading"] = 2.4434609527921,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [1]
+                    }, -- end of ["units"]
+                    ["y"] = -86749.234542068,
+                    ["x"] = -284351.68779414,
+                    ["name"] = "Ground-17",
+                    ["start_time"] = 0,
+                }, -- end of [17]
+                [20] = 
+                {
+                    ["visible"] = false,
+                    ["tasks"] = 
+                    {
+                    }, -- end of ["tasks"]
+                    ["uncontrollable"] = false,
+                    ["route"] = 
+                    {
+                        ["spans"] = 
+                        {
+                        }, -- end of ["spans"]
+                        ["points"] = 
+                        {
+                            [1] = 
+                            {
+                                ["alt"] = 1348,
+                                ["type"] = "Turning Point",
+                                ["ETA"] = 0,
+                                ["alt_type"] = "BARO",
+                                ["formation_template"] = "",
+                                ["y"] = -87033.67642636,
+                                ["x"] = -284474.32967448,
+                                ["ETA_locked"] = true,
+                                ["speed"] = 5.5555555555556,
+                                ["action"] = "Off Road",
+                                ["task"] = 
+                                {
+                                    ["id"] = "ComboTask",
+                                    ["params"] = 
+                                    {
+                                        ["tasks"] = 
+                                        {
+                                        }, -- end of ["tasks"]
+                                    }, -- end of ["params"]
+                                }, -- end of ["task"]
+                                ["speed_locked"] = true,
+                            }, -- end of [1]
+                        }, -- end of ["points"]
+                    }, -- end of ["route"]
+                    ["groupId"] = 189,
+                    ["hidden"] = false,
+                    ["units"] = 
+                    {
+                        [1] = 
+                        {
+                            ["skill"] = "High",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Kub 1S91 str",
+                            ["unitId"] = 233,
+                            ["y"] = -87033.67642636,
+                            ["x"] = -284474.32967448,
+                            ["name"] = "Ground-22-1",
+                            ["heading"] = 3.2637657012294,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [1]
+                        [2] = 
+                        {
+                            ["skill"] = "High",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Kub 2P25 ln",
+                            ["unitId"] = 234,
+                            ["y"] = -87044.15071122,
+                            ["x"] = -284343.98301844,
+                            ["name"] = "Ground-22-2",
+                            ["heading"] = 1.6929693744345,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [2]
+                        [3] = 
+                        {
+                            ["skill"] = "High",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Kub 2P25 ln",
+                            ["unitId"] = 235,
+                            ["y"] = -86647.435675285,
+                            ["x"] = -284132.92615819,
+                            ["name"] = "Ground-22-3",
+                            ["heading"] = 4.8171087355044,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [3]
+                        [4] = 
+                        {
+                            ["skill"] = "High",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Kub 2P25 ln",
+                            ["unitId"] = 236,
+                            ["y"] = -86606.441632053,
+                            ["x"] = -284166.87435024,
+                            ["name"] = "Ground-22-4",
+                            ["heading"] = 3.2986722862693,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [4]
+                        [5] = 
+                        {
+                            ["skill"] = "High",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Kub 2P25 ln",
+                            ["unitId"] = 237,
+                            ["y"] = -86994.106905778,
+                            ["x"] = -284325.36206758,
+                            ["name"] = "Ground-22-5",
+                            ["heading"] = 0.12217304763961,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [5]
+                        [6] = 
+                        {
+                            ["skill"] = "High",
+                            ["coldAtStart"] = false,
+                            ["type"] = "ATZ-10",
+                            ["unitId"] = 238,
+                            ["y"] = -87012.277342024,
+                            ["x"] = -284488.95171191,
+                            ["name"] = "Ground-22-6",
+                            ["heading"] = 5.5850536063819,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [6]
+                        [7] = 
+                        {
+                            ["skill"] = "High",
+                            ["coldAtStart"] = false,
+                            ["type"] = "ATZ-10",
+                            ["unitId"] = 239,
+                            ["y"] = -86619.850729313,
+                            ["x"] = -284146.45817584,
+                            ["name"] = "Ground-22-7",
+                            ["heading"] = 5.7595865315813,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [7]
+                        [8] = 
+                        {
+                            ["skill"] = "High",
+                            ["coldAtStart"] = false,
+                            ["type"] = "ZiL-131 APA-80",
+                            ["unitId"] = 240,
+                            ["y"] = -87008.760928857,
+                            ["x"] = -284475.61501076,
+                            ["name"] = "Ground-22-8",
+                            ["heading"] = 4.8520153205442,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [8]
+                        [9] = 
+                        {
+                            ["skill"] = "High",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Ural-4320-31",
+                            ["unitId"] = 241,
+                            ["y"] = -87014.68970331,
+                            ["x"] = -284476.534993,
+                            ["name"] = "Ground-22-9",
+                            ["heading"] = 3.3161255787892,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [9]
+                        [10] = 
+                        {
+                            ["skill"] = "High",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Ural-4320-31",
+                            ["unitId"] = 242,
+                            ["y"] = -86642.086848065,
+                            ["x"] = -284153.66989003,
+                            ["name"] = "Ground-22-10",
+                            ["heading"] = 3.2986722862693,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [10]
+                        [11] = 
+                        {
+                            ["skill"] = "High",
+                            ["coldAtStart"] = false,
+                            ["type"] = "Ural-375 PBU",
+                            ["unitId"] = 243,
+                            ["y"] = -87008.654553192,
+                            ["x"] = -284481.34801244,
+                            ["name"] = "Ground-22-11",
+                            ["heading"] = 4.8520153205442,
+                            ["playerCanDrive"] = false,
+                        }, -- end of [11]
+                    }, -- end of ["units"]
+                    ["y"] = -87033.67642636,
+                    ["x"] = -284474.32967448,
+                    ["name"] = "Ground-22",
+                    ["start_time"] = 0,
+                }, -- end of [20]
+            }, -- end of ["group"]
+        }, -- end of ["vehicle"]
     }
 
 }
