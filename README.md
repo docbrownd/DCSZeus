@@ -47,6 +47,9 @@ Voici la liste des commandes disponibles :
  - #addF_LARGEFOB1
    ![LARGEFOB1](https://github.com/docbrownd/DCSZeus/assets/105074220/cdddc387-87bf-4e3c-bb73-8e3cd0d56314)
 
+- #addF_CAMP1
+  ![image](https://github.com/docbrownd/DCSZeus/assets/105074220/81cb12bc-954f-4c5c-b223-4372a09a6454)
+
  
 ### Spawn d'unité
 
