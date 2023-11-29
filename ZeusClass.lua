@@ -125,6 +125,7 @@ do
     function ZeusMod:New(editorUnit)
         local obj = {}  
         setmetatable(obj,  {__index = self})
+		obj.isAllow = false
 		obj.templates = templates or TMP_TEMPLATES
 		obj.needPassword = false
 		obj.passwordDone = false
@@ -146,6 +147,10 @@ do
 		obj.backupSpawn = {}
         return obj
     end
+
+	function ZeusMod:Allow()
+		self.isAllow = true
+	end
 
 	function ZeusMod:AddZone(zoneName, codeName, Menu)
 		self.zones[codeName] = ZONE:FindByName(zoneName)
@@ -192,6 +197,7 @@ do
 	end
 
 	function ZeusMod:Init()
+		if not self.isAllow then return end
 		self:CreateTemplate()
 		self:DefineMenu()
         world.addEventHandler(self)
@@ -268,14 +274,6 @@ do
 			self:Spawn("SA11_ZEUS", pos)		
 		elseif(groupName == "SA5") then 	
 			self:Spawn("SA5_ZEUS", pos)		
-		-- elseif(groupName == "FOB1") then
-		-- 	self:SpawnStaticUnit("FOB", pos)
-		-- elseif(groupName == "LARGEFOB") then 
-		-- 	self:SpawnStaticUnit("LARGEFOB", pos)
-		-- elseif(groupName == "SMALLFOB") then 
-		-- 	self:SpawnStaticUnit("SMALLFOB", pos)
-		-- elseif(groupName == "MEDIUMFOB") then 
-		-- 	self:SpawnByTemplateName("BIGFOB",pos) 
 		else
 			local nbr = tonumber(cmds[4]) or 1
 			self.randomPos = nbr > 1
@@ -283,7 +281,7 @@ do
 				self:Spawn("Z_" .. groupName, pos)
 			end
 		end
-		trigger.action.outText("Spawn groupe", 10)
+		-- trigger.action.outText("Spawn groupe", 10)
 		
 	end
 
@@ -563,14 +561,7 @@ do
 						end
 					end 
 
-					if (cmd[1] == "test") then 
-						local coord = COORDINATE:NewFromVec3(event.pos)
-						local POINT = POINT_VEC2:NewFromVec2(coord:GetVec2())
 				
-						SPAWNSTATIC:NewFromTemplate(TEMPLATE_TEST)
-						:InitCountry(country.id.RUSSIA)
-						:SpawnFromPointVec2(POINT, 90)
-					end
 
 				end
 			

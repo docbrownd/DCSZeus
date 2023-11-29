@@ -33,6 +33,6 @@ Zeus:AddZone("Alamo", "alamo", "Autres")
 Zeus:AddZone("Elgin", "elgin", "Autres")
 
 
-
+Zeus:Allow()
 
 Zeus:Init()
