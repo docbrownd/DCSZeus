@@ -32,9 +32,11 @@ Voici la liste des commandes disponibles :
 
 ### Spawn de base prédessinée
 
- - #addZ_FOB1 : Permet de faire slot une petite base
- - #addZ_LARGEFOB : Permet de faire slot une importante base
- - #addZ_MEDIUMFOB : Permet de faire slot une base moyenne
+ - #addF_SMALLFOB1 
+ - #addF_SMALLFOB2 
+ - #addF_MEDIUMFOB1 
+ - #addF_MEDIUMFOB2  
+ - #addF_LARGEFOB1 
  
 ### Spawn d'unité
 
