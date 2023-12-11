@@ -145,8 +145,15 @@ do
 		obj.fobTemplates = FOBTemplates
 		obj.editorUnit = editorUnit
 		obj.backupSpawn = {}
+
+		obj.connectingZone = {}
+
         return obj
     end
+
+	function ZeusMod:AddConnectingStatic(obj)
+		self.connectingZone[#self.connectingZone + 1] = obj
+	end
 
 	function ZeusMod:Allow()
 		self.isAllow = true
@@ -196,12 +203,42 @@ do
 		end
 	end
 
+
+	function ZeusMod:CheckStatic()  
+		env.info("check static", false)
+		timer.scheduleFunction(
+			function(params, time) 
+				local test = SCENERY:FindByNameInZone("warehouse_01", ZONE:FindByName("warehouse_01"))
+
+				if (test == nil )then return timer.getTime() + 10 end 
+
+				env.info("life : " .. tostring(test:IsAlive()), false)
+
+				if (test:IsAlive() == false) then 
+					trigger.action.outText("Building dead !", 20)
+					return nil
+				end
+
+				return timer.getTime() + 10
+			end, 
+			{context = self}, timer.getTime() + 10
+		)
+
+	end
+
+
 	function ZeusMod:Init()
 		if not self.isAllow then return end
 		self:CreateTemplate()
 		self:DefineMenu()
         world.addEventHandler(self)
 		env.info("Zeus Init", false)
+
+		if (#self.connectingZone > 0)  then 
+			self:CheckStatic()
+
+		end
+
 
 	end
 
@@ -274,6 +311,12 @@ do
 			self:Spawn("SA11_ZEUS", pos)		
 		elseif(groupName == "SA5") then 	
 			self:Spawn("SA5_ZEUS", pos)		
+		elseif(groupName == "Patriot") then 
+			self:Spawn("Patriot_ZEUS", pos)	
+		elseif(groupName == "Hawak") then 	
+			self:Spawn("Hawk_ZEUS", pos)	
+		elseif(groupName == "Nasam") then 	
+			self:Spawn("NASAM_ZEUS", pos)	
 		else
 			local nbr = tonumber(cmds[4]) or 1
 			self.randomPos = nbr > 1
@@ -341,13 +384,12 @@ do
 			y = pos.y 
 
 
-			spawnDtat = SPAWNSTATIC:InitType(typeName)
-			spawnDtat = spawnDtat:InitNamePrefix(nameStat .. "_" .. tostring(number))
+			spawnDtat = SPAWNSTATIC:NewFromType(typeName, nil, country.id.RUSSIA):InitNamePrefix(nameStat .. "_" .. tostring(number))
 
 			if (shapeName ~= nil ) then 
 				spawnDtat = spawnDtat:InitShape(shapeName)
 			end
-			spawnDtat = spawnDtat:InitCountry(country.id.RUSSIA)
+			-- spawnDtat = spawnDtat:InitCountry(country.id.RUSSIA)
 
 			if (index == 1) then 
 
@@ -493,10 +535,12 @@ do
         world.searchObjects(Object.Category.UNIT, searchVolume, 
             function(obj, param)
                 if obj ~= nil and obj:getLife() > 0 and obj:isActive() and obj:getCoalition() ==  coalition.side.RED  then 
-                    local vec3 =  obj:getPoint() 
-                    local coord = COORDINATE:NewFromVec3(vec3)
-                    local text =  obj:getTypeName() .. "\n\n" .. coord:ToStringLLDDM() .. "\n" .. coord:ToStringMGRS() .. "\n" .. coord:ToStringLLDMS()
-                    param:AddMark({text = text, position = vec3, name = obj:getName() })
+					if obj:getDesc().category == Unit.Category.GROUND_UNIT then 
+                        local vec3 =  obj:getPoint() 
+                        local coord = COORDINATE:NewFromVec3(vec3)
+                        local text =  obj:getTypeName() .. "\n\n" .. coord:ToStringLLDDM() .. "\n" .. coord:ToStringMGRS() .. "\n" .. coord:ToStringLLDMS()
+                        param:AddMark({text = text, position = vec3, name = obj:getName() })
+                    end
                 end
             end
         , self)

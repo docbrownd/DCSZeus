@@ -18115,7 +18115,7 @@ end
 self.SpawnIndex=self.SpawnIndex+1
 Template.name=self.InitStaticName or string.format("%s#%05d",self.SpawnTemplatePrefix,self.SpawnIndex)
 local mystatic=_DATABASE:AddStatic(Template.name)
--- self:T(Template)
+self:T(Template)
 local Static=nil
 if self.InitFarp then
 local TemplateGroup={}
@@ -18126,9 +18126,9 @@ TemplateGroup.hidden=false
 TemplateGroup.x=Template.x
 TemplateGroup.y=Template.y
 TemplateGroup.name=Template.name
--- self:T("Spawning FARP")
--- self:T({Template=Template})
--- self:T({TemplateGroup=TemplateGroup})
+self:T("Spawning FARP")
+self:T({Template=Template})
+self:T({TemplateGroup=TemplateGroup})
 Static=coalition.addGroup(CountryID,-1,TemplateGroup)
 local Event={
 id=EVENTS.Birth,
@@ -18137,8 +18137,8 @@ initiator=Static
 }
 world.onEvent(Event)
 else
--- self:T("Spawning Static")
--- self:T2({Template=Template})
+self:T("Spawning Static")
+self:T2({Template=Template})
 Static=coalition.addStaticObject(CountryID,Template)
 end
 return mystatic
