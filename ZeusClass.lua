@@ -313,7 +313,7 @@ do
 			self:Spawn("SA5_ZEUS", pos)		
 		elseif(groupName == "Patriot") then 
 			self:Spawn("Patriot_ZEUS", pos)	
-		elseif(groupName == "Hawak") then 	
+		elseif(groupName == "Hawk") then 	
 			self:Spawn("Hawk_ZEUS", pos)	
 		elseif(groupName == "Nasam") then 	
 			self:Spawn("NASAM_ZEUS", pos)	
