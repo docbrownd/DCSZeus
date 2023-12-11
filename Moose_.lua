@@ -1,4 +1,4 @@
-env.info('*** MOOSE GITHUB Commit Hash ID: 2023-12-04T10:40:38+01:00-fac7a5fdc6b816e07d43d4df33325d56ff0ad0eb ***')
+env.info('*** MOOSE GITHUB Commit Hash ID: 2023-12-11T11:04:35+01:00-230d9d82bfe1ba3cc6f57c2ab1a689d98eb53b0f ***')
 env.info('*** MOOSE STATIC INCLUDE START *** ')
 ENUMS={}
 env.setErrorMessageBoxEnabled(false)
@@ -1283,20 +1283,32 @@ end
 end
 end
 function UTILS.PrintTableToLog(table,indent)
+local text="\n"
 if not table then
 env.warning("No table passed!")
-return
+return nil
 end
 if not indent then indent=0 end
 for k,v in pairs(table)do
+if string.find(k," ")then k='"'..k..'"'end
 if type(v)=="table"then
 env.info(string.rep("  ",indent)..tostring(k).." = {")
-UTILS.PrintTableToLog(v,indent+1)
-env.info(string.rep("  ",indent).."}")
+text=text..string.rep("  ",indent)..tostring(k).." = {\n"
+text=text..tostring(UTILS.PrintTableToLog(v,indent+1)).."\n"
+env.info(string.rep("  ",indent).."},")
+text=text..string.rep("  ",indent).."},\n"
 else
-env.info(string.rep("  ",indent)..tostring(k).." = "..tostring(v))
+local value
+if tostring(v)=="true"or tostring(v)=="false"or tonumber(v)~=nil then
+value=v
+else
+value='"'..tostring(v)..'"'
+end
+env.info(string.rep("  ",indent)..tostring(k).." = "..tostring(value)..",\n")
+text=text..string.rep("  ",indent)..tostring(k).." = "..tostring(value)..",\n"
 end
 end
+return text
 end
 function UTILS.TableShow(tbl,loc,indent,tableshow_tbls)
 tableshow_tbls=tableshow_tbls or{}
@@ -8471,11 +8483,13 @@ function ZONE_BASE:UndrawZone(Delay)
 if Delay and Delay>0 then
 self:ScheduleOnce(Delay,ZONE_BASE.UndrawZone,self)
 else
-if self.DrawID and type(self.DrawID)~="table"then
+if self.DrawID then
+if type(self.DrawID)~="table"then
 UTILS.RemoveMark(self.DrawID)
 else
 for _,mark_id in pairs(self.DrawID)do
 UTILS.RemoveMark(mark_id)
+end
 end
 end
 end
@@ -9191,124 +9205,6 @@ local PointVec2=POINT_VEC2:NewFromVec2(self:GetRandomVec2())
 self:T3({PointVec2})
 return PointVec2
 end
-ZONE_OVAL={
-ClassName="OVAL",
-ZoneName="",
-MajorAxis=nil,
-MinorAxis=nil,
-Angle=0,
-DrawPoly=nil
-}
-function ZONE_OVAL:New(name,vec2,major_axis,minor_axis,angle)
-self=BASE:Inherit(self,ZONE_BASE:New())
-self.ZoneName=name
-self.CenterVec2=vec2
-self.MajorAxis=major_axis
-self.MinorAxis=minor_axis
-self.Angle=angle or 0
-_DATABASE:AddZone(name,self)
-return self
-end
-function ZONE_OVAL:NewFromDrawing(DrawingName)
-self=BASE:Inherit(self,ZONE_BASE:New(DrawingName))
-for _,layer in pairs(env.mission.drawings.layers)do
-for _,object in pairs(layer["objects"])do
-if string.find(object["name"],DrawingName,1,true)then
-if object["polygonMode"]=="oval"then
-self.CenterVec2={x=object["mapX"],y=object["mapY"]}
-self.MajorAxis=object["r1"]
-self.MinorAxis=object["r2"]
-self.Angle=object["angle"]
-end
-end
-end
-end
-_DATABASE:AddZone(DrawingName,self)
-return self
-end
-function ZONE_OVAL:GetMajorAxis()
-return self.MajorAxis
-end
-function ZONE_OVAL:GetMinorAxis()
-return self.MinorAxis
-end
-function ZONE_OVAL:GetAngle()
-return self.Angle
-end
-function ZONE_OVAL:GetVec2()
-return self.CenterVec2
-end
-function ZONE_OVAL:IsVec2InZone(vec2)
-local cos,sin=math.cos,math.sin
-local dx=vec2.x-self.CenterVec2.x
-local dy=vec2.y-self.CenterVec2.y
-local rx=dx*cos(self.Angle)+dy*sin(self.Angle)
-local ry=-dx*sin(self.Angle)+dy*cos(self.Angle)
-return rx*rx/(self.MajorAxis*self.MajorAxis)+ry*ry/(self.MinorAxis*self.MinorAxis)<=1
-end
-function ZONE_OVAL:GetBoundingSquare()
-local min_x=self.CenterVec2.x-self.MajorAxis
-local min_y=self.CenterVec2.y-self.MinorAxis
-local max_x=self.CenterVec2.x+self.MajorAxis
-local max_y=self.CenterVec2.y+self.MinorAxis
-return{
-{x=min_x,y=min_x},{x=max_x,y=min_y},{x=max_x,y=max_y},{x=min_x,y=max_y}
-}
-end
-function ZONE_OVAL:PointsOnEdge(num_points)
-num_points=num_points or 40
-local points={}
-local dtheta=2*math.pi/num_points
-for i=0,num_points-1 do
-local theta=i*dtheta
-local x=self.CenterVec2.x+self.MajorAxis*math.cos(theta)*math.cos(self.Angle)-self.MinorAxis*math.sin(theta)*math.sin(self.Angle)
-local y=self.CenterVec2.y+self.MajorAxis*math.cos(theta)*math.sin(self.Angle)+self.MinorAxis*math.sin(theta)*math.cos(self.Angle)
-table.insert(points,{x=x,y=y})
-end
-return points
-end
-function ZONE_OVAL:GetRandomVec2()
-local theta=math.rad(self.Angle)
-local random_point=math.sqrt(math.random())
-local phi=math.random()*2*math.pi
-local x_c=random_point*math.cos(phi)
-local y_c=random_point*math.sin(phi)
-local x_e=x_c*self.MajorAxis
-local y_e=y_c*self.MinorAxis
-local rx=(x_e*math.cos(theta)-y_e*math.sin(theta))+self.CenterVec2.x
-local ry=(x_e*math.sin(theta)+y_e*math.cos(theta))+self.CenterVec2.y
-return{x=rx,y=ry}
-end
-function ZONE_OVAL:GetRandomPointVec2()
-return POINT_VEC2:NewFromVec2(self:GetRandomVec2())
-end
-function ZONE_OVAL:GetRandomPointVec3()
-return POINT_VEC2:NewFromVec3(self:GetRandomVec2())
-end
-function ZONE_OVAL:DrawZone(Coalition,Color,Alpha,FillColor,FillAlpha,LineType)
-Coalition=Coalition or self:GetDrawCoalition()
-self:SetDrawCoalition(Coalition)
-Color=Color or self:GetColorRGB()
-Alpha=Alpha or 1
-self:SetColor(Color,Alpha)
-FillColor=FillColor or self:GetFillColorRGB()
-if not FillColor then
-UTILS.DeepCopy(Color)
-end
-FillAlpha=FillAlpha or self:GetFillColorAlpha()
-if not FillAlpha then
-FillAlpha=0.15
-end
-LineType=LineType or 1
-self:SetFillColor(FillColor,FillAlpha)
-self.DrawPoly=ZONE_POLYGON:NewFromPointsArray(self.ZoneName,self:PointsOnEdge(80))
-self.DrawPoly:DrawZone(Coalition,Color,Alpha,FillColor,FillAlpha,LineType)
-end
-function ZONE_OVAL:UndrawZone()
-if self.DrawPoly then
-self.DrawPoly:UndrawZone()
-end
-end
 _ZONE_TRIANGLE={
 ClassName="ZONE_TRIANGLE",
 Points={},
@@ -9382,9 +9278,9 @@ self._.Polygon[i]={}
 self._.Polygon[i].x=PointsArray[i].x
 self._.Polygon[i].y=PointsArray[i].y
 end
-end
 self._Triangles=self:_Triangulate()
 self.SurfaceArea=self:_CalculateSurfaceArea()
+end
 return self
 end
 function ZONE_POLYGON_BASE:_Triangulate()
@@ -9805,6 +9701,7 @@ i=i+1
 end
 return self
 end
+do
 ZONE_POLYGON={
 ClassName="ZONE_POLYGON",
 }
@@ -10045,6 +9942,7 @@ end
 function ZONE_POLYGON:IsNoneInZone()
 return self:CountScannedCoalitions()==0
 end
+end
 do
 ZONE_ELASTIC={
 ClassName="ZONE_ELASTIC",
@@ -10136,6 +10034,124 @@ table.insert(h,pt)
 end
 table.remove(h,#h)
 return h
+end
+end
+ZONE_OVAL={
+ClassName="OVAL",
+ZoneName="",
+MajorAxis=nil,
+MinorAxis=nil,
+Angle=0,
+DrawPoly=nil
+}
+function ZONE_OVAL:New(name,vec2,major_axis,minor_axis,angle)
+self=BASE:Inherit(self,ZONE_BASE:New())
+self.ZoneName=name
+self.CenterVec2=vec2
+self.MajorAxis=major_axis
+self.MinorAxis=minor_axis
+self.Angle=angle or 0
+_DATABASE:AddZone(name,self)
+return self
+end
+function ZONE_OVAL:NewFromDrawing(DrawingName)
+self=BASE:Inherit(self,ZONE_BASE:New(DrawingName))
+for _,layer in pairs(env.mission.drawings.layers)do
+for _,object in pairs(layer["objects"])do
+if string.find(object["name"],DrawingName,1,true)then
+if object["polygonMode"]=="oval"then
+self.CenterVec2={x=object["mapX"],y=object["mapY"]}
+self.MajorAxis=object["r1"]
+self.MinorAxis=object["r2"]
+self.Angle=object["angle"]
+end
+end
+end
+end
+_DATABASE:AddZone(DrawingName,self)
+return self
+end
+function ZONE_OVAL:GetMajorAxis()
+return self.MajorAxis
+end
+function ZONE_OVAL:GetMinorAxis()
+return self.MinorAxis
+end
+function ZONE_OVAL:GetAngle()
+return self.Angle
+end
+function ZONE_OVAL:GetVec2()
+return self.CenterVec2
+end
+function ZONE_OVAL:IsVec2InZone(vec2)
+local cos,sin=math.cos,math.sin
+local dx=vec2.x-self.CenterVec2.x
+local dy=vec2.y-self.CenterVec2.y
+local rx=dx*cos(self.Angle)+dy*sin(self.Angle)
+local ry=-dx*sin(self.Angle)+dy*cos(self.Angle)
+return rx*rx/(self.MajorAxis*self.MajorAxis)+ry*ry/(self.MinorAxis*self.MinorAxis)<=1
+end
+function ZONE_OVAL:GetBoundingSquare()
+local min_x=self.CenterVec2.x-self.MajorAxis
+local min_y=self.CenterVec2.y-self.MinorAxis
+local max_x=self.CenterVec2.x+self.MajorAxis
+local max_y=self.CenterVec2.y+self.MinorAxis
+return{
+{x=min_x,y=min_x},{x=max_x,y=min_y},{x=max_x,y=max_y},{x=min_x,y=max_y}
+}
+end
+function ZONE_OVAL:PointsOnEdge(num_points)
+num_points=num_points or 40
+local points={}
+local dtheta=2*math.pi/num_points
+for i=0,num_points-1 do
+local theta=i*dtheta
+local x=self.CenterVec2.x+self.MajorAxis*math.cos(theta)*math.cos(self.Angle)-self.MinorAxis*math.sin(theta)*math.sin(self.Angle)
+local y=self.CenterVec2.y+self.MajorAxis*math.cos(theta)*math.sin(self.Angle)+self.MinorAxis*math.sin(theta)*math.cos(self.Angle)
+table.insert(points,{x=x,y=y})
+end
+return points
+end
+function ZONE_OVAL:GetRandomVec2()
+local theta=math.rad(self.Angle)
+local random_point=math.sqrt(math.random())
+local phi=math.random()*2*math.pi
+local x_c=random_point*math.cos(phi)
+local y_c=random_point*math.sin(phi)
+local x_e=x_c*self.MajorAxis
+local y_e=y_c*self.MinorAxis
+local rx=(x_e*math.cos(theta)-y_e*math.sin(theta))+self.CenterVec2.x
+local ry=(x_e*math.sin(theta)+y_e*math.cos(theta))+self.CenterVec2.y
+return{x=rx,y=ry}
+end
+function ZONE_OVAL:GetRandomPointVec2()
+return POINT_VEC2:NewFromVec2(self:GetRandomVec2())
+end
+function ZONE_OVAL:GetRandomPointVec3()
+return POINT_VEC2:NewFromVec3(self:GetRandomVec2())
+end
+function ZONE_OVAL:DrawZone(Coalition,Color,Alpha,FillColor,FillAlpha,LineType)
+Coalition=Coalition or self:GetDrawCoalition()
+self:SetDrawCoalition(Coalition)
+Color=Color or self:GetColorRGB()
+Alpha=Alpha or 1
+self:SetColor(Color,Alpha)
+FillColor=FillColor or self:GetFillColorRGB()
+if not FillColor then
+UTILS.DeepCopy(Color)
+end
+FillAlpha=FillAlpha or self:GetFillColorAlpha()
+if not FillAlpha then
+FillAlpha=0.15
+end
+LineType=LineType or 1
+self:SetFillColor(FillColor,FillAlpha)
+self.DrawPoly=ZONE_POLYGON:NewFromPointsArray(self.ZoneName,self:PointsOnEdge(80))
+self.DrawPoly:DrawZone(Coalition,Color,Alpha,FillColor,FillAlpha,LineType)
+end
+function ZONE_OVAL:UndrawZone()
+if self.DrawPoly then
+self.DrawPoly:UndrawZone()
 end
 end
 do
@@ -11449,7 +11465,10 @@ self:T3({LastObject})
 return LastObject
 end
 function SET_BASE:GetRandom()
-local tablemax=table.maxn(self.Index)
+local tablemax=0
+for _,_ind in pairs(self.Index)do
+tablemax=tablemax+1
+end
 local RandomItem=self.Set[self.Index[math.random(1,tablemax)]]
 self:T3({RandomItem})
 return RandomItem
@@ -12598,46 +12617,40 @@ self:F({MaxThreatLevelA2G=MaxThreatLevelA2G,MaxThreatText=MaxThreatText})
 return MaxThreatLevelA2G,MaxThreatText
 end
 function SET_UNIT:GetCoordinate()
+local function GetSetVec3(units)
+local x=0
+local y=0
+local z=0
+local n=0
+for _,unit in pairs(units)do
+local vec3=nil
+if unit and unit:IsAlive()then
+vec3=unit:GetVec3()
+end
+if vec3 then
+x=x+vec3.x
+y=y+vec3.y
+z=z+vec3.z
+n=n+1
+end
+end
+if n>0 then
+local Vec3={x=x/n,y=y/n,z=z/n}
+return Vec3
+end
+return nil
+end
 local Coordinate=nil
-local unit=self:GetRandom()
-if self:Count()==1 and unit then
-return unit:GetCoordinate()
+local Vec3=GetSetVec3(self.Set)
+if Vec3 then
+Coordinate=COORDINATE:NewFromVec3(Vec3)
 end
-if unit then
-local Coordinate=unit:GetCoordinate()
-local x1=Coordinate.x
-local x2=Coordinate.x
-local y1=Coordinate.y
-local y2=Coordinate.y
-local z1=Coordinate.z
-local z2=Coordinate.z
-local MaxVelocity=0
-local AvgHeading=nil
-local MovingCount=0
-for UnitName,UnitData in pairs(self:GetAliveSet())do
-local Unit=UnitData
-local Coordinate=Unit:GetCoordinate()
-x1=(Coordinate.x<x1)and Coordinate.x or x1
-x2=(Coordinate.x>x2)and Coordinate.x or x2
-y1=(Coordinate.y<y1)and Coordinate.y or y1
-y2=(Coordinate.y>y2)and Coordinate.y or y2
-z1=(Coordinate.y<z1)and Coordinate.z or z1
-z2=(Coordinate.y>z2)and Coordinate.z or z2
-local Velocity=Coordinate:GetVelocity()
-if Velocity~=0 then
-MaxVelocity=(MaxVelocity<Velocity)and Velocity or MaxVelocity
-local Heading=Coordinate:GetHeading()
-AvgHeading=AvgHeading and(AvgHeading+Heading)or Heading
-MovingCount=MovingCount+1
-end
-end
-AvgHeading=AvgHeading and(AvgHeading/MovingCount)
-Coordinate.x=(x2-x1)/2+x1
-Coordinate.y=(y2-y1)/2+y1
-Coordinate.z=(z2-z1)/2+z1
-Coordinate:SetHeading(AvgHeading)
-Coordinate:SetVelocity(MaxVelocity)
-self:F({Coordinate=Coordinate})
+if Coordinate then
+local heading=self:GetHeading()or 0
+local velocity=self:GetVelocity()or 0
+Coordinate:SetHeading(heading)
+Coordinate:SetVelocity(velocity)
+self:I(UTILS.PrintTableToLog(Coordinate))
 end
 return Coordinate
 end
@@ -17410,7 +17423,7 @@ end
 if CoalitionSide then
 if self.MessageDuration~=0 then
 self:T(self.MessageCategory..self.MessageText:gsub("\n$",""):gsub("\n$","").." / "..self.MessageDuration)
-trigger.action.outTextForCoalition(CoalitionSide,self.MessageText:gsub("\n$",""):gsub("\n$",""),self.MessageDuration,self.ClearScreen)
+trigger.action.outTextForCoalition(CoalitionSide,self.MessageCategory..self.MessageText:gsub("\n$",""):gsub("\n$",""),self.MessageDuration,self.ClearScreen)
 end
 end
 self.CoalitionSide=CoalitionSide
@@ -18349,6 +18362,14 @@ return self
 end
 function SPAWN:InitRandomizeCallsign()
 self.SpawnRandomCallsign=true
+return self
+end
+function SPAWN:InitCallSign(ID,Name,Minor,Major)
+self.SpawnInitCallSign=true
+self.SpawnInitCallSignID=ID or 1
+self.SpawnInitCallSignMinor=Minor or 1
+self.SpawnInitCallSignMajor=Major or 1
+self.SpawnInitCallSignName=Name:lower():gsub("^%l", string.upper)  or "Enfield"
 return self
 end
 function SPAWN:InitPositionCoordinate(Coordinate)
@@ -19514,70 +19535,92 @@ SpawnTemplate.units[UnitID].callsign=math.random(1,999)
 end
 end
 end
+if self.SpawnInitCallSign then
 for UnitID=1,#SpawnTemplate.units do
-    if (SpawnTemplate.bypassCallsign == nil) then 
-    local Callsign=SpawnTemplate.units[UnitID].callsign
-    if Callsign then
-        if type(Callsign)~="number"then
-            Callsign[2]=((SpawnIndex-1)%10)+1
-            local CallsignName=SpawnTemplate.units[UnitID].callsign["name"]
-            CallsignName=string.match(CallsignName,"^(%a+)")
-            local CallsignLen=CallsignName:len()
-            SpawnTemplate.units[UnitID].callsign[2]=UnitID
-            SpawnTemplate.units[UnitID].callsign["name"]=CallsignName:sub(1,CallsignLen)..SpawnTemplate.units[UnitID].callsign[2]..SpawnTemplate.units[UnitID].callsign[3]
-        else
-            SpawnTemplate.units[UnitID].callsign=Callsign+SpawnIndex
-        end
-    end
-    end
-
-    local AddProps=SpawnTemplate.units[UnitID].AddPropAircraft
-    if AddProps then
-        if SpawnTemplate.units[UnitID].AddPropAircraft.STN_L16 then
-            if tonumber(SpawnTemplate.units[UnitID].AddPropAircraft.STN_L16)~=nil then
-                local octal=SpawnTemplate.units[UnitID].AddPropAircraft.STN_L16
-                local decimal=UTILS.OctalToDecimal(octal)+UnitID-1
-                SpawnTemplate.units[UnitID].AddPropAircraft.STN_L16=string.format("%05d",UTILS.DecimalToOctal(decimal))
-            else
-                local STN=math.floor(UTILS.RandomGaussian(4088/2,nil,1000,4088))
-                STN=STN+UnitID-1
-                local OSTN=UTILS.DecimalToOctal(STN)
-                SpawnTemplate.units[UnitID].AddPropAircraft.STN_L16=string.format("%05d",OSTN)
-            end
-        end
-        if SpawnTemplate.units[UnitID].AddPropAircraft.SADL_TN then
-            if tonumber(SpawnTemplate.units[UnitID].AddPropAircraft.SADL_TN)~=nil then
-                local octal=SpawnTemplate.units[UnitID].AddPropAircraft.SADL_TN
-                local decimal=UTILS.OctalToDecimal(octal)+UnitID-1
-                SpawnTemplate.units[UnitID].AddPropAircraft.SADL_TN=string.format("%04d",UTILS.DecimalToOctal(decimal))
-            else
-                local STN=math.floor(UTILS.RandomGaussian(504/2,nil,100,504))
-                STN=STN+UnitID-1
-                local OSTN=UTILS.DecimalToOctal(STN)
-                SpawnTemplate.units[UnitID].AddPropAircraft.SADL_TN=string.format("%04d",OSTN)
-            end
-        end
-        if SpawnTemplate.units[UnitID].AddPropAircraft.VoiceCallsignNumber then
-            SpawnTemplate.units[UnitID].AddPropAircraft.VoiceCallsignNumber=SpawnTemplate.units[UnitID].callsign[2]..SpawnTemplate.units[UnitID].callsign[3]
-        end
-        if SpawnTemplate.units[UnitID].AddPropAircraft.VoiceCallsignLabel then
-            local CallsignName=SpawnTemplate.units[UnitID].callsign["name"]
-            CallsignName=string.match(CallsignName,"^(%a+)")
-            local label="NY"
-            if not string.find(CallsignName," ")then
-                label=string.upper(string.match(CallsignName,"^%a")..string.match(CallsignName,"%a$"))
-            end
-            SpawnTemplate.units[UnitID].AddPropAircraft.VoiceCallsignLabel=label
-        end
-        if SpawnTemplate.units[UnitID].datalinks and SpawnTemplate.units[UnitID].datalinks.Link16 and SpawnTemplate.units[UnitID].datalinks.Link16.settings then
-            SpawnTemplate.units[UnitID].datalinks.Link16.settings.flightLead=UnitID==1 and true or false
-        end
-        if SpawnTemplate.units[UnitID].datalinks and SpawnTemplate.units[UnitID].datalinks.SADL and SpawnTemplate.units[UnitID].datalinks.SADL.settings then
-            SpawnTemplate.units[UnitID].datalinks.SADL.settings.flightLead=UnitID==1 and true or false
-        end
-    end
+local Callsign=SpawnTemplate.units[UnitID].callsign
+if Callsign and type(Callsign)~="number"then
+SpawnTemplate.units[UnitID].callsign[1]=self.SpawnInitCallSignID
+SpawnTemplate.units[UnitID].callsign[2]=self.SpawnInitCallSignMinor
+SpawnTemplate.units[UnitID].callsign[3]=self.SpawnInitCallSignMajor
+SpawnTemplate.units[UnitID].callsign["name"]=string.format("%s%d%d",self.SpawnInitCallSignName,self.SpawnInitCallSignMinor,self.SpawnInitCallSignMajor)
 end
-
+end
+end
+for UnitID=1,#SpawnTemplate.units do
+local Callsign=SpawnTemplate.units[UnitID].callsign
+if Callsign then
+if type(Callsign)~="number"and not self.SpawnInitCallSign then
+Callsign[2]=((SpawnIndex-1)%10)+1
+local CallsignName=SpawnTemplate.units[UnitID].callsign["name"]
+CallsignName=string.match(CallsignName,"^(%a+)")
+local CallsignLen=CallsignName:len()
+SpawnTemplate.units[UnitID].callsign[2]=UnitID
+SpawnTemplate.units[UnitID].callsign["name"]=CallsignName:sub(1,CallsignLen)..SpawnTemplate.units[UnitID].callsign[2]..SpawnTemplate.units[UnitID].callsign[3]
+elseif type(Callsign)=="number"then
+SpawnTemplate.units[UnitID].callsign=Callsign+SpawnIndex
+end
+end
+local AddProps=SpawnTemplate.units[UnitID].AddPropAircraft
+if AddProps then
+if SpawnTemplate.units[UnitID].AddPropAircraft.STN_L16 then
+if tonumber(SpawnTemplate.units[UnitID].AddPropAircraft.STN_L16)~=nil then
+local octal=SpawnTemplate.units[UnitID].AddPropAircraft.STN_L16
+local decimal=UTILS.OctalToDecimal(octal)+UnitID-1
+SpawnTemplate.units[UnitID].AddPropAircraft.STN_L16=string.format("%05d",UTILS.DecimalToOctal(decimal))
+else
+local STN=math.floor(UTILS.RandomGaussian(4088/2,nil,1000,4088))
+STN=STN+UnitID-1
+local OSTN=UTILS.DecimalToOctal(STN)
+SpawnTemplate.units[UnitID].AddPropAircraft.STN_L16=string.format("%05d",OSTN)
+end
+end
+if SpawnTemplate.units[UnitID].AddPropAircraft.SADL_TN then
+if tonumber(SpawnTemplate.units[UnitID].AddPropAircraft.SADL_TN)~=nil then
+local octal=SpawnTemplate.units[UnitID].AddPropAircraft.SADL_TN
+local decimal=UTILS.OctalToDecimal(octal)+UnitID-1
+SpawnTemplate.units[UnitID].AddPropAircraft.SADL_TN=string.format("%04d",UTILS.DecimalToOctal(decimal))
+else
+local STN=math.floor(UTILS.RandomGaussian(504/2,nil,100,504))
+STN=STN+UnitID-1
+local OSTN=UTILS.DecimalToOctal(STN)
+SpawnTemplate.units[UnitID].AddPropAircraft.SADL_TN=string.format("%04d",OSTN)
+end
+end
+if SpawnTemplate.units[UnitID].AddPropAircraft.VoiceCallsignNumber and type(Callsign)~="number"then
+SpawnTemplate.units[UnitID].AddPropAircraft.VoiceCallsignNumber=SpawnTemplate.units[UnitID].callsign[2]..SpawnTemplate.units[UnitID].callsign[3]
+end
+if SpawnTemplate.units[UnitID].AddPropAircraft.VoiceCallsignLabel and type(Callsign)~="number"then
+local CallsignName=SpawnTemplate.units[UnitID].callsign["name"]
+CallsignName=string.match(CallsignName,"^(%a+)")
+local label="NY"
+if not string.find(CallsignName," ")then
+label=string.upper(string.match(CallsignName,"^%a")..string.match(CallsignName,"%a$"))
+end
+SpawnTemplate.units[UnitID].AddPropAircraft.VoiceCallsignLabel=label
+end
+if SpawnTemplate.units[UnitID].datalinks and SpawnTemplate.units[UnitID].datalinks.Link16 and SpawnTemplate.units[UnitID].datalinks.Link16.settings then
+SpawnTemplate.units[UnitID].datalinks.Link16.settings.flightLead=UnitID==1 and true or false
+end
+if SpawnTemplate.units[UnitID].datalinks and SpawnTemplate.units[UnitID].datalinks.SADL and SpawnTemplate.units[UnitID].datalinks.SADL.settings then
+SpawnTemplate.units[UnitID].datalinks.SADL.settings.flightLead=UnitID==1 and true or false
+end
+end
+end
+for UnitID=1,#SpawnTemplate.units do
+if SpawnTemplate.units[UnitID].datalinks and SpawnTemplate.units[UnitID].datalinks.Link16 and SpawnTemplate.units[UnitID].datalinks.Link16.network then
+local team={}
+local isF16=string.find(SpawnTemplate.units[UnitID].type,"F-16",1,true)and true or false
+for ID=1,#SpawnTemplate.units do
+local member={}
+member.missionUnitId=ID
+if isF16 then
+member.TDOA=true
+end
+table.insert(team,member)
+end
+SpawnTemplate.units[UnitID].datalinks.Link16.network.teamMembers=team
+end
+end
 self:T3({"Template:",SpawnTemplate})
 return SpawnTemplate
 end
@@ -25403,6 +25446,7 @@ if vec3 then
 local coord=COORDINATE:NewFromVec3(vec3)
 local Heading=self:GetHeading()
 coord.Heading=Heading
+return coord
 else
 BASE:E({"Cannot GetAverageCoordinate",Group=self,Alive=self:IsAlive()})
 return nil
@@ -34973,6 +35017,28 @@ DetectionAccepted=false
 end
 end
 end
+if self.RadarBlur then
+MESSAGE:New("Radar Blur",10):ToLogIf(self.debug):ToAllIf(self.verbose)
+local minheight=self.RadarBlurMinHeight or 250
+local thresheight=self.RadarBlurThresHeight or 90
+local thresblur=self.RadarBlurThresBlur or 85
+local dist=math.floor(Distance)
+if dist<=self.RadarBlurClosing then
+thresheight=(((dist*dist)/self.RadarBlurClosingSquare)*thresheight)
+thresblur=(((dist*dist)/self.RadarBlurClosingSquare)*thresblur)
+end
+local fheight=math.floor(math.random(1,10000)/100)
+local fblur=math.floor(math.random(1,10000)/100)
+local unit=UNIT:FindByName(DetectedObjectName)
+if unit and unit:IsAlive()then
+local AGL=unit:GetAltitude(true)
+MESSAGE:New("Unit "..DetectedObjectName.." is at "..math.floor(AGL).."m. Distance "..math.floor(Distance).."km.",10):ToLogIf(self.debug):ToAllIf(self.verbose)
+MESSAGE:New(string.format("fheight = %d/%d | fblur = %d/%d",fheight,thresheight,fblur,thresblur),10):ToLogIf(self.debug):ToAllIf(self.verbose)
+if fblur>thresblur then DetectionAccepted=false end
+if AGL<=minheight and fheight<thresheight then DetectionAccepted=false end
+MESSAGE:New("Detection Accepted = "..tostring(DetectionAccepted),10):ToLogIf(self.debug):ToAllIf(self.verbose)
+end
+end
 if not self.DetectedObjects[DetectedObjectName]and TargetIsVisible and self.DistanceProbability then
 local DistanceFactor=Distance/4
 local DistanceProbabilityReversed=(1-self.DistanceProbability)*DistanceFactor
@@ -35131,6 +35197,15 @@ end
 else
 self._.FilterCategories[FilterCategories]=FilterCategories
 end
+return self
+end
+function DETECTION_BASE:SetRadarBlur(minheight,thresheight,thresblur,closing)
+self.RadarBlur=true
+self.RadarBlurMinHeight=minheight or 250
+self.RadarBlurThresHeight=thresheight or 90
+self.RadarBlurThresBlur=thresblur or 85
+self.RadarBlurClosing=closing or 20
+self.RadarBlurClosingSquare=self.RadarBlurClosing*self.RadarBlurClosing
 return self
 end
 end
@@ -64202,7 +64277,7 @@ CTLD.UnitTypeCapabilities={
 ["AH-64D_BLK_II"]={type="AH-64D_BLK_II",crates=false,troops=true,cratelimit=0,trooplimit=2,length=17,cargoweightlimit=200},
 ["Bronco-OV-10A"]={type="Bronco-OV-10A",crates=false,troops=true,cratelimit=0,trooplimit=5,length=13,cargoweightlimit=1450},
 }
-CTLD.version="1.0.43"
+CTLD.version="1.0.44"
 function CTLD:New(Coalition,Prefixes,Alias)
 local self=BASE:Inherit(self,FSM:New())
 BASE:T({Coalition,Prefixes,Alias})
@@ -65359,6 +65434,26 @@ else
 return false
 end
 end
+function CTLD:_GetUnitPositions(Coordinate,Radius,Heading,Template)
+local Positions={}
+local template=_DATABASE:GetGroupTemplate(Template)
+UTILS.PrintTableToLog(template)
+local numbertroops=#template.units
+local newcenter=Coordinate:Translate(Radius,((Heading+270)%360))
+for i=1,360,math.floor(360/numbertroops)do
+local phead=((Heading+270+i)%360)
+local post=newcenter:Translate(Radius,phead)
+local pos1=post:GetVec2()
+local p1t={
+x=pos1.x,
+y=pos1.y,
+heading=phead,
+}
+table.insert(Positions,p1t)
+end
+UTILS.PrintTableToLog(Positions)
+return Positions
+end
 function CTLD:_UnloadTroops(Group,Unit)
 self:T(self.lid.." _UnloadTroops")
 local droppingatbase=false
@@ -65399,14 +65494,25 @@ factor=cargo:GetCratesNeeded()or 1
 zoneradius=Unit:GetVelocityMPS()or 100
 end
 local zone=ZONE_GROUP:New(string.format("Unload zone-%s",unitname),Group,zoneradius*factor)
-local randomcoord=zone:GetRandomCoordinate(10,30*factor):GetVec2()
+local randomcoord=zone:GetRandomCoordinate(10,30*factor)
+local heading=Group:GetHeading()or 0
+if hoverunload or grounded then
+randomcoord=Group:GetCoordinate()
+local Angle=(heading+270)%360
+local offset=hoverunload and 1.5 or 5
+randomcoord:Translate(offset,Angle,nil,true)
+end
+local tempcount=0
 for _,_template in pairs(temptable)do
 self.TroopCounter=self.TroopCounter+1
+tempcount=tempcount+1
 local alias=string.format("%s-%d",_template,math.random(1,100000))
+local rad=2.5+tempcount
+local Positions=self:_GetUnitPositions(randomcoord,rad,heading,_template)
 self.DroppedTroops[self.TroopCounter]=SPAWN:NewWithAlias(_template,alias)
-:InitRandomizeUnits(true,20,2)
 :InitDelayOff()
-:SpawnFromVec2(randomcoord)
+:InitSetUnitAbsolutePositions(Positions)
+:SpawnFromVec2(randomcoord:GetVec2())
 self:__TroopsDeployed(1,Group,Unit,self.DroppedTroops[self.TroopCounter],type)
 end
 cargo:SetWasDropped(true)
@@ -65899,6 +66005,7 @@ if cancrates then
 local loadmenu=MENU_GROUP_COMMAND:New(_group,"Load crates",topcrates,self._LoadCratesNearby,self,_group,_unit)
 local cratesmenu=MENU_GROUP:New(_group,"Get Crates",topcrates)
 local packmenu=MENU_GROUP_COMMAND:New(_group,"Pack crates",topcrates,self._PackCratesNearby,self,_group,_unit)
+local removecratesmenu=MENU_GROUP:New(_group,"Remove crates",topcrates)
 if self.usesubcats then
 local subcatmenus={}
 for _name,_entry in pairs(self.subcats)do
@@ -65933,7 +66040,7 @@ menus[menucount]=MENU_GROUP_COMMAND:New(_group,menutext,cratesmenu,self._GetCrat
 end
 end
 listmenu=MENU_GROUP_COMMAND:New(_group,"List crates nearby",topcrates,self._ListCratesNearby,self,_group,_unit)
-listmenu=MENU_GROUP_COMMAND:New(_group,"Remove crates nearby",topcrates,self._RemoveCratesNearby,self,_group,_unit)
+removecrates=MENU_GROUP_COMMAND:New(_group,"Remove crates nearby",removecratesmenu,self._RemoveCratesNearby,self,_group,_unit)
 local unloadmenu=MENU_GROUP_COMMAND:New(_group,"Drop crates",topcrates,self._UnloadCrates,self,_group,_unit)
 if not self.nobuildmenu then
 local buildmenu=MENU_GROUP_COMMAND:New(_group,"Build crates",topcrates,self._BuildCrates,self,_group,_unit)
