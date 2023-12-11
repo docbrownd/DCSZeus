@@ -71,7 +71,9 @@ Il est possible de faire slot des unités classiques ou des sites SAM complets :
  - SA10 : Site SA10 complet
  - SA11 : Site SA11 complet
  - SA5 : Site SA5 complet
- (à venir : site patriot, hawk, nasam)
+ - Patriot : Site Patriot
+ - Hawk : Site Hawk
+ - Nasam : Site Nasam
 
 
 ##### Unités :
