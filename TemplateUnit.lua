@@ -1,6 +1,6 @@
 
 
-local RED_GROUND_TEMPLATES = {
+local ZEUS_RED_GROUND_TEMPLATES = {
 
     [1] = 
     {
@@ -1508,7 +1508,7 @@ local RED_GROUND_TEMPLATES = {
 
 
 
-local BLUE_GROUND_TEMPLATES = {
+local ZEUS_BLUE_GROUND_TEMPLATES = {
     [1] = {
         ["visible"] = false,
         ["lateActivation"] = true,
@@ -2420,11 +2420,11 @@ local BLUE_GROUND_TEMPLATES = {
 }
 
 
-for i, Template in pairs(RED_GROUND_TEMPLATES) do 
+for i, Template in pairs(ZEUS_RED_GROUND_TEMPLATES) do 
 	GROUP:NewTemplate(Template, coalition.side.RED, Group.Category.GROUND, country.id.RUSSIA)        
 end
 
 
-for i, Template in pairs(BLUE_GROUND_TEMPLATES) do 
+for i, Template in pairs(ZEUS_BLUE_GROUND_TEMPLATES) do 
 	GROUP:NewTemplate(Template, coalition.side.BLUE, Group.Category.GROUND, country.id.USA)        
 end
