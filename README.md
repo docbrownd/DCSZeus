@@ -1,3 +1,6 @@
+#Dépôt archivé au 29/12/2023. Le code n'est plus maintenu car fusionné au sein de DCS Simplify Mission => https://github.com/docbrownd/DCSSymplifyMission
+
+
 # Script Zeus pour DCS (WIP)
 
 
